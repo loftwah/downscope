@@ -5,20 +5,14 @@ layout: ../layouts/main.astro
 
 # DOWNSCOPE
 
-<!-- Responsive YouTube Embed Container -->
-<div class="my-8 w-full max-w-3xl mx-auto relative z-0">
-    <div class="aspect-w-16 aspect-h-9 overflow-hidden rounded-lg border border-border shadow-md">
-        <iframe
-          src="https://www.youtube.com/embed/RbeNow4Ylvc"
-          title="Downscope - Chapter 1: SHIP IT (YouTube Video Player)"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-          class="absolute top-0 left-0 w-full h-full"
-          loading="lazy"
-        ></iframe>
-    </div>
-</div>
+<iframe 
+  class="w-full aspect-video rounded-lg border border-border/20 shadow-lg my-8 max-w-3xl mx-auto"
+  src="https://www.youtube.com/embed/RbeNow4Ylvc" 
+  title="Downscope - Chapter 1: SHIP IT" 
+  frameborder="0" 
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+  allowfullscreen>
+</iframe>
 
 ![Downscope](../assets/images/downscope.jpg)
 
@@ -28,6 +22,3 @@ The collective glow reflecting off a thousand faces across a dozen time zones wa
 
 Content temporarily removed.
 
-<style>
-/* The custom aspect ratio styling is now in global.css */
-</style>
