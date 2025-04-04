@@ -1,19 +1,28 @@
 ---
 // Click button, get confetti!
 // Styled by Tailwind :)
+import { Button as ShadButton } from '@/components/ui/button'; // Import the generated React component
+// Pass down props like variant, size etc. if needed
+export interface Props {
+	variant?: "default" | "destructive" | "outline" | "secondary" | "ghost" | "link";
+	size?: "default" | "sm" | "lg" | "icon";
+	id?: string; // Add id for specific targeting
+}
+const { variant = "default", size = "default", id = `confetti-button-${Math.random().toString(36).substring(7)}` } = Astro.props;
 ---
 
-<button
-	class="appearance-none py-2 px-4 bg-purple-500 text-white font-semibold rounded-lg shadow-md hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-400 focus:ring-opacity-75"
->
+<ShadButton client:load variant={variant} size={size} id={id}> {/* Use client:load for interactivity */}
 	<slot />
-</button>
+</ShadButton>
 
-<script>
+<script define:vars={{ buttonId: id }}>
 	import confetti from 'canvas-confetti';
-	const button = document.body.querySelector('button');
+	// Target the specific button instance using the passed ID
+	const button = document.getElementById(buttonId);
 
 	if (button) {
 		button.addEventListener('click', () => confetti());
+	} else {
+		console.warn(`Confetti button with ID ${buttonId} not found.`);
 	}
 </script>

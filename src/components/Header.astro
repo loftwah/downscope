@@ -1,21 +1,73 @@
-<header class="p-4 bg-background border-b border-border flex justify-between items-center">
-  <nav>
-    <ul class="flex space-x-4">
-      <li><a href="/" class="text-foreground hover:text-primary transition-colors">Home</a></li>
-      <li><a href="/technical-primer" class="text-foreground hover:text-primary transition-colors">Technical Primer</a></li>
-      <li><a href="/world-guide" class="text-foreground hover:text-primary transition-colors">World Guide</a></li>
+---
+import { Home, BookOpen, Map } from 'lucide-react'; // Import desired icons
+
+// Get the current pathname for active link highlighting
+const pathname = Astro.url.pathname;
+
+// Define base and active link classes for easier management
+const linkBaseClasses = "flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors";
+const linkInactiveClasses = "text-muted-foreground hover:bg-accent hover:text-accent-foreground";
+const linkActiveClasses = "bg-primary text-primary-foreground"; // Active link style
+
+// Helper function for aria-current
+const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
+---
+<header class="p-4 bg-background border-b border-border flex flex-col md:flex-row justify-between items-center gap-4">
+  <nav aria-label="Main navigation">
+    <ul class="flex items-center space-x-2 md:space-x-4">
+      <li>
+        <a
+          href="/"
+          class:list={[
+            linkBaseClasses,
+            pathname === '/' ? linkActiveClasses : linkInactiveClasses
+          ]}
+          aria-current={getAriaCurrent('/')}
+        >
+          <Home className="w-4 h-4" />
+          <span>Home</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/technical-primer"
+          class:list={[
+            linkBaseClasses,
+            pathname === '/technical-primer' ? linkActiveClasses : linkInactiveClasses
+          ]}
+          aria-current={getAriaCurrent('/technical-primer')}
+        >
+          <BookOpen className="w-4 h-4" />
+          <span>Technical Primer</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/world-guide"
+          class:list={[
+            linkBaseClasses,
+            pathname === '/world-guide' ? linkActiveClasses : linkInactiveClasses
+          ]}
+          aria-current={getAriaCurrent('/world-guide')}
+        >
+          <Map className="w-4 h-4" />
+          <span>World Guide</span>
+        </a>
+      </li>
     </ul>
   </nav>
-  <div>
+
+  <div class="overflow-hidden rounded-lg border border-border shadow-sm w-full md:w-auto max-w-md">
     <iframe
-      width="320" 
-      height="180"
+      width="100%"
+      height="270"
       src="https://www.youtube.com/embed/RbeNow4Ylvc"
-      title="YouTube video player"
+      title="Downscope - Chapter 1: SHIP IT (YouTube Video Player)"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
-      class="rounded-lg"
+      class="block aspect-video"
+      loading="lazy"
     ></iframe>
   </div>
 </header>
