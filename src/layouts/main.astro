@@ -11,6 +11,13 @@ const { content } = Astro.props;
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<title>{content.title}</title>
+		<!-- OpenGraph meta tags -->
+		<meta property="og:title" content={content.title} />
+		<meta property="og:description" content={content.description || 'Downscope - A security-first, isolated environment for AI'} />
+		<meta property="og:image" content="/src/assets/images/og-downscope.jpg" />
+		<meta property="og:url" content={Astro.url.href} />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary_large_image" />
 	</head>
 	<body class="min-h-screen flex flex-col bg-background text-foreground">
 		<Header />
