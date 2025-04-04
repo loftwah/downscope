@@ -14,9 +14,18 @@ const { content } = Astro.props;
 	</head>
 	<body class="min-h-screen flex flex-col bg-background text-foreground">
 		<Header />
-		<main class="container mx-auto px-4 py-8 flex-grow max-w-none">
-			<slot />
+		<main class="container mx-auto px-4 md:px-6 py-8 flex-grow">
+			<article class="prose prose-custom dark:prose-invert mx-auto max-w-3xl">
+				<slot />
+			</article>
 		</main>
 		<Footer />
 	</body>
 </html>
+
+<style is:global>
+/* Ensure iframe and images stack correctly */
+iframe, img {
+  z-index: 1;
+}
+</style>

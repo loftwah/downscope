@@ -133,3 +133,74 @@
   }
   /* Add more styles for other elements like ul, li, a, etc. as needed */
 }
+
+/* Custom Tailwind Typography Prose Styling */
+.prose-custom {
+  @apply prose-headings:text-foreground 
+         prose-p:text-foreground/90 
+         prose-a:text-primary prose-a:no-underline prose-a:font-medium hover:prose-a:underline
+         prose-strong:text-foreground/95 prose-strong:font-semibold
+         prose-code:text-foreground prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none
+         prose-blockquote:text-foreground/80 prose-blockquote:border-l-4 prose-blockquote:border-primary/30 prose-blockquote:pl-4 prose-blockquote:italic
+         prose-ul:text-foreground/90 prose-ol:text-foreground/90
+         prose-li:marker:text-primary/70
+         prose-table:border-border
+         prose-th:text-foreground prose-th:bg-muted
+         prose-td:text-foreground/90
+         prose-img:rounded-lg prose-img:mx-auto prose-img:shadow-md prose-img:max-w-2xl prose-img:my-8 prose-img:w-full
+         prose-hr:border-border;
+}
+
+/* Improved headings */
+.prose-custom h1 {
+  @apply text-4xl font-bold mb-6 pb-2 border-b border-border;
+}
+
+.prose-custom h2 {
+  @apply text-3xl font-semibold mt-10 mb-4;
+}
+
+.prose-custom h3 {
+  @apply text-2xl font-medium mt-8 mb-3;
+}
+
+.prose-custom h4 {
+  @apply text-xl font-medium mt-6 mb-2;
+}
+
+/* Responsive YouTube embed styling */
+.aspect-w-16 { 
+  position: relative; 
+  padding-bottom: 56.25%; /* 9 / 16 = 0.5625 */ 
+}
+.aspect-h-9 { /* Placeholder for semantic class name */ }
+.aspect-w-16 > iframe { 
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%; 
+  height: 100%; 
+}
+
+/* Mobile optimization */
+@media (max-width: 640px) {
+  .prose-custom {
+    @apply prose-sm;
+  }
+  
+  .prose-custom h1 {
+    @apply text-3xl;
+  }
+  
+  .prose-custom h2 {
+    @apply text-2xl;
+  }
+  
+  .prose-custom h3 {
+    @apply text-xl;
+  }
+  
+  .prose-custom h4 {
+    @apply text-lg;
+  }
+}
