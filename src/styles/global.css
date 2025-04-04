@@ -131,24 +131,58 @@
   strong {
     @apply font-semibold;
   }
-  /* Add more styles for other elements like ul, li, a, etc. as needed */
 }
 
-/* Custom Tailwind Typography Prose Styling */
+/* Custom Styling for markdown content */
 .prose-custom {
-  @apply prose-headings:text-foreground 
-         prose-p:text-foreground/90 
-         prose-a:text-primary prose-a:no-underline prose-a:font-medium hover:prose-a:underline
-         prose-strong:text-foreground/95 prose-strong:font-semibold
-         prose-code:text-foreground prose-code:bg-muted prose-code:px-1.5 prose-code:py-0.5 prose-code:rounded-md prose-code:before:content-none prose-code:after:content-none
-         prose-blockquote:text-foreground/80 prose-blockquote:border-l-4 prose-blockquote:border-primary/30 prose-blockquote:pl-4 prose-blockquote:italic
-         prose-ul:text-foreground/90 prose-ol:text-foreground/90
-         prose-li:marker:text-primary/70
-         prose-table:border-border
-         prose-th:text-foreground prose-th:bg-muted
-         prose-td:text-foreground/90
-         prose-img:rounded-lg prose-img:mx-auto prose-img:shadow-md prose-img:max-w-2xl prose-img:my-8 prose-img:w-full
-         prose-hr:border-border;
+  @apply max-w-none text-foreground leading-relaxed;
+}
+
+.prose-custom a {
+  @apply text-primary no-underline font-medium hover:underline;
+}
+
+.prose-custom strong {
+  @apply font-semibold text-foreground/95;
+}
+
+.prose-custom code {
+  @apply text-foreground bg-muted px-1.5 py-0.5 rounded-md;
+}
+
+.prose-custom blockquote {
+  @apply text-foreground/80 border-l-4 border-primary/30 pl-4 italic;
+}
+
+.prose-custom img {
+  @apply rounded-lg mx-auto shadow-md max-w-2xl my-8 w-full;
+}
+
+/* List styling */
+.prose-custom ul {
+  @apply pl-6 mb-6 space-y-2 list-disc list-outside;
+}
+
+.prose-custom ol {
+  @apply pl-6 mb-6 space-y-2 list-decimal list-outside;
+}
+
+.prose-custom li {
+  @apply mb-1;
+}
+
+.prose-custom li > ul,
+.prose-custom li > ol {
+  @apply mt-2 mb-0;
+}
+
+/* Proper list marker color */
+.prose-custom ul li::marker {
+  @apply text-primary;
+}
+
+.prose-custom ol li::marker {
+  @apply text-primary;
 }
 
 /* Improved headings */
@@ -166,6 +200,19 @@
 
 .prose-custom h4 {
   @apply text-xl font-medium mt-6 mb-2;
+}
+
+/* Table styling */
+.prose-custom table {
+  @apply w-full my-6 border-collapse;
+}
+
+.prose-custom table th {
+  @apply bg-muted p-2 text-left border border-border;
+}
+
+.prose-custom table td {
+  @apply p-2 border border-border;
 }
 
 /* Responsive YouTube embed styling - improved */
@@ -192,7 +239,7 @@
 /* Mobile optimization */
 @media (max-width: 640px) {
   .prose-custom {
-    @apply prose-sm;
+    @apply text-sm;
   }
   
   .prose-custom h1 {

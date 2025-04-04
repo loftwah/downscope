@@ -1,5 +1,5 @@
 ---
-title: "DOWNSCOPE - CHAPTER 1: SHIP IT"
+title: "DOWNSCOPE: Technical & World Guide"
 layout: ../layouts/main.astro
 ---
 
@@ -7,7 +7,7 @@ layout: ../layouts/main.astro
 
 ## The Technology Stack Behind "Aether"
 
-**Core Infrastructure**
+### Core Infrastructure
 
 - AWS Bedrock as the foundation for AI capabilities
 - Primary LLM: Anthropic's Claude (with occasional Nova model experiments)
@@ -17,7 +17,7 @@ layout: ../layouts/main.astro
 - Private VPC configurations with stringent security groups
 - Terraform-based infrastructure as code for rapid deployment
 
-**Backend Architecture**
+### Backend Architecture
 
 - FastAPI for high-performance, async-focused API endpoints
 - Managed Kafka clusters for message queuing and event processing
@@ -26,7 +26,7 @@ layout: ../layouts/main.astro
 - Custom authentication middleware using Jules's wrapper for cross-system IAM
 - Elasticsearch for advanced search capabilities across disparate data sources
 
-**Frontend Architecture**
+### Frontend Architecture
 
 - Astro as the core framework for optimal performance
 - React with TypeScript for complex interactive components
@@ -37,7 +37,7 @@ layout: ../layouts/main.astro
 - CSR (Client-Side Rendering) for dynamic interactions
 - Strong type safety enforced throughout the codebase
 
-**AI Implementation**
+### AI Implementation
 
 - RAG (Retrieval Augmented Generation) for grounding the model in company-specific data
 - LangChain for orchestrating complex AI workflows and agent behaviors
@@ -46,7 +46,7 @@ layout: ../layouts/main.astro
 - Fine-tuning pipeline for specialized tasks using company data
 - Carefully engineered prompts with system instructions and few-shot examples
 
-**Development Environment**
+### Development Environment
 
 - Private GitHub repositories with restricted access
 - CI/CD through GitHub Actions with custom deployment scripts
@@ -57,7 +57,7 @@ layout: ../layouts/main.astro
 
 ## Communication Platforms & Protocols
 
-**Official Company Channels**
+### Official Company Channels
 
 - Slack: Primary company-wide communication
   - Public channels: #general, #announcements, #hackathon-general
@@ -76,7 +76,7 @@ layout: ../layouts/main.astro
   - Increasingly replaced by Slack for daily interaction
   - Still used for HR communications and external contacts
 
-**Shadow IT & Backchannels**
+### Shadow IT & Backchannels
 
 - Signal: Used exclusively for sensitive communications
   - Rhys and Max's stimulant-enhanced coding sessions
@@ -98,14 +98,14 @@ layout: ../layouts/main.astro
 
 ## Corporate Structures & Power Dynamics
 
-**Official Hierarchy**
+### Official Hierarchy
 
 - Mark (CEO) → Greg (CTO) → Rhys (Head of Engineering) → Max (Principal Infra)
 - Mark (CEO) → Victor (Head of Product) → Emma (PM) / Derek (Team Lead)
 - Department siloes with limited cross-functional integration
 - Quarterly OKRs that shift frequently based on market panic
 
-**Shadow Hierarchy**
+### Shadow Hierarchy
 
 - Rhys operates with near-autonomy, leveraging Greg's technical deference
 - Max functions as Rhys's deputy across official boundaries
@@ -113,7 +113,7 @@ layout: ../layouts/main.astro
 - Jules contributes critical work while remaining functionally invisible
 - Amir maintains influence through historical knowledge and quiet competence
 
-**Information Flow**
+### Information Flow
 
 - Official updates flow through formal channels but carry minimal substance
 - Real decisions happen in private channels, DMs, and off-record meetings
@@ -123,7 +123,7 @@ layout: ../layouts/main.astro
 
 ## Tech Industry Context (2025)
 
-**Market Conditions**
+### Market Conditions
 
 - Post-AI bubble correction period
 - VC funding drought after earlier overinvestment
@@ -131,7 +131,7 @@ layout: ../layouts/main.astro
 - Competitors rapidly mimicking successful features
 - Industry-wide layoffs disguised as "strategic realignments"
 
-**Technology Trends**
+### Technology Trends
 
 - AI has moved from novelty to expected infrastructure
 - RAG and MCP have become standard for enterprise AI implementations
@@ -139,7 +139,7 @@ layout: ../layouts/main.astro
 - Privacy regulations creating compliance burdens
 - Open-source alternatives threatening commercial models
 
-**Work Culture**
+### Work Culture
 
 - Remote-first with occasional "collaboration days" in shared spaces
 - Performance metrics increasingly automated and AI-analyzed
@@ -149,7 +149,8 @@ layout: ../layouts/main.astro
 
 ## Key Technical Concepts in Story
 
-**Aether's Core Functionality**
+### Aether's Core Functionality
+
 Aether integrates with all company systems to provide contextual intelligence across data silos. It can:
 
 - Analyze customer interaction patterns to predict retention risk
@@ -158,7 +159,8 @@ Aether integrates with all company systems to provide contextual intelligence ac
 - Automate routine support responses with customer-specific context
 - Continuously learn from new interactions to improve recommendations
 
-**Jules's Critical Contribution**
+### Jules's Critical Contribution
+
 The authentication wrapper Jules created solves a fundamental security challenge for Aether:
 
 - Provides secure, temporary, audited access across system boundaries
@@ -167,7 +169,8 @@ The authentication wrapper Jules created solves a fundamental security challenge
 - Maintains comprehensive audit logs for compliance
 - Allows Aether to query sensitive data without permanent elevated access
 
-**Max's Technical Domain**
+### Max's Technical Domain
+
 Max's expertise spans multiple critical areas:
 
 - Cloud infrastructure orchestration (AWS, Terraform, Kubernetes)
@@ -176,7 +179,8 @@ Max's expertise spans multiple critical areas:
 - Security architecture and implementation
 - Real-time monitoring and alerting systems
 
-**Rhys's Strategic Vision for Aether**
+### Rhys's Strategic Vision for Aether
+
 Beyond the initial implementation, Rhys sees Aether evolving into:
 
 - An autonomous agent platform that can execute actions, not just recommend them
@@ -186,7 +190,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 
 ## Character-Technology Relationships
 
-**Max & Stimulants**
+### Max & Stimulants
 
 - Uses dexamphetamine (Adderall/dexies) methodically to maintain inhuman focus and output
 - Dosing is precise and calculated, using pharmacy-grade pills in 5-10mg amounts
@@ -196,7 +200,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Maintains supplies carefully, tracking consumption against project timelines
 - Stimulant use enables the superhuman productivity that Rhys values and exploits
 
-**Jules & Visibility**
+### Jules & Visibility
 
 - Creates elegant, critical technical solutions with minimal acknowledgment
 - Documents thoroughly but in places few people read or reference
@@ -205,7 +209,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Lacks the strategic language to translate technical contribution to business value
 - Remains invisible in the Slack-performance-theater that dominates recognition
 
-**Rhys & Control Systems**
+### Rhys & Control Systems
 
 - Uses technology as instruments of both creation and control
 - Manipulates logging systems and metrics to support desired narratives
@@ -214,7 +218,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Creates technical dependencies that ensure his continued importance
 - Builds "backdoors" into systems for monitoring and intervention
 
-**Derek & Perception Management**
+### Derek & Perception Management
 
 - Masters the tools of visibility (Jira, Slack, Zoom) rather than technical depth
 - Curates metrics and dashboards that showcase team output as personal success
@@ -225,7 +229,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 
 ## AI in the Workplace (2025)
 
-**Daily AI Integration**
+### Daily AI Integration
 
 - ChatGPT/Claude used routinely for drafting emails, Slack messages, documentation
 - GitHub Copilot and similar tools for code assistance now standard
@@ -233,7 +237,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Automated performance analytics based on system interaction patterns
 - AI-suggested career development paths based on skill gaps
 
-**The Human-AI Boundary**
+### The Human-AI Boundary
 
 - Increasing anxiety about which roles remain "AI-proof"
 - Shift from "AI will help humans" to "humans assist AI" in certain domains
@@ -241,7 +245,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Growing divide between those who can direct AI effectively and those who can't
 - Ethical questions about disclosure of AI-generated work largely ignored
 
-**Anthropic's Claude in the Company**
+### Anthropic's Claude in the Company
 
 - Enterprise license allows unlimited usage across departments
 - Specialized Claude instances fine-tuned for company-specific tasks
@@ -251,7 +255,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 
 ## Environmental Details
 
-**Remote Work Environments**
+### Remote Work Environments
 
 - Jules: Cluttered home office with kid's drawings, family photos, dated equipment
 - Max: Minimalist, ergonomic setup with multiple high-end monitors, precisely organized
@@ -259,7 +263,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Emma: Plant-filled, creatively chaotic space with post-its and inspiration boards
 - Derek: Carefully curated background with subtle signals of success and ambition
 
-**Digital Tells**
+### Digital Tells
 
 - Signal notifications distinct from regular Slack sounds
 - Calendar invites that appear and disappear without explanation
@@ -268,7 +272,7 @@ Beyond the initial implementation, Rhys sees Aether evolving into:
 - Meeting recordings that start late or end early, missing key discussions
 - The pregnant pause of typing indicators that suddenly disappear
 
-**Technical Accuracy Markers**
+### Technical Accuracy Markers
 
 - Terminal sessions showing real commands (git operations, AWS CLI, kubectl)
 - VS Code with actual working code in appropriate languages (Python for FastAPI, TypeScript for frontends)
