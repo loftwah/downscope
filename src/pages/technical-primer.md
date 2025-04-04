@@ -1,9 +1,7 @@
 ---
-title: "DOWNSCOPE - CHAPTER 1: SHIP IT"
+title: "DOWNSCOPE - TECHNICAL PRIMER"
 layout: ../layouts/main.astro
 ---
-
-# DOWNSCOPE: Technical Primer
 
 ## Development & Operations Terms
 

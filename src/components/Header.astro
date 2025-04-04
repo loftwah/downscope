@@ -5,16 +5,16 @@ import { Home, BookOpen, Map } from 'lucide-react'; // Import desired icons
 const pathname = Astro.url.pathname;
 
 // Define base and active link classes for easier management
-const linkBaseClasses = "flex items-center space-x-2 px-3 py-2 rounded-md text-sm font-medium transition-colors";
+const linkBaseClasses = "flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium transition-colors";
 const linkInactiveClasses = "text-muted-foreground hover:bg-accent hover:text-accent-foreground";
 const linkActiveClasses = "bg-primary text-primary-foreground"; // Active link style
 
 // Helper function for aria-current
 const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
 ---
-<header class="py-4 px-4 bg-background border-b border-border flex justify-center items-center">
-  <nav aria-label="Main navigation">
-    <ul class="flex items-center space-x-6 md:space-x-8">
+<header class="py-4 px-4 bg-background border-b border-border">
+  <nav aria-label="Main navigation" class="max-w-6xl mx-auto">
+    <ul class="flex items-center justify-center space-x-6 md:space-x-8">
       <li>
         <a
           href="/"
@@ -25,7 +25,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/')}
         >
           <Home className="w-5 h-5" />
-          <span class="hidden sm:inline">Home</span>
+          <span class="hidden sm:ml-2 sm:inline">Home</span>
         </a>
       </li>
       <li>
@@ -38,7 +38,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/technical-primer')}
         >
           <BookOpen className="w-5 h-5" />
-          <span class="hidden sm:inline">Technical Primer</span>
+          <span class="hidden sm:ml-2 sm:inline">Technical Primer</span>
         </a>
       </li>
       <li>
@@ -51,7 +51,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/world-guide')}
         >
           <Map className="w-5 h-5" />
-          <span class="hidden sm:inline">World Guide</span>
+          <span class="hidden sm:ml-2 sm:inline">World Guide</span>
         </a>
       </li>
     </ul>

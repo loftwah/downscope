@@ -1,9 +1,7 @@
 ---
-title: "DOWNSCOPE: Technical & World Guide"
+title: "DOWNSCOPE: World Guide"
 layout: ../layouts/main.astro
 ---
-
-# DOWNSCOPE: Technical & World Guide
 
 ## The Technology Stack Behind "Aether"
 

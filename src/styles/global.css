@@ -258,3 +258,100 @@
     @apply text-lg;
   }
 }
+
+/* Add these sections to your global.css file */
+
+/* Improved mobile readability */
+@media (max-width: 640px) {
+  body {
+    font-size: 16px; /* Ensure base font size is readable */
+    line-height: 1.6;
+  }
+  
+  .prose-custom p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+  }
+  
+  /* Reduce indentation on mobile for better use of space */
+  .prose-custom ul,
+  .prose-custom ol {
+    padding-left: 1.25rem;
+  }
+  
+  /* Ensure code blocks don't cause horizontal overflow */
+  .prose-custom pre code {
+    white-space: pre-wrap;
+    word-break: break-word;
+  }
+  
+  /* Improve spacing for technical terms in the glossary */
+  .prose-custom dt {
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  .prose-custom dd {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+/* Improve iframe responsiveness for video embeds */
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--border);
+}
+
+/* Make images responsive with gentle scaling */
+img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Optional: Add tap/click to zoom functionality for mobile */
+@media (max-width: 768px) {
+  .zoomable {
+    cursor: pointer;
+  }
+  
+  .zoomable:active {
+    transform: scale(1.05);
+  }
+}
+
+/* Improve readability of technical terms */
+.tech-term {
+  font-family: monospace;
+  background-color: var(--muted);
+  padding: 0.1rem 0.3rem;
+  border-radius: 0.25rem;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+
+/* Better buttons for mobile touch */
+button, 
+.button,
+[role="button"] {
+  min-height: 44px; /* Apple's recommended minimum touch target size */
+  min-width: 44px;
+  padding: 0.5rem 1rem;
+}
