@@ -5,8 +5,8 @@ layout: ../layouts/main.astro
 
 <iframe 
   class="w-full aspect-video rounded-lg border border-border/20 shadow-lg my-8 max-w-3xl mx-auto"
-  src="https://www.youtube.com/embed/RbeNow4Ylvc" 
-  title="Downscope - Chapter 1: SHIP IT" 
+  src="https://www.youtube.com/embed/NYnwN6Mk3wc" 
+  title="Downscope - Chapter 2: CARRY DEREK" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
   allowfullscreen>
