@@ -1,5 +1,5 @@
 ---
-import { Home, BookOpen, Map, BookText } from 'lucide-react'; // Import desired icons
+import { Home, BookOpen, Map, BookText, Users } from 'lucide-react'; // Import desired icons
 
 // Get the current pathname for active link highlighting
 const pathname = Astro.url.pathname;
@@ -14,7 +14,26 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
 ---
 <header class="py-4 px-4 bg-background border-b border-border">
   <nav aria-label="Main navigation" class="max-w-6xl mx-auto">
-    <ul class="flex items-center justify-center space-x-6 md:space-x-8">
+    <!-- Mobile menu button (hidden on desktop) -->
+    <div class="flex md:hidden justify-end mb-2">
+      <button 
+        id="mobile-menu-toggle"
+        aria-label="Toggle navigation menu" 
+        class="p-2 rounded-md text-muted-foreground hover:bg-accent hover:text-accent-foreground"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
+          <path d="M18 6 6 18"></path>
+          <path d="m6 6 12 12"></path>
+        </svg>
+      </button>
+    </div>
+    
+    <ul id="nav-links" class="hidden md:flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4 lg:space-x-6">
       <li>
         <a
           href="/"
@@ -25,7 +44,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/')}
         >
           <Home className="w-5 h-5" />
-          <span class="hidden sm:ml-2 sm:inline">Chapter One</span>
+          <span class="ml-2">Chapter One</span>
         </a>
       </li>
       <li>
@@ -38,7 +57,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/chapter-two')}
         >
           <BookText className="w-5 h-5" />
-          <span class="hidden sm:ml-2 sm:inline">Chapter Two</span>
+          <span class="ml-2">Chapter Two</span>
         </a>
       </li>
       <li>
@@ -51,7 +70,20 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/technical-primer')}
         >
           <BookOpen className="w-5 h-5" />
-          <span class="hidden sm:ml-2 sm:inline">Technical Primer</span>
+          <span class="ml-2">Technical Primer</span>
+        </a>
+      </li>
+      <li>
+        <a
+          href="/character-primer"
+          class:list={[
+            linkBaseClasses,
+            pathname === '/character-primer' ? linkActiveClasses : linkInactiveClasses
+          ]}
+          aria-current={getAriaCurrent('/character-primer')}
+        >
+          <Users className="w-5 h-5" />
+          <span class="ml-2">Character Primer</span>
         </a>
       </li>
       <li>
@@ -64,9 +96,36 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
           aria-current={getAriaCurrent('/world-guide')}
         >
           <Map className="w-5 h-5" />
-          <span class="hidden sm:ml-2 sm:inline">World Guide</span>
+          <span class="ml-2">World Guide</span>
         </a>
       </li>
     </ul>
   </nav>
 </header>
+
+<script>
+  // Mobile menu toggle functionality
+  document.addEventListener('DOMContentLoaded', () => {
+    const toggle = document.getElementById('mobile-menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    const menuIcon = document.querySelector('.menu-icon');
+    const closeIcon = document.querySelector('.close-icon');
+    
+    if (toggle && navLinks && menuIcon && closeIcon) {
+      toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('hidden');
+        menuIcon.classList.toggle('hidden');
+        closeIcon.classList.toggle('hidden');
+      });
+    }
+  });
+</script>
+
+<style>
+  /* Make nav links visible by default on desktop */
+  @media (min-width: 768px) {
+    #nav-links {
+      display: flex !important;
+    }
+  }
+</style>
