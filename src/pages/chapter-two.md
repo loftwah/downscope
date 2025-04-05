@@ -19,6 +19,8 @@ layout: ../layouts/main.astro
 
 ---
 
+# CHAPTER 2: "CARRY DEREK"
+
 ## SCENE 1: THE QUIET ROOM
 
 The Infrastructure team's area was unofficially designated "the quiet room" by the rest of Innovate Solutions, a status earned not through any formal decree but through the gradual accumulation of unspoken boundaries and subtle spatial claims. Previously scattered across the floor plan, they had methodically migrated toward the building's northeast corner over the past eighteen months, colonizing desks one by one until they occupied a contiguous territory bordered on one side by the emergency stairwell and on the other by a perpetually broken vending machine that no one bothered to fix.

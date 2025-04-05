@@ -14,7 +14,7 @@ layout: ../layouts/main.astro
 
 ![Downscope](../assets/images/downscope.jpg)
 
-## CHAPTER 1: "SHIP IT"
+# CHAPTER 1: "SHIP IT"
 
 The collective glow reflecting off a thousand faces across a dozen time zones was less illumination, more a digital phosphor burn painting veneers of attentiveness over profound fatigue. Innovate Solutions' quarterly All-Hands meeting was in full swing, or rather, full drone. Mark Weaver, CEO, occupied the central tile on the sprawling Zoom grid, performing optimism with the strained intensity of a method actor attempting Shakespeare after a three-day bender. His suit, expensively tailored during a brief stock-option high five years ago, now seemed to hang on him, a testament to stress or perhaps just changing fashions. His smile, a well-rehearsed corporate rictus perfected for board meetings and placating anxious investors, remained firmly detached from his eyes, which darted across the grid like nervous birds seeking a safe perch, trying to read the unreadable digital room. He addressed the assembled 120 employees—a distributed diaspora broadcasting from makeshift home offices carved out of bedrooms, cluttered kitchen tables serving as command centers, and the occasional hyper-minimalist shrine to remote productivity—his voice striving for resonance it couldn't quite achieve.
 
