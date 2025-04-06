@@ -1,106 +1,127 @@
 ---
-import { Home, BookOpen, Map, BookText, Users } from 'lucide-react'; // Import desired icons
+import { Home, BookOpen, Map, BookText, Users, BookIcon } from 'lucide-react'; // Import desired icons
 
 // Get the current pathname for active link highlighting
 const pathname = Astro.url.pathname;
 
 // Define base and active link classes for easier management
-const linkBaseClasses = "flex items-center justify-center px-3 py-2 rounded-md text-sm font-medium transition-colors";
+const linkBaseClasses = "flex items-center py-2 px-4 rounded-md text-sm font-medium transition-colors";
 const linkInactiveClasses = "text-muted-foreground hover:bg-accent hover:text-accent-foreground";
 const linkActiveClasses = "bg-primary text-primary-foreground"; // Active link style
 
 // Helper function for aria-current
 const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
 ---
-<header class="py-4 px-4 bg-background border-b border-border">
-  <nav aria-label="Main navigation" class="max-w-6xl mx-auto">
-    <!-- Mobile menu button (hidden on desktop) -->
-    <div class="flex md:hidden justify-end mb-2">
-      <button 
-        id="mobile-menu-toggle"
-        aria-label="Toggle navigation menu" 
-        class="p-2 rounded-md text-muted-foreground hover:bg-accent hover:text-accent-foreground"
-      >
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
-          <line x1="4" x2="20" y1="12" y2="12"></line>
-          <line x1="4" x2="20" y1="6" y2="6"></line>
-          <line x1="4" x2="20" y1="18" y2="18"></line>
-        </svg>
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
-          <path d="M18 6 6 18"></path>
-          <path d="m6 6 12 12"></path>
-        </svg>
-      </button>
+<header class="py-4 bg-background border-b border-border">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Site title -->
+    <div class="mb-4 text-center">
+      <h1 class="text-3xl font-bold">Downscope</h1>
     </div>
     
-    <ul id="nav-links" class="hidden md:flex flex-col md:flex-row items-center justify-center space-y-2 md:space-y-0 md:space-x-4 lg:space-x-6">
-      <li>
-        <a
-          href="/"
-          class:list={[
-            linkBaseClasses,
-            pathname === '/' ? linkActiveClasses : linkInactiveClasses
-          ]}
-          aria-current={getAriaCurrent('/')}
+    <nav aria-label="Main navigation">
+      <!-- Mobile menu button (hidden on desktop) -->
+      <div class="flex md:hidden justify-end mb-2">
+        <button 
+          id="mobile-menu-toggle"
+          aria-label="Toggle navigation menu" 
+          class="p-2 rounded-md text-muted-foreground hover:bg-accent hover:text-accent-foreground"
         >
-          <Home className="w-5 h-5" />
-          <span class="ml-2">Chapter One</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/chapter-two"
-          class:list={[
-            linkBaseClasses,
-            pathname === '/chapter-two' ? linkActiveClasses : linkInactiveClasses
-          ]}
-          aria-current={getAriaCurrent('/chapter-two')}
-        >
-          <BookText className="w-5 h-5" />
-          <span class="ml-2">Chapter Two</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/technical-primer"
-          class:list={[
-            linkBaseClasses,
-            pathname === '/technical-primer' ? linkActiveClasses : linkInactiveClasses
-          ]}
-          aria-current={getAriaCurrent('/technical-primer')}
-        >
-          <BookOpen className="w-5 h-5" />
-          <span class="ml-2">Technical Primer</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/character-primer"
-          class:list={[
-            linkBaseClasses,
-            pathname === '/character-primer' ? linkActiveClasses : linkInactiveClasses
-          ]}
-          aria-current={getAriaCurrent('/character-primer')}
-        >
-          <Users className="w-5 h-5" />
-          <span class="ml-2">Character Primer</span>
-        </a>
-      </li>
-      <li>
-        <a
-          href="/world-guide"
-          class:list={[
-            linkBaseClasses,
-            pathname === '/world-guide' ? linkActiveClasses : linkInactiveClasses
-          ]}
-          aria-current={getAriaCurrent('/world-guide')}
-        >
-          <Map className="w-5 h-5" />
-          <span class="ml-2">World Guide</span>
-        </a>
-      </li>
-    </ul>
-  </nav>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="menu-icon">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="close-icon hidden">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+        </button>
+      </div>
+      
+      <!-- Navigation links -->
+      <ul id="nav-links" class="hidden md:flex md:flex-row md:justify-center md:items-center md:space-x-2 lg:space-x-4 flex-col space-y-2 md:space-y-0">
+        <li>
+          <a
+            href="/"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/')}
+          >
+            <Home className="w-4 h-4 mr-2" />
+            <span>Chapter One</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/chapter-two"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/chapter-two' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/chapter-two')}
+          >
+            <BookText className="w-4 h-4 mr-2" />
+            <span>Chapter Two</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/chapter-three"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/chapter-three' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/chapter-three')}
+          >
+            <BookIcon className="w-4 h-4 mr-2" />
+            <span>Chapter Three</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/technical-primer"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/technical-primer' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/technical-primer')}
+          >
+            <BookOpen className="w-4 h-4 mr-2" />
+            <span>Technical Primer</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/character-primer"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/character-primer' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/character-primer')}
+          >
+            <Users className="w-4 h-4 mr-2" />
+            <span>Character Primer</span>
+          </a>
+        </li>
+        <li>
+          <a
+            href="/world-guide"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/world-guide' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/world-guide')}
+          >
+            <Map className="w-4 h-4 mr-2" />
+            <span>World Guide</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
 </header>
 
 <script>
