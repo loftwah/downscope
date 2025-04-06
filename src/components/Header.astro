@@ -82,6 +82,19 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
         </li>
         <li>
           <a
+            href="/chapter-four"
+            class:list={[
+              linkBaseClasses,
+              pathname === '/chapter-four' ? linkActiveClasses : linkInactiveClasses
+            ]}
+            aria-current={getAriaCurrent('/chapter-four')}
+          >
+            <BookIcon className="w-4 h-4 mr-2" />
+            <span>Chapter Four</span>
+          </a>
+        </li>
+        <li>
+          <a
             href="/technical-primer"
             class:list={[
               linkBaseClasses,
