@@ -814,61 +814,47 @@ The connection terminated. Jules remained seated for a moment, the significance 
 
 ## 12. EMMA'S TRAJECTORY
 
-At 10:37 PM, Emma Layton finally pushed away from her makeshift dining room office setup. The abrupt cessation of typing amplified the now-familiar silence of the empty apartment, a silence that pressed in the moment work stopped providing its inadequate shield. The apartment—her prison, her office, her world—felt colder, emptier, now that the distraction was gone.
+The harsh glow of the monitor reflected in Emma Layton's eyes, the only significant light source in the apartment at 10:37 PM. Her makeshift dining room office was cluttered with printouts, half-empty coffee mugs, and, crucially, the nearly empty bottle of cheap vodka standing sentinel beside her keyboard. The glass next to it held a clear measure, periodically replenished without conscious thought as she forced herself through the latest complex analysis Victor had assigned. The apartment's silence wasn't just quiet; it was heavy, pressing in whenever the clatter of her keys paused for more than a few seconds. Work was the frantic engine pushing back the darkness, fueled by caffeine, nicotine gum, and the steady, numbing burn of alcohol.
 
-She walked to the kitchen, mechanically opened the refrigerator, stared at its sparse contents, closed it again. Food was fuel for operational status, nothing more.
+Food was a distant concept. A glance into the refrigerator earlier had revealed nothing appealing, nothing worth the effort. Sustenance came from the bottle, measured not in meals but in fading ounces. She took another swallow now, the familiar heat doing little to loosen the iron bands tightening around her chest, but perhaps dulling the sharpest edges of anxiety enough to keep functioning. *Functioning.* The word was a mockery, but it was all she had.
 
-The vodka bottle waited on the counter. Days measured in ounces. Poured three fingers, clear liquid catching harsh light. No ice. Efficient delivery temporary relief.
+Her laptop remained logged into company systems, the digital tether never severed. Five new emails arrived, all from Victor Chen, all flagged "High Priority," demanding responses by morning EOD London time, which meant *now*. The subject lines blurred into a familiar litany of demands: detailed requirements for the Aether integration documentation, workflow comparisons, data governance matrices, strategic alignment updates. Endless. Crushing. She would answer them, of course. Meticulously. Comprehensively. Neutrally. Disappearing into the machine, becoming the output. Victor, having served his punishment, now seemed determined to exploit her capacity until she broke completely. She delivered flawlessly, relentlessly, hollowing herself out one task, one drink, at a time.
 
-Took long swallow, familiar burn loosening iron bands around chest. Carried glass to makeshift dining room office, dominated by monitors, research papers, ghosts of family dinners.
+She opened the first Aether task email, the dense requirements swimming slightly. Another sip of vodka. Just enough to focus, or perhaps just enough to blur the despair threatening to overwhelm the professional facade. Her fingers moved across the keyboard, composing precise, insightful responses even as her thoughts frayed. Workflow comparisons... data governance... security boundaries... *strategic alignment*... the buzzwords felt like sandpaper on her raw nerves.
 
-Laptop connected automatically VPN, digital tether never severed. Five new emails, all Victor Chen, all "High Priority," requiring responses by morning. Including detailed requirements for the Aether integration documentation initiative assigned that day. Would answer them, of course. Meticulously, comprehensively, neutrally.
-
-Easier this way, disappear into work, become machine producing outputs meeting/exceeding specs. Productivity metrics stratospheric. Victor, post-punishment, now loaded her demanding tasks, highest-stakes analyses, projects tolerating zero failure. Delivered flawlessly, relentlessly, hollowing herself out.
-
-Opened first Aether task email, anticipating exhaustive detail. Took another vodka swallow, dulling edges, softening reality, enabling function.
-
-Words blurred slightly reading Victor's requirements: workflow comparisons, data governance, security boundaries, strategic alignment. Usual. Expected. Endless.
-
-Phone vibrated. Text from James.
+_Vzzzt._ Her phone vibrated on the desk beside the vodka bottle. A text message. James. Her breath hitched.
 
 "Kids' school teacher in-service day tomorrow. Planning science museum. Sophie asking about you. Join hour or two? No pressure."
 
-Stared message, complex wave emotions breaking numbness. Longing. Fear. Shame. _That night_—screaming, broken glass, children's terror—rose unbidden, threatening drown her.
+The words hit like physical blows. Longing, fear, and shame washed over her, momentarily breaking through the alcoholic haze and the work focus. _That night_ surged back – the screaming, the shattered glass, the look of pure terror on Sophie's face, James's devastatingly quiet departure. Could she face them? Could she maintain control in public, pretend to be the mother they remembered, not the fractured, dangerous person who had destroyed their sense of safety? Could she endure James's cautious eyes watching her every move, ready to intervene? The thought of their potential fear or pity was unbearable.
 
-Picked up glass, drained remaining vodka one long swallow.
+Her hand, trembling slightly, reached for the vodka glass again, draining it in one long swallow. No. She couldn't risk it. Couldn't risk hurting them again, couldn't bear seeing the fear she'd put there.
 
-Could she do it? See children public place, maintain control, be mother remembered, not fractured dangerous person destroyed safety? Person waking cold sweats, unsure what done during blackouts? Person haunted by memory almost sending that dark web message?
-
-Fingers hovered over phone. Typed, deleted, typed again.
+Fingers hovered over the phone screen, vodka fumes mingling with the scent of stale coffee. Typed. Deleted. Typed again.
 
 "Have critical deadline for Victor. Can't make it. Tell them I love them."
 
-Hit send, hating herself. Picked up vodka bottle, poured larger measure.
+The lie tasted like ash. She hit send, hating herself with a ferocity that momentarily eclipsed even her fear. She immediately reached for the bottle, pouring a much larger measure this time. The deadline was real, yes, but manageable. She always managed. The truth was far more terrifying: she didn't trust herself.
 
-Lie came easily. Deadline real, but manageable. Always managed. Truth terrifying: didn't trust herself. Couldn't bear caution James's eyes, way he watch every movement around children, prepared intervene first sign instability.
+She forced her gaze back to the laptop screen, back to Victor's demands. This was controllable. This required precision, not emotion. This wouldn't flinch or look away in disappointment. This wouldn't ask if she was okay.
 
-Turned back laptop, forcing focus Victor's Aether documentation requirements. This, controllable. Executable precision. This wouldn't look fear, disappointment. Wouldn't require her feel.
+The hours bled together, marked only by the diminishing level in the vodka bottle, the mechanical shaping of requirement documents, the echoing silence of the apartment. Her focus blurred, drifting between the task at hand and darker paths. Sometime around 2:43 AM, during a pause in typing, she found herself staring at a browser window she didn't remember opening. Anonymized VPN active. Tor browser running. Private forums discussing revenge, discussing ways to harm those who had harmed them.
 
-Hours passed, requirements doc shaping mechanically, vodka bottle emptying, apartment quieting. 2:43 AM, found self darkest corners internet again, anonymized VPNs, Tor, reading private forums discussing harming those who harmed them.
+Had she navigated here consciously? Or was this another fugue state, lost time swallowed by alcohol and rage? A cursor blinked in an empty message field, waiting for words she couldn't recall intending to type. Had she written something before? Made contact? The vague, nightmarish memory of composing a message *about Victor*, hovering over the send button, flickered at the edge of her awareness. Familiar usernames on the forum triggered a disturbing sense of recognition. Had she merely observed, or had she participated? The uncertainty was a cold dread coiling in her stomach. Had she finally, irrecoverably, crossed a line?
 
-Didn't remember opening browser, navigating sites. Another fugue state, lost time. Cursor blinked empty message field, waiting words couldn't remember intending type.
+With a surge of adrenaline cutting through the fog, she slammed the browser shut, her hands shaking violently. Her carefully constructed professional composure dissolved in the solitude of the early morning. *Help.* The word screamed in her mind. *I need help.* The rational part of her brain, surfacing momentarily, recognized the dangerous pattern, the accelerating spiral.
 
-Cold fear gripped her. Written something before? Made contact? Sent message about Victor recalled composing vaguely? Message threads vaguely familiar, usernames triggered recognition. Couldn't be sure participated or merely observed. Uncertainty cold dread.
+But admitting it meant admitting weakness, failure. And in a company visibly preparing for "organizational restructuring," vulnerability felt like painting a target on her back. Work was all she had left. Control. Function.
 
-Closed browser quickly, hands shaking, professional composure crumbling early morning solitude. Needed help. Knew needed help. Rational part mind, surfacing occasionally through fog, recognized dangerous pattern, accelerating spiral.
+She forced herself back to the Aether documentation task, polishing the analysis until it was perfect, comprehensive, emotionless. Ready for Victor's review. The output of the professional ghost she had become.
 
-But admitting needed help meant admitting weakness. Failure. Company preparing "organizational restructuring," vulnerability tantamount target on back. Work all left.
+*Tomorrow.* The thought was a familiar, desperate refrain. *Tomorrow, I'll try again. Be better. Drink less.* Maybe she'd actually join that Infra collab session Jules kept mentioning. Maybe she'd finally call Dr. Bradford, whose number James had sent weeks ago, now buried in her inbox. Maybe she could find her way back to the person she used to be.
 
-Closed laptop, analysis complete, ready Victor's review. Perfect, comprehensive, emotionless. Like professional ghost become.
+*Tomorrow.*
 
-Tomorrow, try again. Be better. Drink less. Maybe respond Jules's invitation join Infra collab work session. Maybe call Dr. Bradford, therapist number James sent weeks ago. Maybe find way back person used be.
+She finally closed the laptop, the analysis complete. Stumbled towards the bedroom, the vodka claiming its due, feet unsteady, vision blurring at the edges. Didn't bother changing. Collapsed onto the unmade bed, praying for the oblivion of sleep before the inevitable nightmares found her again.
 
-Tomorrow.
-
-Stumbled slightly making way bedroom, vodka claiming due unsteady feet, blurring vision. Didn't bother changing, collapsed unmade bed, hoping oblivion sleep before inevitable nightmares found her again.
-
-Last conscious thought Sophie, oldest daughter, way used laugh Emma spun her around backyard old house. Memory different life, different Emma. Increasingly like story read about someone else.
+Her last conscious thought wasn't of work, but of Sophie, her oldest daughter, the way she used to laugh when Emma spun her around in the backyard of their old house. A memory from a different life, belonging to a different Emma. A story about someone else entirely.
 
 ## 13. THE FIRST FRIDAY
 
