@@ -490,8 +490,6 @@ Needed work. Work was safe. Controllable. Predictable.
 
 Opened Jira, found the highest priority ticket assigned by Victor. Plunged back into the comforting complexity of product specs, user stories, data models. _Function. Perform. Deliver. Survive._ It was the only mantra left.
 
-Okay, understood. No "revised," keep exact formatting. My apologies for the rage-inducing inconsistencies.
-
 ## 7. THE INVITATION
 
 Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled for their now-established Friday co-working session. Their first such gathering since the office closure had occurred weeks ago, but this was Jules's first time attending after Sarah's invite, scheduled to start in five minutes. Despite being early, he felt like an outsider arriving late to a familiar ritual.
