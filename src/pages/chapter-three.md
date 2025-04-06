@@ -492,7 +492,7 @@ Opened Jira, found the highest priority ticket assigned by Victor. Plunged back 
 
 ## 7. THE INVITATION
 
-Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled for their now-established Friday co-working session. Their first such gathering since the office closure had occurred weeks ago, but this was Jules's first time attending after Sarah's invite, scheduled to start in five minutes. Despite being early, he felt like an outsider arriving late to a familiar ritual.
+Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled for their now-established Friday co-working session. Invited by Sarah, this was Jules's first time joining the weekly ritual, scheduled to start in five minutes. Despite being early, he felt like an outsider arriving late to a familiar gathering.
 
 Inside, Sarah set up her laptop, arranging markers. Eli colonized a corner, his monitor array a miniature command center. Max sketched architecture on the whiteboard, movements quick, focused.
 
