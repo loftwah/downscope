@@ -88,7 +88,7 @@ She worked with a ferocious, consuming intensity that astonished her colleagues 
 
 It was the only way to keep the static at bay. The relentless focus on Jira boards, Confluence pages, Figma prototypes, data dashboards – it filled the terrifying silence in her head, drowned out the whispers, pushed back the fragmented memories of 'that night'.
 
-'That night.' The memory was a black hole, threatening to pull her in whenever her focus wavered. Flashes persisted: The shrill sound of her own screaming, unrecognizable. The shattering glass – wine bottle? Picture frame? Both? The impossible weight of her children's fear-widened eyes staring up at her. Sophie's small voice, trembling: "Mommy, are you okay? What's wrong with you?" Sophie, older, braver, trying to shield her sister, her face a mask of terrified disbelief. James... his expression wasn't anger, wasn't judgment, just a profound, devastating sadness as he gently guided the children away, closing their bedroom door, leaving Emma alone amidst the wreckage.
+'That night.' The memory was a black hole, threatening to pull her in whenever her focus wavered. Flashes persisted: The shrill sound of her own screaming, unrecognizable. The shattering glass – wine bottle? Picture frame? Both? The impossible weight of her children's fear-widened eyes staring up at her. Sophie's small voice, trembling: "Mommy, are you okay? What's wrong with you?" Sophie, older, braver, trying to shield her brother, her face a mask of terrified disbelief. James... his expression wasn't anger, wasn't judgment, just a profound, devastating sadness as he gently guided the children away, closing their bedroom door, leaving Emma alone amidst the wreckage.
 
 She couldn't remember throwing things, couldn't remember hurting herself, though the cuts on her hands, now healing under neat bandages, suggested otherwise. She couldn't remember James cleaning up the mess, couldn't remember him leaving with the kids the next morning, just the note left on the kitchen counter: 'Staying at Mom's for a bit. We need space. Call me when you're ready to talk about getting help.'
 
@@ -460,7 +460,7 @@ Stumbled, tripped over overturned chair, crashed heavily. Impact knocked wind ou
 
 James appeared, emerging from master bedroom. Took in scene instantly – devastated apartment, terrified children, Emma sprawled, bleeding, incoherent. Face terrifyingly calm, movements economical, focused.
 
-"Ben, Lily," he said quietly, absolute authority. "Go to your room. Lock the door. Now."
+"Ben, Sophie," he said quietly, absolute authority. "Go to your room. Lock the door. Now."
 
 Didn't wait. Stepped over debris, knelt beside Emma, carefully avoiding nearby knife. Didn't comfort, didn't ask. Assessed like SRE triaging production incident.
 
@@ -780,7 +780,7 @@ Words blurred slightly reading Victor's requirements: workflow comparisons, data
 
 Phone vibrated. Text from James.
 
-"Kids' school teacher in-service day tomorrow. Planning science museum. Lily asking about you. Join hour or two? No pressure."
+"Kids' school teacher in-service day tomorrow. Planning science museum. Sophie asking about you. Join hour or two? No pressure."
 
 Stared message, complex wave emotions breaking numbness. Longing. Fear. Shame. *That night*—screaming, broken glass, children's terror—rose unbidden, threatening drown her.
 
