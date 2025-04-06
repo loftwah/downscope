@@ -1,3 +1,10 @@
+---
+title: "DOWNSCOPE - CHAPTER 4: THE OBSTACLE REMOVED"
+layout: ../layouts/main.astro
+---
+
+![Downscope](../assets/images/downscope.jpg)
+
 # CHAPTER 4: "THE OBSTACLE REMOVED"
 
 > "Metadata never lies, but its interpretation is infinitely malleable. The most stable systems rely on managing the narrative as much as the state."
