@@ -456,8 +456,6 @@ She stumbled, tripped over an ottoman, and crashed heavily to the floor. The imp
 
 Exhaustion, heavy and final, dragged her down into a dark, dreamless void on the living room floor.
 
----
-
 The following morning, she woke slowly, sunlight painfully bright through the window. Her head throbbed viciously. Her bandaged hand from the *original* incident ached, and now her forearm stung beneath a makeshift bandage of paper towels crudely taped during the blackout. The apartment was eerily quiet.
 
 Memory returned: brutal, fragmented flashes not just of *that* night, but of *last* night’s reliving. The screaming into the void. The mirror. The knife *now*. The phantom children. The fall.
@@ -491,40 +489,6 @@ With trembling fingers, she cleared the history, deleted the Tor browser icon fr
 Needed work. Work was safe. Controllable. Predictable.
 
 Opened Jira, found the highest priority ticket assigned by Victor. Plunged back into the comforting complexity of product specs, user stories, data models. *Function. Perform. Deliver. Survive.* It was the only mantra left.
-
-Following morning, woke slowly. Sunlight painfully bright. Head throbbed viciously. Bandaged hand ached. Apartment eerily quiet.
-
-Memory returned: brutal, fragmented flashes. Screaming. Shattered glass. Blood. Children's terrified faces. James's quiet departure.
-
-Nausea surged, acidic, shaming. Stumbled out of bed. Surveyed apartment. James had cleaned, mostly. Debris gone, furniture righted. But missing photos, faint bloodstain on kitchen tile he'd missed, heavy silence – damning evidence.
-
-*'Function.'* Thought surfaced, automatic. *'Perform.'*
-
-Showered, hot water scalding but grounding. Dressed sharply – silk blouse, tailored blazer (sweatpants below). Applied makeup like battlefield surgeon, concealing physical traces. Re-bandaged hand neatly. Made coffee, strong, black.
-
-Sat at desk, 8:58 AM. Logged into Slack. Status: Active. Green dot glowing.
-
-Calendar pinged. 9:00 AM. Product Strategy Sync. Clicked Zoom link. Composed face into mask of professional engagement.
-
-"Morning, all," she greeted, voice remarkably steady.
-
-Victor Chen nodded curtly. "Emma. Good. Walk us through the revised Q4 roadmap based on the CEO's remote-first directive."
-
-Emma shared screen, complex Gantt chart. "Certainly, Victor. As you can see, the primary impact of the remote transition is on cross-team collaboration velocity..."
-
-Delivered analysis flawlessly. Crisp, data-driven, astute. Answered questions calmly, deflected politics neutrally. No one commented on slight voice tremor or bandage, if they noticed. Performing Emma Layton, High-Potential Product Manager. Oscar-worthy.
-
-Inside, felt nothing. Vast, cold emptiness. Dissociation almost comforting, a shield.
-
-Later, email from James. Subject: Therapist Recommendations. Opened numbly. Three names, numbers, emails. Crisis recovery, addiction, trauma specialists. Stared, words blurring. Taking that step felt impossible, admitting the monster was real, couldn't fix this herself.
-
-Gaze drifted to browser history, still open from last night's spiral. Dark web forum link. Cached page: '#HRTerminationSpecialist'. Had she just looked? Or interacted? Sent a message? Memory slippery, indistinct. Fragmented recollections of typing, hovering over 'send', fueled by vodka, rage. No certainty. *Not knowing* was cold dread. Crossed a line she couldn't uncross?
-
-Trembling fingers cleared history, deleted Tor browser, scrubbed traces. *'Just a thought. Drunken fantasy. Never happened.'* Repeated like mantra, desperate to believe.
-
-Needed work. Work safe. Controllable.
-
-Opened Jira, found highest priority ticket. Plunged back into comforting complexity of product specs, user stories. *Function. Perform. Deliver. Survive.* The only mantra left.
 
 ## 7. THE INVITATION
 
