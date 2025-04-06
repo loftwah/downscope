@@ -492,8 +492,6 @@ Opened Jira, found the highest priority ticket assigned by Victor. Plunged back 
 
 ## 7. THE INVITATION
 
-(*This section title might feel slightly redundant if keeping the chapter whole, as Rhys makes the formal offer later. Consider renaming perhaps? e.g., "Initial Contact" or "WeWork Collaboration"? Or leave as is.*)
-
 Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled. Their first in-person co-working session since the office closure was scheduled to start in five minutes, and despite being early, Jules felt like an outsider arriving late to an established ritual.
 
 Inside, Sarah set up her laptop, arranging markers. Eli colonized a corner, his monitor array a miniature command center. Max sketched architecture on the whiteboard, movements quick, focused.
