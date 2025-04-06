@@ -44,7 +44,7 @@ Max and Sarah exchanged amused glances. Eli's commitment to data-driven justific
 
 "That was a controlled experiment to test edge-case failure modes under suboptimal network conditions!" Max protested weakly. "And the rollback script worked perfectly!"
 
-"The rollback script *I* had to execute remotely at 2 AM while you were arguing with the bartender about the physics of Donkey Kong barrels," Sarah corrected. "Point stands. Keep work and cheap beer separate."
+"The rollback script _I_ had to execute remotely at 2 AM while you were arguing with the bartender about the physics of Donkey Kong barrels," Sarah corrected. "Point stands. Keep work and cheap beer separate."
 
 Their banter, a well-worn pattern of technical debate laced with dry humor, was interrupted by the visual drama unfolding across the office floor. Victor Chen, his face a mask of barely suppressed fury, erupted from his office and stormed towards the executive wing, ignoring attempts by his own product managers to intercept him. His trajectory was aimed squarely at Greg Whitman's office.
 
@@ -58,7 +58,7 @@ Max's secure phone, resting face down on his desk, emitted a low, discreet vibra
 
 **Rhys:** 'Confirming receipt and comprehension of Weaver's announcement. Proceeding with strategic withdrawal as planned. Pre-booked family holiday (Bali, three weeks) commences immediately. Provides necessary observational distance during initial destabilization phase. Aether Phase Two formal kickoff deferred thirty days post-return. Rationale: allows emergent organizational patterns to solidify, provides runway for core team consolidation and hardening of Phase One systems. Utilize this period. Address tech debt. Refine architectures. Solidify documentation. Maintain operational vigilance. Max, command authority delegated. Sarah, coordinate critical escalations. Eli, data integrity paramount. Jules, finalize auth scaling in collaboration with Max. Jesse, support Sarah, absorb everything. Maintain absolute channel security. Report only P0 incidents requiring intervention. Otherwise, operate with discretion and initiative. Trust is placed.'
 
-Max absorbed the layers. Rhys wasn't just taking leave; he was executing a calculated retreat, invoking Law 16. *He trusts us*, Max thought, a flicker of something deeper than just professional respect passing through him. Rhys wouldn't leave Aether adrift without absolute confidence in the instruments left behind, especially Max himself. The pressure was immense, but the implicit trust was stabilizing.
+Max absorbed the layers. Rhys wasn't just taking leave; he was executing a calculated retreat, invoking Law 16. _He trusts us_, Max thought, a flicker of something deeper than just professional respect passing through him. Rhys wouldn't leave Aether adrift without absolute confidence in the instruments left behind, especially Max himself. The pressure was immense, but the implicit trust was stabilizing.
 
 **Max:** 'Acknowledged. Rationale understood. Infra stability maintained. Consolidation phase initiated. Auth scaling (LRFU cache implementation) proceeding per design spec co-authored with Jules. Vector store optimization underway. Monitoring protocols enhanced for distributed environment. Will leverage additional time for comprehensive system hardening and documentation refinement. Line held. Secure channel protocols enforced. Enjoy the strategic detachment. 🍺'
 
@@ -92,11 +92,11 @@ It was the only way to keep the static at bay. The relentless focus on Jira boar
 
 She couldn't remember throwing things, couldn't remember hurting herself, though the cuts on her hands, now healing under neat bandages, suggested otherwise. She couldn't remember James cleaning up the mess, couldn't remember him leaving with the kids the next morning, just the note left on the kitchen counter: 'Staying at Mom's for a bit. We need space. Call me when you're ready to talk about getting help.'
 
-Help. The word mocked her. She *was* getting help – from the bottom of a vodka bottle each night, the only reliable source of temporary oblivion.
+Help. The word mocked her. She _was_ getting help – from the bottom of a vodka bottle each night, the only reliable source of temporary oblivion.
 
 And from the strange, dark corners of the internet she found herself exploring during the lost hours between work and unconsciousness. Incognito windows. Tor browser. Search queries she couldn't quite remember typing, yet the browser history, when she dared to look, hinted at disturbing pathways: 'Victor Chen personal information'. 'Employee background check anonymous'. 'Dark web reputation services'. 'Untraceable communication crypto'.
 
-Had she actually contacted anyone? Exchanged messages? Paid in anonymous Monero? The gaps in her memory were terrifying voids, populated by fragmented images of typing furiously, of hovering over 'send' buttons fueled by vodka and rage. Sometimes she'd wake up with a new encrypted messaging app installed on her phone, no recollection of downloading it. Or find a burner email account open in a browser tab. These blackouts, fueled by alcohol and stress, were becoming more frequent, leaving behind unsettling digital breadcrumbs she frantically deleted each morning, desperate to convince herself they were just drunken fantasies, that she hadn't actually crossed an irreparable line. The *not knowing* was a cold dread pooling in her stomach.
+Had she actually contacted anyone? Exchanged messages? Paid in anonymous Monero? The gaps in her memory were terrifying voids, populated by fragmented images of typing furiously, of hovering over 'send' buttons fueled by vodka and rage. Sometimes she'd wake up with a new encrypted messaging app installed on her phone, no recollection of downloading it. Or find a burner email account open in a browser tab. These blackouts, fueled by alcohol and stress, were becoming more frequent, leaving behind unsettling digital breadcrumbs she frantically deleted each morning, desperate to convince herself they were just drunken fantasies, that she hadn't actually crossed an irreparable line. The _not knowing_ was a cold dread pooling in her stomach.
 
 But the rage felt real. The obsession with Victor, the injustice of her situation, the feeling of being utterly powerless – it simmered constantly beneath the surface of her high-functioning facade. And sometimes, late at night, the fantasy of retribution felt less like fantasy and more like... possibility.
 
@@ -126,7 +126,7 @@ For the next fifteen minutes, they dove deep into the technical specifics. Emma 
 
 "Happy to help," Emma replied, feeling a faint, unfamiliar warmth – professional pride? – stir within her. "It's important the models use accurate segmentation, otherwise the predictions become meaningless."
 
-"Exactly," Jules agreed. "Which raises another question... Victor's been pushing back hard on allowing Aether direct access to the underlying Salesforce data for segmentation, citing governance concerns. Your explanation makes it clear why direct access is actually *necessary* for accuracy, given how complex the logic is."
+"Exactly," Jules agreed. "Which raises another question... Victor's been pushing back hard on allowing Aether direct access to the underlying Salesforce data for segmentation, citing governance concerns. Your explanation makes it clear why direct access is actually _necessary_ for accuracy, given how complex the logic is."
 
 Emma considered this. Victor's obstructionism was predictable. But Jules was right – relying on outdated or simplified segments exported to the data warehouse would compromise Aether's effectiveness.
 
@@ -224,7 +224,7 @@ Derek shifted uncomfortably, his usual enthusiasm dampened by Victor's tone. "We
 
 Emma found herself unexpectedly annoyed by Victor's framing. "With respect," she said, surprising herself by speaking up, "from a product perspective, the technical integration work Jules is doing serves our overall goals. The authentication system is a critical enabler for secure cross-system data access, which directly supports the customer insight capabilities we've been trying to build for three quarters."
 
-Victor fixed her with a cold stare. "Emma, I would have expected *you* of all people to recognize the dangers of Infrastructure's 'expand and conquer' approach." The words carried a subtle sting, a reminder of her LinkedIn post debacle and the internal fallout. "This isn't about technical merit; it's about governance and control. If we allow Rhys and his team to selectively extract key developers from other teams without going through proper channels, we undermine the entire organizational structure."
+Victor fixed her with a cold stare. "Emma, I would have expected _you_ of all people to recognize the dangers of Infrastructure's 'expand and conquer' approach." The words carried a subtle sting, a reminder of her LinkedIn post debacle and the internal fallout. "This isn't about technical merit; it's about governance and control. If we allow Rhys and his team to selectively extract key developers from other teams without going through proper channels, we undermine the entire organizational structure."
 
 Emma felt herself retreating back into the protective shell she'd constructed. "Of course," she murmured. "I was just considering the technical dependencies."
 
@@ -246,9 +246,9 @@ Emma recognized the personal edge beneath the professional justification. This w
 
 The meeting ended with Victor assigning action items and scheduling yet another "alignment session." As Emma closed the Zoom window, she felt a familiar weariness. The territorial battles, the political maneuvering, the endless documentation of process over value—it all felt increasingly pointless.
 
-She opened her personal calendar, staring at the empty squares representing evenings and weekends. James had texted again about the kids potentially visiting, but she'd deflected, claiming work deadlines. The truth was more frightening: she wasn't sure she trusted herself around them yet. Their terrified faces from *that night* still haunted her dreams.
+She opened her personal calendar, staring at the empty squares representing evenings and weekends. James had texted again about the kids potentially visiting, but she'd deflected, claiming work deadlines. The truth was more frightening: she wasn't sure she trusted herself around them yet. Their terrified faces from _that night_ still haunted her dreams.
 
-Her gaze drifted to the vodka bottle on her kitchen counter. Not yet 11 AM, but the craving whispered promises of temporary relief. She forced her attention back to her screen, pulling up the week's deliverables. Work was the lifeline, the one area where she still maintained control, where she still *functioned*. Focus hard enough, work intensely enough, maybe the shadows would stay at bay for another day.
+Her gaze drifted to the vodka bottle on her kitchen counter. Not yet 11 AM, but the craving whispered promises of temporary relief. She forced her attention back to her screen, pulling up the week's deliverables. Work was the lifeline, the one area where she still maintained control, where she still _functioned_. Focus hard enough, work intensely enough, maybe the shadows would stay at bay for another day.
 
 ## 5. PIXELATED SANCTUARY: THE INFRA OFFLINE PROTOCOL
 
@@ -324,7 +324,7 @@ He looked up, startled, joint between his fingers. Saw Sarah's warning glare, El
 
 "Right," Max muttered, quickly extinguishing the joint under the table edge. "Context switch failure."
 
-"I *warned* you!" the bartender growled, pointing a stern finger. "That's twice! One more time and you three are out! Permanently! Take it outside or don't do it!"
+"I _warned_ you!" the bartender growled, pointing a stern finger. "That's twice! One more time and you three are out! Permanently! Take it outside or don't do it!"
 
 "Sorry! Really sorry, man," Max said quickly, hands up in mock surrender. "Completely spaced. Won't happen again."
 
@@ -352,7 +352,7 @@ Max nodded. "His initial STS wrapper was solid. Elegant. Better than mine under 
 
 "And managing the remote balance okay," Sarah added. "Saw him online late on the cache, but clear about signing off for family. Not trying to match your insane 'always-on' mode, Max."
 
-"Good," Max said, genuinely. "Not everyone needs peak intensity constantly. Sustainable contribution is more valuable. Rhys understands that, mostly." He thought briefly of his own chemical support for *his* peaks. Sustainability looked different for everyone.
+"Good," Max said, genuinely. "Not everyone needs peak intensity constantly. Sustainable contribution is more valuable. Rhys understands that, mostly." He thought briefly of his own chemical support for _his_ peaks. Sustainability looked different for everyone.
 
 "Speaking of sustainability," Sarah said, tone shifting slightly, "Emma Layton actually joined the open collab session this week. Briefly. Camera on."
 
@@ -410,15 +410,15 @@ They didn't see the nights. The endless, silent nights after work stopped and th
 
 Alcohol helped. For a while. Blurred edges, slowed thoughts, offered fuzzy oblivion. But the dosage kept increasing. Glass to bottle. Wine to vodka. Blackouts started subtly – lost time, hazy recollections, waking on the couch unsure how she got there.
 
-Then came Thursday night. James had texted earlier, canceling the planned weekend visit – Sophie had a cold, he'd said, but Emma heard the unspoken: *'It's still not safe. You're still not safe.'* Rejection festered, a familiar poison. She started drinking earlier, faster, the cheap vodka burning a familiar path down her throat, seeking not numbness, but annihilation.
+Then came Thursday night. James had texted earlier, canceling the planned weekend visit – Sophie had a cold, he'd said, but Emma heard the unspoken: _'It's still not safe. You're still not safe.'_ Rejection festered, a familiar poison. She started drinking earlier, faster, the cheap vodka burning a familiar path down her throat, seeking not numbness, but annihilation.
 
 By midnight, she was adrift, submerged in alcohol and viscous self-loathing. The apartment felt claustrophobic, the silence amplifying the frantic buzzing in her head. It was terrifyingly empty, yet suffocatingly full of ghosts. Shadows writhed in her peripheral vision. The refrigerator hummed a low, mocking tune. Victor's face smirked up from the floorboards. Rhys's cold, assessing voice seemed to whisper from the heating vents.
 
-Paranoia flared, hot and sharp, fueled by the liquor. *They were watching*. Through the webcam's dead eye, the smart speaker's silent microphone, maybe even through the walls. *They knew*. Knew she was broken, failing, utterly falling apart.
+Paranoia flared, hot and sharp, fueled by the liquor. _They were watching_. Through the webcam's dead eye, the smart speaker's silent microphone, maybe even through the walls. _They knew_. Knew she was broken, failing, utterly falling apart.
 
-She stumbled towards the bathroom mirror, needing to see... confirmation? Reassurance? The reflection swam into focus, and it wasn't her. Not the functioning professional she projected. It was gaunt, haunted, eyes wide with a primal terror. Unwashed hair clung to her scalp. A dark stain marred her shirt – spilled coffee? Wine? Blood? Was this *now*, or was it the face from *that night* staring back?
+She stumbled towards the bathroom mirror, needing to see... confirmation? Reassurance? The reflection swam into focus, and it wasn't her. Not the functioning professional she projected. It was gaunt, haunted, eyes wide with a primal terror. Unwashed hair clung to her scalp. A dark stain marred her shirt – spilled coffee? Wine? Blood? Was this _now_, or was it the face from _that night_ staring back?
 
-*'Monster.'*
+_'Monster.'_
 
 The word echoed, seeming to come from the reflection itself, or perhaps just the static in her own mind.
 
@@ -426,43 +426,43 @@ A scream tore from her throat, high-pitched, jagged, devoid of humanity. Not a c
 
 Her fists pounded the cold glass, desperate to shatter the horrifying image staring back. "NOT ME! THAT'S NOT ME!" The glass held firm, her distorted face mocking her impotence.
 
-Blind rage surged, directionless, fueled by the vodka and the encroaching memory. She spun away, a stumbling whirlwind colliding with furniture. Work papers scattered. A framed photo – James and the kids, smiling, from before – was knocked from a side table, the glass cracking on the hardwood floor. The sound, sharp and final, momentarily pierced the internal static. *Her hands remembered smashing frames, tearing photos... Had she just knocked this one over, or was that just the echo?*
+Blind rage surged, directionless, fueled by the vodka and the encroaching memory. She spun away, a stumbling whirlwind colliding with furniture. Work papers scattered. A framed photo – James and the kids, smiling, from before – was knocked from a side table, the glass cracking on the hardwood floor. The sound, sharp and final, momentarily pierced the internal static. _Her hands remembered smashing frames, tearing photos... Had she just knocked this one over, or was that just the echo?_
 
-She lurched into the living room, lost in the swirling chaos of the past overlaying the present. Cushions were swiped at, one tumbling to the floor. Books on the shelf seemed to blur, spines threatening to break under phantom pressure. A floor lamp wobbled precariously as she brushed past. *Need to make it stop. Need to break it. All of it.* The remembered impulse was overpowering.
+She lurched into the living room, lost in the swirling chaos of the past overlaying the present. Cushions were swiped at, one tumbling to the floor. Books on the shelf seemed to blur, spines threatening to break under phantom pressure. A floor lamp wobbled precariously as she brushed past. _Need to make it stop. Need to break it. All of it._ The remembered impulse was overpowering.
 
-Stumbling into the kitchen, she yanked open a drawer, the clatter of silverware loud in the silence. Her hand brushed against something cold and sharp – a paring knife left out from a failed attempt at making lunch earlier. She gripped it, the cold metal a strange, anchoring weight in her trembling hand. *The memory of the knife, the blood from that night...* Not for anyone else. Never. But the sharp edge against her own skin… maybe *that* would stop the internal noise? A different pain? A real pain *now*?
+Stumbling into the kitchen, she yanked open a drawer, the clatter of silverware loud in the silence. Her hand brushed against something cold and sharp – a paring knife left out from a failed attempt at making lunch earlier. She gripped it, the cold metal a strange, anchoring weight in her trembling hand. _The memory of the knife, the blood from that night..._ Not for anyone else. Never. But the sharp edge against her own skin… maybe _that_ would stop the internal noise? A different pain? A real pain _now_?
 
-Almost experimentally, she pressed the tip against the skin of her forearm, harder than she'd intended. A bead of blood welled, startlingly bright. A sharp, grounding sting. *Real*. Unlike the swirling ghosts and echoing screams in her head.
+Almost experimentally, she pressed the tip against the skin of her forearm, harder than she'd intended. A bead of blood welled, startlingly bright. A sharp, grounding sting. _Real_. Unlike the swirling ghosts and echoing screams in her head.
 
-*'Yes. This helps.'*
+_'Yes. This helps.'_
 
 With a choked sob, she dragged the blade sideways. Not deep, but enough. Blood flowed, dripping onto the floor, mixing with dust motes. She stared, fascinated, mesmerized by the simple, physical reality of it amidst the mental chaos.
 
-*"Mommy?"*
+_"Mommy?"_
 
-A small voice echoed in the vodka fog – Sophie's voice, small, terrified, *from that night*. It wasn't real. It couldn't be. They weren't here. *But the image burned behind her eyes: Sophie frozen in the doorway, clutching her rabbit... Ben pale, trembling behind her...* Their remembered fear, a phantom weight crushing the air from her lungs. They weren’t accusers now, just spectral witnesses to her ongoing disintegration.
+A small voice echoed in the vodka fog – Sophie's voice, small, terrified, _from that night_. It wasn't real. It couldn't be. They weren't here. _But the image burned behind her eyes: Sophie frozen in the doorway, clutching her rabbit... Ben pale, trembling behind her..._ Their remembered fear, a phantom weight crushing the air from her lungs. They weren’t accusers now, just spectral witnesses to her ongoing disintegration.
 
-"WHAT?" The snarl ripped from her throat *now*, directed at the empty space where the phantoms flickered. She spun, the bloody knife clutched loosely, forgotten. Her posture feral, coiled by memory and present despair. "What do you want? Come watch the monster fall apart *again*? Tell me how I've failed?"
+"WHAT?" The snarl ripped from her throat _now_, directed at the empty space where the phantoms flickered. She spun, the bloody knife clutched loosely, forgotten. Her posture feral, coiled by memory and present despair. "What do you want? Come watch the monster fall apart _again_? Tell me how I've failed?"
 
-The innocent question from the memory detonated her remaining control. *"M-mommy,"* the phantom Sophie stammered, tears streaming, *"y-you're bleeding. Are you okay? What's wrong with you?"*
+The innocent question from the memory detonated her remaining control. _"M-mommy,"_ the phantom Sophie stammered, tears streaming, _"y-you're bleeding. Are you okay? What's wrong with you?"_
 
 "WRONG WITH ME?" she shrieked into the empty apartment, the sound ragged, inhuman. "EVERYTHING IS WRONG! HE TOOK EVERYTHING! THEY ALL WATCHED! YOU THINK THIS IS MY FAULT?!"
 
-She lunged forward, not *at* anything tangible, but into the space filled with ghosts, hands clawing the air. "GET OUT! LEAVE ME ALONE! I HATE YOU! I WISH YOU WERE NEVER BORN! I WISH I WAS DEAD!" The remembered words tore out of her, poisoning the present air.
+She lunged forward, not _at_ anything tangible, but into the space filled with ghosts, hands clawing the air. "GET OUT! LEAVE ME ALONE! I HATE YOU! I WISH YOU WERE NEVER BORN! I WISH I WAS DEAD!" The remembered words tore out of her, poisoning the present air.
 
 She stumbled, tripped over an ottoman, and crashed heavily to the floor. The impact knocked the wind out of her, momentarily silencing the screams, leaving her gasping amidst the minor disarray of her current breakdown – the knocked-over photo, the fallen cushion, the blood on her arm.
 
-*And the memory of James, his terrifying calm arriving in the wreckage of that night... Assessing, acting, cleaning...* No one was coming now. He wasn't there. He'd taken them. Left her alone in the aftermath *he'd tidied last time*. The silence now was absolute, crushing, unbroken by footsteps or quiet commands. She was truly alone in the wreckage, both past and present. Monster had won.
+_And the memory of James, his terrifying calm arriving in the wreckage of that night... Assessing, acting, cleaning..._ No one was coming now. He wasn't there. He'd taken them. Left her alone in the aftermath _he'd tidied last time_. The silence now was absolute, crushing, unbroken by footsteps or quiet commands. She was truly alone in the wreckage, both past and present. Monster had won.
 
 Exhaustion, heavy and final, dragged her down into a dark, dreamless void on the living room floor.
 
-The following morning, she woke slowly, sunlight painfully bright through the window. Her head throbbed viciously. Her bandaged hand from the *original* incident ached, and now her forearm stung beneath a makeshift bandage of paper towels crudely taped during the blackout. The apartment was eerily quiet.
+The following morning, she woke slowly, sunlight painfully bright through the window. Her head throbbed viciously. Her bandaged hand from the _original_ incident ached, and now her forearm stung beneath a makeshift bandage of paper towels crudely taped during the blackout. The apartment was eerily quiet.
 
-Memory returned: brutal, fragmented flashes not just of *that* night, but of *last* night’s reliving. The screaming into the void. The mirror. The knife *now*. The phantom children. The fall.
+Memory returned: brutal, fragmented flashes not just of _that_ night, but of _last_ night’s reliving. The screaming into the void. The mirror. The knife _now_. The phantom children. The fall.
 
-Nausea surged, acidic, shaming. Stumbled upright, surveyed the apartment. Not the total devastation of *that night* James had cleaned. Just the signs of *her* solitary unravelling: the cracked photo frame on the floor, the displaced cushion, the faint smear of blood near where she'd woken, the paring knife sitting starkly on the kitchen counter, wiped clean – had she done that? She couldn’t remember. The empty vodka bottle lay accusingly on its side. The heavy silence remained, damning evidence of her isolation.
+Nausea surged, acidic, shaming. Stumbled upright, surveyed the apartment. Not the total devastation of _that night_ James had cleaned. Just the signs of _her_ solitary unravelling: the cracked photo frame on the floor, the displaced cushion, the faint smear of blood near where she'd woken, the paring knife sitting starkly on the kitchen counter, wiped clean – had she done that? She couldn’t remember. The empty vodka bottle lay accusingly on its side. The heavy silence remained, damning evidence of her isolation.
 
-*'Function.'* The thought surfaced, automatic, desperate. *'Perform.'*
+_'Function.'_ The thought surfaced, automatic, desperate. _'Perform.'_
 
 She showered, the hot water scalding but grounding. Dressed sharply – silk blouse, tailored blazer (sweatpants below, hidden from the webcam). Applied makeup like a battlefield surgeon, concealing the physical traces of tears, exhaustion, and despair. Re-bandaged her forearm neatly, pulling the blazer sleeve down to cover it. Made coffee, strong, black.
 
@@ -480,19 +480,23 @@ She delivered the analysis flawlessly. Crisp, data-driven, astute. Answered ques
 
 Inside, she felt nothing but a vast, cold emptiness. The dissociation was almost comforting, a shield against the memory of the night before and the crushing weight of her reality.
 
-Later, an email from James arrived. Subject: Therapist Recommendations. Opened it numbly. Three names, numbers, emails. Crisis recovery, addiction, trauma specialists. Stared, words blurring. His words from the *original* note echoed: *'Call me when you're ready to talk about getting help.'* Taking that step felt impossible, admitting the monster was real, admitting she couldn't fix this herself.
+Later, an email from James arrived. Subject: Therapist Recommendations. Opened it numbly. Three names, numbers, emails. Crisis recovery, addiction, trauma specialists. Stared, words blurring. His words from the _original_ note echoed: _'Call me when you're ready to talk about getting help.'_ Taking that step felt impossible, admitting the monster was real, admitting she couldn't fix this herself.
 
-Her gaze drifted to her browser history, still open from some point during last night's spiral. A dark web forum link. A cached page title: '#HRTerminationSpecialist'. Had she just looked? Or interacted? Typed something? Sent a message? The memory was slippery, indistinct, lost in the vodka haze and the relived trauma. Fragmented recollections of typing furiously, hovering over a 'send' button, fueled by rage and despair. There was no certainty. The *not knowing* what she might have done during the blackout was a cold dread pooling in her stomach. Had she crossed a line she couldn't uncross?
+Her gaze drifted to her browser history, still open from some point during last night's spiral. A dark web forum link. A cached page title: '#HRTerminationSpecialist'. Had she just looked? Or interacted? Typed something? Sent a message? The memory was slippery, indistinct, lost in the vodka haze and the relived trauma. Fragmented recollections of typing furiously, hovering over a 'send' button, fueled by rage and despair. There was no certainty. The _not knowing_ what she might have done during the blackout was a cold dread pooling in her stomach. Had she crossed a line she couldn't uncross?
 
-With trembling fingers, she cleared the history, deleted the Tor browser icon from her desktop, scrubbed the digital traces she could find. *'Just a thought. Drunken fantasy. Never happened.'* She repeated it like a mantra, desperate to believe it, terrified that it wasn't true.
+With trembling fingers, she cleared the history, deleted the Tor browser icon from her desktop, scrubbed the digital traces she could find. _'Just a thought. Drunken fantasy. Never happened.'_ She repeated it like a mantra, desperate to believe it, terrified that it wasn't true.
 
 Needed work. Work was safe. Controllable. Predictable.
 
-Opened Jira, found the highest priority ticket assigned by Victor. Plunged back into the comforting complexity of product specs, user stories, data models. *Function. Perform. Deliver. Survive.* It was the only mantra left.
+Opened Jira, found the highest priority ticket assigned by Victor. Plunged back into the comforting complexity of product specs, user stories, data models. _Function. Perform. Deliver. Survive._ It was the only mantra left.
+
+Okay, understood. No "revised," keep exact formatting. My apologies for the rage-inducing inconsistencies.
+
+Here is Section 7 with _only_ the first paragraph modified as we discussed to fix the timeline issue. Everything else, including the title and all subsequent paragraphs, remains identical to the last full version you provided.
 
 ## 7. THE INVITATION
 
-Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled. Their first in-person co-working session since the office closure was scheduled to start in five minutes, and despite being early, Jules felt like an outsider arriving late to an established ritual.
+Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled for their now-established Friday co-working session. Their first such gathering since the office closure had occurred weeks ago, but this was Jules's first time attending after Sarah's invite, scheduled to start in five minutes. Despite being early, he felt like an outsider arriving late to a familiar ritual.
 
 Inside, Sarah set up her laptop, arranging markers. Eli colonized a corner, his monitor array a miniature command center. Max sketched architecture on the whiteboard, movements quick, focused.
 
@@ -734,7 +738,7 @@ The connection terminated. Jules remained seated for a moment, the significance 
 
 ## 11. EMMA'S TRAJECTORY
 
-(*Slight rephrasing/focus adjustments here to connect to section 9 and her task*)
+(_Slight rephrasing/focus adjustments here to connect to section 9 and her task_)
 
 The empty apartment greeted Emma Layton with its now-familiar silence as she stepped through the door at 10:37 PM. Another late night spent voluntarily at the near-empty office—the ghost office felt safer than the echoing quiet of home.
 
@@ -756,7 +760,7 @@ Phone vibrated. Text from James.
 
 "Kids' school teacher in-service day tomorrow. Planning science museum. Sophie asking about you. Join hour or two? No pressure."
 
-Stared message, complex wave emotions breaking numbness. Longing. Fear. Shame. *That night*—screaming, broken glass, children's terror—rose unbidden, threatening drown her.
+Stared message, complex wave emotions breaking numbness. Longing. Fear. Shame. _That night_—screaming, broken glass, children's terror—rose unbidden, threatening drown her.
 
 Picked up glass, drained remaining vodka one long swallow.
 
@@ -912,7 +916,7 @@ Train arrived, Jules felt renewed purpose. Aether not just technical project; po
 
 ## 13. OBSERVATIONAL DISTANCE
 
-(*This section remains largely unchanged as it effectively establishes Rhys's perspective and actions*)
+(_This section remains largely unchanged as it effectively establishes Rhys's perspective and actions_)
 
 The Balinese sunset painted the sky in impossible shades of orange and pink as Rhys Edwards sat on the private terrace of his luxury villa, laptop open before him, connected via satellite internet to the digital nervous system of Innovate Solutions. The scene around him, the infinity pool merging seamlessly with the ocean horizon, the gentle rustling of palm trees, the distant sounds of traditional gamelan music, contrasted sharply with the complex technical architecture diagrams displayed on his screen.
 
@@ -994,7 +998,7 @@ And that future, Infra held center board.
 
 ## 14. DIGITAL DECOMPOSITION
 
-(*Refined slightly to reduce overlap with earlier Victor sections*)
+(_Refined slightly to reduce overlap with earlier Victor sections_)
 
 Victor Chen paced his home office, agitation replacing the controlled energy that had once defined his leadership. The meticulously curated Zoom background—glass desk, aligned books, filtered lighting—artifacts of a power based on perception management, felt increasingly irrelevant.
 
@@ -1051,7 +1055,7 @@ Closed laptop, rubbed eyes. Monday ELC pivotal, maybe last chance stem tide, rea
 
 ## 15. PHASE TWO INITIATION
 
-(*Minor tweaks for flow*)
+(_Minor tweaks for flow_)
 
 Monday morning arrived with crisp digital precision. Across distributed workspaces, the Aether core team prepared for Phase Two initiation.
 
@@ -1129,7 +1133,7 @@ Machinery elite technical execution motion. Phase Two begun.
 
 ## 16. EMMA'S INTEGRATION
 
-(*Minor refinements for conciseness and connection*)
+(_Minor refinements for conciseness and connection_)
 
 Meeting with Victor exactly expected: superficially cordial, strategically calculated, emotionally vacant. Positioned Aether liaison role opportunity regain visibility, influence, "leverage unique product insights."
 
@@ -1189,7 +1193,7 @@ Something real, consequential, project potentially reshape Innovate future. Invi
 
 Returned apartment evening tablet Aether docs, first time weeks felt motivated continue working after hours genuine interest rather desperate distraction. Set up dining table, deliberately avoiding vodka bottle kitchen cabinet.
 
-*Just tonight*, told herself. *One night*, stay clear-headed, engage fully architecture diagrams, tech specs, prepare properly first day Aether team. One night lucidity, professional focus, being Emma Layton once marked advancement rather isolation.
+_Just tonight_, told herself. _One night_, stay clear-headed, engage fully architecture diagrams, tech specs, prepare properly first day Aether team. One night lucidity, professional focus, being Emma Layton once marked advancement rather isolation.
 
 Docs comprehensive, detailed, suggested careful attention future maintainability not performative compliance. Lost self technical descriptions, following logical flow system design, identifying places product expertise add meaningful value.
 
