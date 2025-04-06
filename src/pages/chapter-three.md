@@ -702,8 +702,6 @@ Considered Emma Layton again. Situation potential complication, also opportunity
 
 Satisfied with preparations, closed secure connections. Library quiet, old leather, impending rain. Felt familiar cold focus settle, heightened strategic awareness preceding major operational pushes. Phase Two demanding, fraught technical challenges, political resistance. But outcome predetermined. Aether succeed. Infra ascend. Rhys Edwards, architect, ensure it. Future coded, deployed, controlled from shadows, one line code, one strategic maneuver at time. Game truly begun.
 
-Okay, cheers. I understand. Here is a complete rewrite of Section 10, aiming for proper sentence structure, flow, and narrative consistency while preserving all the key plot points and Victor's perspective.
-
 ## 10. TERRITORIAL DISPUTES
 
 Victor Chen paced his meticulous home office, the relentless energy that usually fueled his ambition now manifesting purely as agitation. The sleek glass desk, the precisely arranged bookshelf serving as a calculated Zoom backdrop, the expensively filtered lighting – they were all artifacts of a world where perception management equated to influence, a world that suddenly seemed hollow and irrelevant.
