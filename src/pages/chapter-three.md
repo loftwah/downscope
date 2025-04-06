@@ -492,8 +492,6 @@ Opened Jira, found the highest priority ticket assigned by Victor. Plunged back 
 
 Okay, understood. No "revised," keep exact formatting. My apologies for the rage-inducing inconsistencies.
 
-Here is Section 7 with _only_ the first paragraph modified as we discussed to fix the timeline issue. Everything else, including the title and all subsequent paragraphs, remains identical to the last full version you provided.
-
 ## 7. THE INVITATION
 
 Jules Tucker found himself in an unfamiliar position: standing outside the glass-walled conference room at the downtown WeWork, looking in at the Infrastructure team already assembled for their now-established Friday co-working session. Their first such gathering since the office closure had occurred weeks ago, but this was Jules's first time attending after Sarah's invite, scheduled to start in five minutes. Despite being early, he felt like an outsider arriving late to a familiar ritual.
@@ -996,64 +994,7 @@ Jules smiled slightly descending subway station. Message simultaneously technica
 
 Train arrived, Jules felt renewed purpose. Aether not just technical project; potentially lifeboat Rhys described. Jules no longer watching shore; helping build it.
 
-## 14. DIGITAL DECOMPOSITION
-
-(_Refined slightly to reduce overlap with earlier Victor sections_)
-
-Victor Chen paced his home office, agitation replacing the controlled energy that had once defined his leadership. The meticulously curated Zoom background—glass desk, aligned books, filtered lighting—artifacts of a power based on perception management, felt increasingly irrelevant.
-
-The remote-first world systematically undermined Victor's influence, built on physical presence, reading rooms, hallway coalitions, subtle in-person pressure. The digital flattening neutralized these advantages.
-
-Now, Infrastructure moved decisively, Rhys Edwards playing a long game Victor hadn't recognized until too late. Aether—hackathon prototype elevated by crisis, now positioned as strategic savior—represented a fundamental power shift away from Product.
-
-His monitor displayed Monday's ELC agenda: "Aether Productization Strategy & Governance." Victor had prepared his case: Product oversight essential, technical team driving product decisions without governance risky.
-
-But Greg's message confirmed the pre-negotiated outcome:
-
-```
-Greg Whitman: Victor, re: Monday ELC Aether governance. Spoken Rhys, Mark. Given competitive urgency, considering streamlined Technical Authority model... Your concerns noted. Middle ground, Emma Layton available Product liaison embedded Aether team? Provide Product perspective without adding process overhead.
-```
-
-The trap sprung. "Compromise" already set; Victor the bureaucratic obstacle. Offering Emma particularly calculated—technically his team, effectively isolated, perfect token presence without real influence.
-
-Closed email, frustrated. Opened org chart, visualizing obscured reality: systematic migration talent, decision authority toward Infra, toward Aether.
-
-Latest: Jules Tucker, reassigned "70% Aether support" via direct Rhys-Greg arrangement, bypassing Victor. Jules's auth system the trojan horse, dependency leveraged justify reallocation.
-
-Scrolled #team-catalyst. Derek's oblivious enthusiasm:
-
-```
-Derek Miller: Team! AMAZING opportunity align Aether! Jules strategic embedded resource, ensuring Catalyst priorities integrated! TREMENDOUS synergies! #TeamworkMakesTheDreamWork #StrategicAlignment
-```
-
-Doublespeak masked reality: Jules absorbed, not loaned; Derek unwitting accomplice.
-
-Switched analytics dashboard. Remaining Catalyst productivity metrics declining without Jules fixing things. Critical production bugs rising. Connor Wright struggling replace Jules's methodical depth despite enthusiasm. Handover docs insufficient.
-
-Victor sighed. Product org unraveling, not confrontation, slow logic evolution. Remote weakened connections, created vulnerability Infra exploited.
-
-Phone buzzed: "1:1 Emma Layton" tomorrow. Considered options. If Emma designated liaison, maybe use connection regain foothold Rhys's territory?
-
-Opened Emma's metrics. Productivity exceptional. Specs, analyses, docs meticulous. But concerning patterns beneath: work timestamped all hours, communication terse, emotionless, declining collaboration. Something deeper than LinkedIn setback. Needed her functional, his only window Aether.
-
-Drafted email, careful tone:
-
-```
-To: Emma Layton
-Subject: Re: Tomorrow's 1:1 - Additional Context
-
-Emma, Prep 1:1, provide context. Greg proposed you Product liaison embedded Aether team, providing perspective allowing accelerated model. Important opportunity ensure Product voice present crucial initiative. Your knowledge workflows, landscape invaluable. Discuss assignment, support needed tomorrow. Regards, Victor
-```
-
-Sent message. Knew Emma receive late hour. Always online, responsive, constant increasingly valuable.
-
-Turned back analysis, plotted counter-moves. Direct control gone, perhaps influence via information management? Emma liaison, Connor apprentice—small footholds.
-
-Larger trend concerning. Innovate dissolving physical form, power flowing those controlling underlying systems. Infra becoming foundation itself. Center: Aether, not just AI, Infra bid dominance, system making Rhys, team indispensable.
-
-Closed laptop, rubbed eyes. Monday ELC pivotal, maybe last chance stem tide, reassert Product authority before permanently relegated supporting role. Product vision always Victor's domain. Now challenged quiet logic systems, dependencies. Battlefield shifted Infra terrain. Victor fighting not just influence, relevance.
-
-## 15. PHASE TWO INITIATION
+## 14. PHASE TWO INITIATION
 
 (_Minor tweaks for flow_)
 
@@ -1131,7 +1072,7 @@ Across distributed workspaces Aether team, similar scenes intense focus. Max dee
 
 Machinery elite technical execution motion. Phase Two begun.
 
-## 16. EMMA'S INTEGRATION
+## 15. EMMA'S INTEGRATION
 
 (_Minor refinements for conciseness and connection_)
 
@@ -1203,7 +1144,7 @@ Closed tablet, allowing moment not optimism, less despair. Perhaps assignment wa
 
 Thought carried bed, offering not promise peaceful sleep, perhaps night less haunted. Tomorrow first day something new—not redemption, not healing, possibility. Fragile, flickering possibility overwhelming darkness. For now, maybe enough function on.
 
-## 17. PHASE TWO TEMPORARY COMMAND CENTER
+## 16. PHASE TWO TEMPORARY COMMAND CENTER
 
 The downtown WeWork hummed with the focused energy of the Aether team's Friday co-working session. Two weeks into Phase Two, the project had established a relentless momentum, each component advancing according to the meticulously planned schedule. The large conference room "Eagle" had become their weekly physical command center, a deliberate counterbalance to the remote-first norm.
 
