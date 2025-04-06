@@ -584,8 +584,6 @@ Hit send, pocketed phone, caught up with Infra team by elevator. For once, Team 
 
 ## 8. OBSERVATIONAL DISTANCE
 
-(_This section remains largely unchanged as it effectively establishes Rhys's perspective and actions_)
-
 The Balinese sunset painted the sky in impossible shades of orange and pink as Rhys Edwards sat on the private terrace of his luxury villa, laptop open before him, connected via satellite internet to the digital nervous system of Innovate Solutions. The scene around him, the infinity pool merging seamlessly with the ocean horizon, the gentle rustling of palm trees, the distant sounds of traditional gamelan music, contrasted sharply with the complex technical architecture diagrams displayed on his screen.
 
 This strategic withdrawal, framed to the company as a family holiday, had provided exactly what Rhys needed: observational distance. From this vantage point, thousands of miles removed from the day-to-day tactical firefighting, the patterns became clearer, the strategic chess pieces more visible, the optimal moves more apparent.
@@ -816,8 +814,6 @@ The connection terminated. Jules remained seated for a moment, the significance 
 
 ## 12. EMMA'S TRAJECTORY
 
-(_Slight rephrasing/focus adjustments here to connect to section 9 and her task_)
-
 The empty apartment greeted Emma Layton with its now-familiar silence as she stepped through the door at 10:37 PM. Another late night spent voluntarily at the near-empty office—the ghost office felt safer than the echoing quiet of home.
 
 She set her laptop bag down, mechanically opened the refrigerator, stared at its sparse contents, closed it again. Food was fuel for operational status, nothing more.
@@ -994,8 +990,6 @@ Train arrived, Jules felt renewed purpose. Aether not just technical project; po
 
 ## 14. PHASE TWO INITIATION
 
-(_Minor tweaks for flow_)
-
 Monday morning arrived with crisp digital precision. Across distributed workspaces, the Aether core team prepared for Phase Two initiation.
 
 Jules Tucker sat at his desk, noise-canceling headphones creating focus bubble. Rose early, reviewed auth system design, refined implementation plan. Lily asleep, morning routine orchestrated maximize productive time.
@@ -1071,8 +1065,6 @@ Across distributed workspaces Aether team, similar scenes intense focus. Max dee
 Machinery elite technical execution motion. Phase Two begun.
 
 ## 15. EMMA'S INTEGRATION
-
-(_Minor refinements for conciseness and connection_)
 
 Meeting with Victor exactly expected: superficially cordial, strategically calculated, emotionally vacant. Positioned Aether liaison role opportunity regain visibility, influence, "leverage unique product insights."
 
