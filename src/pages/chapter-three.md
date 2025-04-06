@@ -816,7 +816,7 @@ The connection terminated. Jules remained seated for a moment, the significance 
 
 At 10:37 PM, Emma Layton finally pushed away from her makeshift dining room office setup. The abrupt cessation of typing amplified the now-familiar silence of the empty apartment, a silence that pressed in the moment work stopped providing its inadequate shield. The apartment—her prison, her office, her world—felt colder, emptier, now that the distraction was gone.
 
-She set her laptop bag down, mechanically opened the refrigerator, stared at its sparse contents, closed it again. Food was fuel for operational status, nothing more.
+She walked to the kitchen, mechanically opened the refrigerator, stared at its sparse contents, closed it again. Food was fuel for operational status, nothing more.
 
 The vodka bottle waited on the counter. Days measured in ounces. Poured three fingers, clear liquid catching harsh light. No ice. Efficient delivery temporary relief.
 
