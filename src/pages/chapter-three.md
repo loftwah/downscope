@@ -406,7 +406,7 @@ A legend whispered in virtual channels – "Did you see Emma's latest spec?" "Ho
 
 They didn't see the pyramid of empty wine bottles transitioning to vodka. The untouched salads replaced by coffee, crackers, 3 AM cereal binges. The tremor hidden by the perpetually off camera, the voice meticulously modulated. The dark circles concealed by robotic makeup application.
 
-They didn't see the nights. The endless, silent nights after work stopped and the static returned, whispering doubts, replaying failures. Victor's dismissive tone. Hacker News comments. Pitying glances. James's quiet departure. Lily's terrified eyes.
+They didn't see the nights. The endless, silent nights after work stopped and the static returned, whispering doubts, replaying failures. Victor's dismissive tone. Hacker News comments. Pitying glances. James's quiet departure. Sophie's terrified eyes.
 
 Alcohol helped. For a while. Blurred edges, slowed thoughts, offered fuzzy oblivion. But the dosage kept increasing. Glass to bottle. Wine to vodka. Blackouts started subtly – lost time, hazy recollections, waking on the couch unsure how she got there.
 
