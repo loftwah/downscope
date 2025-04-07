@@ -160,20 +160,44 @@ const chapters = [
       });
     }
 
-    // Unified dropdown functionality
+    // Improved dropdown functionality
     const dropdownToggle = document.getElementById('chapters-dropdown-toggle');
     const dropdownMenu = document.getElementById('chapters-dropdown-menu');
+    const dropdownContainer = document.querySelector('.chapters-dropdown');
     
-    if (dropdownToggle && dropdownMenu) {
+    if (dropdownToggle && dropdownMenu && dropdownContainer) {
       let isOpen = false;
+      let timeoutId: number | null = null;
       
+      // Show dropdown on click (for both mobile and desktop)
       dropdownToggle.addEventListener('click', (e) => {
         e.stopPropagation();
         isOpen = !isOpen;
         dropdownMenu.classList.toggle('hidden');
       });
       
-      // Close dropdown when clicking outside
+      // Desktop hover functionality
+      if (window.innerWidth >= 768) {
+        // Show on hover
+        dropdownContainer.addEventListener('mouseenter', () => {
+          if (timeoutId) {
+            clearTimeout(timeoutId);
+            timeoutId = null;
+          }
+          dropdownMenu.classList.remove('hidden');
+          isOpen = true;
+        });
+        
+        // Hide on mouseleave with delay
+        dropdownContainer.addEventListener('mouseleave', () => {
+          timeoutId = setTimeout(() => {
+            dropdownMenu.classList.add('hidden');
+            isOpen = false;
+          }, 200); // 200ms delay before hiding
+        });
+      }
+      
+      // Close dropdown when clicking outside (for both mobile and desktop)
       document.addEventListener('click', () => {
         if (isOpen) {
           dropdownMenu.classList.add('hidden');
@@ -197,10 +221,15 @@ const chapters = [
     }
   }
   
-  /* Desktop-specific dropdown styles */
-  @media (min-width: 768px) {
-    .chapters-dropdown:hover #chapters-dropdown-menu {
-      display: block;
-    }
+  /* Remove the pure CSS hover dropdown as we're handling it with JS */
+  /* Add proper pointer cursor to dropdown toggle */
+  #chapters-dropdown-toggle {
+    cursor: pointer;
+  }
+  
+  /* Add more visible hover effect */
+  .chapters-dropdown:hover #chapters-dropdown-toggle {
+    background-color: var(--accent);
+    color: var(--accent-foreground);
   }
 </style>
