@@ -5,6 +5,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Mark Weaver
 
+![Mark Weaver](../assets/images/artwork/mark-weaver.png)
+
 **Role/Title:** CEO, Innovate Solutions
 
 **Key Motivations:** Shareholder value, maintaining board confidence, company survival/growth (as perceived through market standing, now under **increased pressure**), appearing innovative (especially with AI), managing crises (**Hacker News incident, Victor's death**).
@@ -24,6 +26,8 @@ layout: ../layouts/main.astro
 ---
 
 ## DOWNSCOPE - Character Primer: Rhys Edwards
+
+![Rhys Edwards](../assets/images/artwork/rhys-edwards.png)
 
 **Role/Title:** Head of Engineering
 
@@ -45,6 +49,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Max Murphy
 
+![Max Murphy](../assets/images/artwork/max-murphy.png)
+
 **Role/Title:** Principal Engineer, Infrastructure (**Aether Core Team**)
 
 **Key Motivations:** Technical excellence, delivering results (especially for Rhys), solving complex problems, protecting his work-life setup (for Maya), maintaining high performance (**cyclically**).
@@ -64,6 +70,8 @@ layout: ../layouts/main.astro
 ---
 
 ## DOWNSCOPE - Character Primer: Jules Tucker
+
+![Jules Tucker](../assets/images/artwork/jules-tucker.png)
 
 **Role/Title:** Senior Engineer, **Aether Core Team (Formally Infrastructure)** *(Previously Team Catalyst)*
 
@@ -85,6 +93,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Sarah Kim
 
+![Sarah Kim](../assets/images/artwork/sarah-kim.png)
+
 **Role/Title:** Senior Site Reliability Engineer (SRE), Infrastructure (**Aether Core Team**)
 
 **Key Motivations:** System stability, reliability, security, operational excellence, preventing incidents, maintaining order, team cohesion, mentoring (Jesse). **Ensuring Aether's operational success and team function.**
@@ -104,6 +114,8 @@ layout: ../layouts/main.astro
 ---
 
 ## DOWNSCOPE - Character Primer: Eli Patel
+
+![Eli Patel](../assets/images/artwork/eli-patel.png)
 
 **Role/Title:** Senior Systems Engineer, Infrastructure (**Aether Core Team**)
 
@@ -125,6 +137,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Derek Miller
 
+![Derek Miller](../assets/images/artwork/derek-miller.png)
+
 **Role/Title:** Head of Product (**Title maintained, functional oversight significantly reduced**) *(Previously Team Lead, Team Catalyst)*
 
 **Key Motivations:** Visibility, recognition, perceived influence, enthusiasm for trends, positive reinforcement, **associating with success (Aether), driving his own initiatives (PEAK).**
@@ -144,6 +158,8 @@ layout: ../layouts/main.astro
 ---
 
 ## DOWNSCOPE - Character Primer: Victor Chen
+
+![Victor Chen](../assets/images/artwork/victor-chen.png)
 
 **Role/Title:** Former Head of Product
 
@@ -165,6 +181,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Emma Layton
 
+![Emma Layton](../assets/images/artwork/emma-layton.png)
+
 **Role/Title:** **Product Strategy Lead, Aether (Functionally Infrastructure)** *(Previously Product Manager, Team Nexus)*
 
 **Key Motivations:** (Evolving) Professional/personal survival -> Rebuilding trust (family) -> Seeking stability & purpose -> Contributing meaningfully (Aether) -> **Navigating complex recovery on own terms.**
@@ -185,6 +203,8 @@ layout: ../layouts/main.astro
 
 ## DOWNSCOPE - Character Primer: Jesse Chen
 
+![Jesse Chen](../assets/images/artwork/jesse-chen.png)
+
 **Role/Title:** Junior Engineer, Infrastructure (**Aether Core Team**)
 
 **Key Motivations:** Learning, contributing technically, understanding complex systems (Aether, PCD), proving competence, being part of an elite team, **sometimes pushing for newer technologies.**
@@ -204,6 +224,8 @@ layout: ../layouts/main.astro
 ---
 
 ## DOWNSCOPE - Character Primer: Connor Wright
+
+![Connor Wright](../assets/images/artwork/connor-wright.png)
 
 *(New Character - Reflecting Ch 5 & 6)*
 
