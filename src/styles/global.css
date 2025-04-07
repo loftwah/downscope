@@ -155,7 +155,13 @@
 }
 
 .prose-custom img {
-  @apply rounded-lg mx-auto shadow-md max-w-2xl my-8 w-full;
+  @apply rounded-lg mx-auto shadow-md my-8;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  max-height: 500px;
+  object-fit: contain;
+  display: block;
 }
 
 /* List styling */
@@ -354,4 +360,43 @@ button,
   min-height: 44px; /* Apple's recommended minimum touch target size */
   min-width: 44px;
   padding: 0.5rem 1rem;
+}
+
+/* Image size control classes */
+.img-sm {
+  max-width: 300px !important;
+  max-height: 300px !important;
+}
+
+.img-md {
+  max-width: 500px !important;
+  max-height: 500px !important;
+}
+
+.img-lg {
+  max-width: 800px !important;
+  max-height: 800px !important;
+}
+
+.img-full {
+  max-width: 100% !important;
+  max-height: none !important;
+}
+
+.img-center {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  display: block !important;
+}
+
+.img-left {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+  display: block !important;
+}
+
+.img-right {
+  margin-left: auto !important;
+  margin-right: 0 !important;
+  display: block !important;
 }
