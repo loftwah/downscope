@@ -60,13 +60,62 @@ export default {
             },
             code: {
               color: 'inherit',
+              backgroundColor: 'var(--muted)',
+              borderRadius: '0.375rem',
+              padding: '0.25rem 0.5rem',
+              fontWeight: '400',
+              '&::before': {
+                content: '""',
+              },
+              '&::after': {
+                content: '""',
+              },
             },
             'a code': {
               color: 'inherit',
             },
             pre: {
               color: 'inherit',
-              backgroundColor: 'var(--muted)',
+              backgroundColor: 'var(--card)',
+              borderRadius: '0.5rem',
+              border: '1px solid var(--border)',
+              padding: '1.25rem 1.5rem',
+              overflow: 'auto',
+              fontWeight: '400',
+              fontSize: '0.875rem',
+              lineHeight: '1.5',
+              marginTop: '1.5rem',
+              marginBottom: '1.5rem',
+              position: 'relative',
+              maxWidth: '100%',
+              scrollbarWidth: 'thin',
+              scrollbarColor: 'var(--border) transparent',
+              '&::-webkit-scrollbar': {
+                height: '8px',
+              },
+              '&::-webkit-scrollbar-track': {
+                background: 'transparent',
+              },
+              '&::-webkit-scrollbar-thumb': {
+                background: 'var(--border)',
+                borderRadius: '4px',
+              }
+            },
+            'pre code': {
+              backgroundColor: 'transparent',
+              borderRadius: '0',
+              padding: '0',
+              fontWeight: '400',
+              color: 'inherit',
+              fontSize: 'inherit',
+              fontFamily: 'inherit',
+              lineHeight: 'inherit',
+              '&::before': {
+                content: 'none',
+              },
+              '&::after': {
+                content: 'none',
+              },
             },
             thead: {
               color: 'inherit',

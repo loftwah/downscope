@@ -577,13 +577,13 @@ Greg Whitman remained after the others had left, his relationship with Rhys havi
 
 After concluding the conversation with Greg, Rhys switched to his private Signal channel with Max, providing a concise update on the executive dynamics:
 
-```signal
+```plaintext
 Rhys: Executive meeting concluded. Temporary deflection of PEAK integration attempt successful. Anticipate continued pressure from Derek seeking association with Aether success. Strategic response: maintain visible cooperative stance while implementing technical boundaries preventing actual workflow disruption. Continue acceleration on Phase Three core components. Full update during secure sync tomorrow 0700.
 ```
 
 Max's response came quickly:
 
-```signal
+```plaintext
 Max: Acknowledged. Already implementing technical safeguards. Repository access controls strengthened, deployment pipeline isolated from general workflow changes. Jules implementing enhanced audit controls for cross-system authentication. Team productivity maintained at optimal levels. Derek fundamentally incapable of understanding actual technical implementation, making containment straightforward. 🍺
 ```
 

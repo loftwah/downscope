@@ -400,3 +400,89 @@ button,
   margin-right: 0 !important;
   display: block !important;
 }
+
+/* Enhanced Code Block Styling */
+.prose-custom pre {
+  @apply rounded-lg my-6 overflow-x-auto border border-border shadow-sm;
+  background-color: var(--card);
+  padding: 1.25rem 1.5rem;
+}
+
+/* Style for code inside pre blocks */
+.prose-custom pre code {
+  @apply bg-transparent p-0 text-sm font-mono;
+  display: grid;
+  border-radius: 0;
+}
+
+/* Better inline code styling */
+.prose-custom :not(pre) > code {
+  @apply text-foreground bg-muted px-1.5 py-0.5 rounded-md text-sm font-mono border border-border/40;
+}
+
+/* Code block syntax highlighting improvements */
+.prose-custom code .comment,
+.prose-custom code .prolog,
+.prose-custom code .doctype,
+.prose-custom code .cdata {
+  @apply text-muted-foreground;
+}
+
+.prose-custom code .punctuation {
+  @apply text-foreground/70;
+}
+
+.prose-custom code .keyword,
+.prose-custom code .operator,
+.prose-custom code .tag {
+  @apply text-primary/90 font-medium;
+}
+
+.prose-custom code .number,
+.prose-custom code .boolean,
+.prose-custom code .selector {
+  @apply text-accent-foreground;
+}
+
+.prose-custom code .string,
+.prose-custom code .char,
+.prose-custom code .attr-value {
+  @apply text-primary/80;
+}
+
+.prose-custom code .function,
+.prose-custom code .class-name {
+  @apply text-foreground/90;
+}
+
+.prose-custom code .regex,
+.prose-custom code .important,
+.prose-custom code .variable {
+  @apply text-accent-foreground;
+}
+
+/* Dark mode specific adjustments */
+.dark .prose-custom code .keyword,
+.dark .prose-custom code .tag {
+  @apply text-primary font-medium;
+}
+
+.dark .prose-custom code .string {
+  @apply text-primary/90;
+}
+
+/* Mobile optimizations for code blocks */
+@media (max-width: 640px) {
+  .prose-custom pre {
+    @apply px-4 py-3 text-xs;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  
+  .prose-custom pre code {
+    @apply text-xs;
+    white-space: pre;
+    word-break: normal;
+    overflow-wrap: normal;
+  }
+}

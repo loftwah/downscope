@@ -465,13 +465,13 @@ The patterns weren't dramatic enough to trigger conventional management concern,
 
 He switched to the secure Signal channel with Sarah:
 
-```signal
+```plaintext
 Rhys: Emma Layton's contribution metrics remain strong, but activity patterns show subtle irregularities in recent days. Potential recovery adjustment occurring. Maintain regular observation without direct intervention unless performance impact materializes. Her Product insights remain valuable for Aether evolution, particularly as we potentially absorb her formally from Catalyst restructuring.
 ```
 
 Sarah's response came quickly:
 
-```signal
+```plaintext
 Sarah: Acknowledged. Have observed similar pattern indicators. Jules reported successful collaboration continues, no performance concerns. Will maintain appropriate monitoring without unnecessary intervention. Integration planning for formal team transition in progress per strategic consolidation timeline.
 ```
 
