@@ -118,6 +118,15 @@ const isChapterPage = pathname === '/' ||
             >
               Chapter Five
             </a>
+            <a 
+              href="/chapter-six" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/chapter-five' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter Six
+            </a>
           </div>
         </li>
         
