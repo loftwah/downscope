@@ -1,27 +1,39 @@
 ---
-import { Home, BookOpen, Map, BookText, Users, BookIcon } from 'lucide-react'; // Import desired icons
+import { Home, BookOpen, Map, BookText, Users, BookIcon, ChevronDown, Telescope } from 'lucide-react'; // Added Telescope icon
 
 // Get the current pathname for active link highlighting
 const pathname = Astro.url.pathname;
 
 // Define base and active link classes for easier management
-const linkBaseClasses = "flex items-center py-2 px-4 rounded-md text-sm font-medium transition-colors";
+const linkBaseClasses = "flex items-center py-2 px-3 rounded-md text-sm font-medium transition-colors";
 const linkInactiveClasses = "text-muted-foreground hover:bg-accent hover:text-accent-foreground";
 const linkActiveClasses = "bg-primary text-primary-foreground"; // Active link style
 
 // Helper function for aria-current
 const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
+
+// Check if the current page is a chapter page
+const isChapterPage = pathname === '/' || 
+                      pathname === '/chapter-two' || 
+                      pathname === '/chapter-three' || 
+                      pathname === '/chapter-four' || 
+                      pathname === '/chapter-five';
 ---
-<header class="py-4 bg-background border-b border-border">
+<header class="py-3 bg-background border-b border-border">
   <div class="max-w-6xl mx-auto px-4">
     <!-- Site title -->
-    <div class="mb-4 text-center">
-      <h1 class="text-3xl font-bold">Downscope</h1>
-    </div>
-    
-    <nav aria-label="Main navigation">
+    <div class="flex justify-between items-center mb-2">
+      <div class="w-10 md:w-24">
+        <!-- Empty div for layout balance -->
+      </div>
+      
+      <div class="flex items-center justify-center">
+        <Telescope className="w-6 h-6 mr-2" />
+        <h1 class="text-2xl font-bold">Downscope</h1>
+      </div>
+      
       <!-- Mobile menu button (hidden on desktop) -->
-      <div class="flex md:hidden justify-end mb-2">
+      <div class="flex md:hidden w-10">
         <button 
           id="mobile-menu-toggle"
           aria-label="Toggle navigation menu" 
@@ -39,9 +51,78 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
         </button>
       </div>
       
+      <!-- Empty div to balance layout on desktop -->
+      <div class="hidden md:block w-24"></div>
+    </div>
+    
+    <nav aria-label="Main navigation">
       <!-- Navigation links -->
-      <ul id="nav-links" class="hidden md:flex md:flex-row md:justify-center md:items-center md:space-x-2 lg:space-x-4 flex-col space-y-2 md:space-y-0">
-        <li>
+      <ul id="nav-links" class="hidden md:flex md:flex-row md:justify-center md:items-center md:space-x-1 lg:space-x-3 flex-col space-y-2 md:space-y-0">
+        <!-- Chapters dropdown for desktop -->
+        <li class="relative chapters-dropdown hidden md:block">
+          <button 
+            id="chapters-dropdown-toggle" 
+            class:list={[
+              linkBaseClasses, 
+              "inline-flex items-center",
+              isChapterPage ? linkActiveClasses : linkInactiveClasses
+            ]}
+          >
+            <BookText className="w-4 h-4 mr-2" />
+            <span>Chapters</span>
+            <ChevronDown className="w-4 h-4 ml-1" />
+          </button>
+          <div id="chapters-dropdown-menu" class="absolute left-0 mt-1 z-10 w-48 hidden bg-background rounded-md shadow-lg border border-border py-1">
+            <a 
+              href="/" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter One
+            </a>
+            <a 
+              href="/chapter-two" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/chapter-two' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter Two
+            </a>
+            <a 
+              href="/chapter-three" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/chapter-three' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter Three
+            </a>
+            <a 
+              href="/chapter-four" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/chapter-four' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter Four
+            </a>
+            <a 
+              href="/chapter-five" 
+              class:list={[
+                "block px-4 py-2 text-sm hover:bg-accent", 
+                pathname === '/chapter-five' ? "text-primary font-medium" : "text-muted-foreground"
+              ]}
+            >
+              Chapter Five
+            </a>
+          </div>
+        </li>
+        
+        <!-- Individual chapter links for mobile -->
+        <li class="md:hidden">
           <a
             href="/"
             class:list={[
@@ -54,7 +135,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
             <span>Chapter One</span>
           </a>
         </li>
-        <li>
+        <li class="md:hidden">
           <a
             href="/chapter-two"
             class:list={[
@@ -67,7 +148,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
             <span>Chapter Two</span>
           </a>
         </li>
-        <li>
+        <li class="md:hidden">
           <a
             href="/chapter-three"
             class:list={[
@@ -80,7 +161,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
             <span>Chapter Three</span>
           </a>
         </li>
-        <li>
+        <li class="md:hidden">
           <a
             href="/chapter-four"
             class:list={[
@@ -93,7 +174,7 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
             <span>Chapter Four</span>
           </a>
         </li>
-        <li>
+        <li class="md:hidden">
           <a
             href="/chapter-five"
             class:list={[
@@ -106,6 +187,8 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
             <span>Chapter Five</span>
           </a>
         </li>
+        
+        <!-- Other navigation items -->
         <li>
           <a
             href="/technical-primer"
@@ -165,6 +248,38 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
         closeIcon.classList.toggle('hidden');
       });
     }
+
+    // Chapters dropdown functionality
+    const dropdownToggle = document.getElementById('chapters-dropdown-toggle');
+    const dropdownMenu = document.getElementById('chapters-dropdown-menu');
+    
+    if (dropdownToggle && dropdownMenu) {
+      let isOpen = false;
+      
+      // Toggle dropdown when clicking the button
+      dropdownToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        isOpen = !isOpen;
+        if (isOpen) {
+          dropdownMenu.classList.remove('hidden');
+        } else {
+          dropdownMenu.classList.add('hidden');
+        }
+      });
+      
+      // Close dropdown when clicking elsewhere
+      document.addEventListener('click', () => {
+        if (isOpen) {
+          dropdownMenu.classList.add('hidden');
+          isOpen = false;
+        }
+      });
+      
+      // Prevent closing when clicking inside the dropdown menu
+      dropdownMenu.addEventListener('click', (e) => {
+        e.stopPropagation();
+      });
+    }
   });
 </script>
 
@@ -173,6 +288,16 @@ const getAriaCurrent = (href: string) => pathname === href ? 'page' : undefined;
   @media (min-width: 768px) {
     #nav-links {
       display: flex !important;
+    }
+    .chapters-dropdown {
+      display: block !important;
+    }
+  }
+  
+  /* Dropdown hover effects */
+  @media (min-width: 768px) {
+    .chapters-dropdown:hover #chapters-dropdown-menu {
+      display: block;
     }
   }
 </style>
