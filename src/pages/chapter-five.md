@@ -14,7 +14,7 @@ layout: ../layouts/main.astro
 
 ## 1. THE ASCENSION OF DEREK MILLER
 
-"Look, Connor, it's not just about whether it *works*," Derek Miller's voice boomed through the shared audio channel of the mandatory Team Catalyst 'Synergy Standup' video call, pitched perfectly to ensure maximum impact despite the digital distance. "It's about coding to the *standards* of a truly enterprise-grade solution. This implementation is, frankly, substantially below what I'd expect from a Senior Engineer on Team Catalyst."
+"Look, Connor, it's not just about whether it _works_," Derek Miller's voice boomed through the shared audio channel of the mandatory Team Catalyst 'Synergy Standup' video call, pitched perfectly to ensure maximum impact despite the digital distance. "It's about coding to the _standards_ of a truly enterprise-grade solution. This implementation is, frankly, substantially below what I'd expect from a Senior Engineer on Team Catalyst."
 
 On the grid of pixelated faces, Connor Wright sat hunched in his home office chair, the glow of his monitor reflecting off his rapidly reddening forehead as Derek dominated the call, gesturing emphatically at the pull request Connor had shared on screen. The PR in question, a modest refactoring of the billing integration service, had been open for less than four hours. Connor had completed it overnight, a response to Derek's "urgent strategic priority" email sent at 6:47 PM the previous evening.
 
@@ -26,7 +26,7 @@ Connor's fingers hovered uncertainly over his keyboard, muted indicator flashing
 
 From his own remote workspace, Jules Tucker kept his face carefully neutral, eyes fixed on his own screen despite the impossible-to-ignore confrontation dominating the team call. He'd been transitioning most of his work to the Aether team, but still maintained enough presence with Team Catalyst (primarily attending mandatory meetings while multitasking) to witness Derek's increasingly erratic management style since the official confirmation of his promotion to Head of Product.
 
-Derek's "back in the day" infrastructure expertise was a particularly ironic fabrication given Jules's inside knowledge of Project Carry Derek, the elaborate containment system designed specifically because Derek had never successfully implemented anything in infrastructure without causing catastrophic damage. The system had been decommissioned weeks ago, deemed unnecessary now that Derek's role kept him safely away from any direct technical implementation access. *Or so we thought*, Jules mused grimly.
+Derek's "back in the day" infrastructure expertise was a particularly ironic fabrication given Jules's inside knowledge of Project Carry Derek, the elaborate containment system designed specifically because Derek had never successfully implemented anything in infrastructure without causing catastrophic damage. The system had been decommissioned weeks ago, deemed unnecessary now that Derek's role kept him safely away from any direct technical implementation access. _Or so we thought_, Jules mused grimly.
 
 "Here, let me show you," Derek said, voice shifting to exaggerated helpfulness. "Stop sharing, Connor. I'll share my screen and demonstrate."
 
@@ -106,12 +106,12 @@ As Jules presented his authentication system updates, he felt the comforting cer
 
 The envelope arrived on a Thursday morning, slipped under Emma Layton's apartment door while she was in the shower. No postmark, no return address. Just her name printed in block letters on heavy cream paper, the kind used for wedding invitations or legal documents.
 
-Emma nearly missed it, her morning routine now so mechanically precise that variations in her environment often failed to register. She'd become a creature of habit, operating on autopilot: wake at precisely 6:17 AM, two minutes before her alarm; shower for exactly seven minutes; apply makeup with surgical precision; dress in one of five rotation-ready professional outfits; consume exactly one and a half cups of coffee while scanning overnight Slack messages. The envelope, lying just inside her threshold, disrupted this careful choreography. Her foot nudged it as she moved toward the kitchen, causing her to look down in momentary confusion.
+Emma nearly missed it, her morning routine now so mechanically precise that variations in her environment often failed to register. She'd become a creature of habit, operating on autopilot: wake at precisely 6:17 AM, two minutes before her alarm; shower for exactly seven minutes; apply makeup with surgical precision; dress in one of five rotation ready professional outfits; consume exactly one and a half cups of coffee while scanning overnight Slack messages. The envelope, lying just inside her threshold, disrupted this careful choreography. Her foot nudged it as she moved toward the kitchen, causing her to look down in momentary confusion.
 
 She picked it up cautiously, the heavy paper feeling oddly formal in her hands. Inside was a single sheet containing what appeared to be a delivery notification:
 
 > PACKAGE RECEIPT
-> 
+>
 > Customer: E. LAYTON
 > Reference: BTC-3A7B9C8D-#321
 > Item: AWAITING PICKUP
@@ -120,25 +120,25 @@ She picked it up cautiously, the heavy paper feeling oddly formal in her hands. 
 > Hours: 2PM-10PM
 > Notes: PERSONAL COLLECTION ONLY. BRING THIS RECEIPT.
 
-The reference number sent a cold spike of recognition through Emma's body. BTC—Bitcoin. Followed by characters from the transaction hash that had haunted her for weeks, the one representing the 2.713 BTC she'd sent during her blackout rage. This wasn't some random delivery notification. This was connected to that night, to the transaction, to the dark forums she'd visited in her drunken state.
+The reference number sent a cold spike of recognition through Emma's body. BTC: Bitcoin. Followed by characters from the transaction hash that had haunted her for weeks, the one representing the 2.713 BTC she'd sent during her blackout rage. This wasn't some random delivery notification. This was connected to that night, to the transaction, to the dark forums she'd visited in her drunken state. What desperate, forgotten impulse was _this_? It felt like an echo from a different life, one filled with blurry club nights, reckless decisions, and substances she thought she'd left far behind.
 
-Her first instinct was to burn the paper, to pretend she'd never received it. But a sick curiosity mingled with dread kept her staring at the address. Garrison Street was in a transitional neighborhood—not overtly dangerous, but certainly not the kind of area that housed legitimate businesses catering to her usual demographic. "Sunrise Imports" sounded like a transparent front operation, the kind of place with permanently papered windows and irregular hours.
+Her first instinct was to burn the paper, to pretend she'd never received it. But a sick curiosity mingled with dread kept her staring at the address. Garrison Street was in a transitional neighborhood, not overtly dangerous, but certainly not the kind of area that housed legitimate businesses catering to her usual demographic. "Sunrise Imports" sounded like a transparent front operation, the kind of place with permanently papered windows and irregular hours.
 
-Emma's hands trembled as she set the note on her kitchen counter, continuing her morning routine through sheer force of habit. Her mind raced with possibilities, each more terrifying than the last. Was this confirmation that she'd ordered a hit on Victor? Was someone expecting her to retrieve proof, or payment, or God knew what else? Or was it something simpler but still horrifying—blackmail material, perhaps, from someone who had traced the Bitcoin transaction and connected it to her?
+Emma's hands trembled as she set the note on her kitchen counter, continuing her morning routine through sheer force of habit. Her mind raced with possibilities, each more terrifying than the last. Was this confirmation that she'd ordered a hit on Victor? Was someone expecting her to retrieve proof, or payment, or God knew what else? Or was it something simpler but still horrifying, like blackmail material from someone who had traced the Bitcoin transaction and connected it to her? Or had she, in that vodka fueled haze, tried to recapture some wild escape from her past?
 
 She should ignore it. Destroy the note. Pretend it never happened. That would be the sensible course of action.
 
-Instead, she found herself entering the address into her maps app during a break between morning meetings, calculating the travel time from her apartment, studying the street view. Sunrise Imports appeared to be exactly what she'd expected—a nondescript storefront with tinted windows, sandwiched between a check-cashing place and a discount electronics repair shop. There was no website, no reviews, no digital footprint at all.
+Instead, she found herself entering the address into her maps app during a break between morning meetings, calculating the travel time from her apartment, studying the street view. Sunrise Imports appeared to be exactly what she'd expected: a nondescript storefront with tinted windows, sandwiched between a check cashing place and a discount electronics repair shop. There was no website, no reviews, no digital footprint at all.
 
-The day crawled by, Emma's attention fractured between her work responsibilities and the increasingly insistent pull of the mysterious receipt. The reference to her Bitcoin transaction was too specific to be coincidence. Someone knew what she'd done—or what she'd tried to do—and expected her to appear at this location. The rational voice in her head screamed that this was dangerous, potentially illegal, absolutely something to avoid.
+The day crawled by, Emma's attention fractured between her work responsibilities and the increasingly insistent pull of the mysterious receipt. The reference to her Bitcoin transaction was too specific to be coincidence. Someone knew what she'd done, or what she'd tried to do, and expected her to appear at this location. The rational voice in her head screamed that this was dangerous, potentially illegal, absolutely something to avoid.
 
-But a darker compulsion drove her decision-making. If this was connected to Victor's death, she *needed* to know. The unbearable weight of not knowing, of living with the possibility that she might have blood on her hands, had become a torture worse than any potential danger. At least certainty, however horrifying, would end the psychological torment of ambiguity.
+But a darker compulsion drove her decision making. If this was connected to Victor's death, she _needed_ to know. The unbearable weight of not knowing, of living with the possibility that she might have blood on her hands, had become a torture worse than any potential danger. Certainty, however horrifying, would end the psychological torment of ambiguity. Even if it confirmed a lesser, but still destructive, act from her past catching up to her.
 
-At 6:30 PM, after a day of mechanical productivity that belied her internal chaos, Emma found herself standing across the street from Sunrise Imports, the receipt clutched in her hand. The establishment looked even less reputable in person than it had in street view—metal security grates covered the windows, though lights were visible inside, and a small sign with limited hours matched those on her receipt. A few people entered and exited as she watched, most looking like locals from the neighborhood, carrying small packages or bags.
+At 6:30 PM, after a day of mechanical productivity that belied her internal chaos, Emma found herself standing across the street from Sunrise Imports, the receipt clutched in her hand. The establishment looked even less reputable in person than it had in street view. Metal security grates covered the windows, though lights were visible inside, and a small sign with limited hours matched those on her receipt. A few people entered and exited as she watched, most looking like locals from the neighborhood, carrying small packages or bags.
 
-Her heart hammered against her ribs as she finally forced herself to cross the street. This was madness. She was potentially walking into a criminal enterprise, alone, with no one knowing her whereabouts, carrying evidence of a Bitcoin transaction potentially linked to a man's death. Yet she couldn't stop herself. The need to know had become overwhelming, driving her forward despite her terror.
+Her heart hammered against her ribs as she finally forced herself to cross the street. This was madness. She was potentially walking into a criminal enterprise, alone, with no one knowing her whereabouts, carrying evidence of a Bitcoin transaction possibly linked to a man's death, or perhaps linked to a desperate, drunken attempt to recapture the oblivion of her party days. Yet she couldn't stop herself. The need to know had become overwhelming, driving her forward despite her terror.
 
-The door opened with a electronic chime that seemed jarringly ordinary. Inside, Sunrise Imports presented itself as a cramped but not entirely suspicious neighborhood shipping and receiving center. A counter ran along one wall, behind which a bored-looking young man with elaborate tattoos scrolled on his phone. Various shipping supplies lined the opposite wall, and a few plastic chairs provided a waiting area. Two other customers were present—an elderly woman collecting a package, and a teenager dropping off what appeared to be a return shipment.
+The door opened with an electronic chime that seemed jarringly ordinary. Inside, Sunrise Imports presented itself as a cramped but not entirely suspicious neighborhood shipping and receiving center. A counter ran along one wall, behind which a bored looking young man with elaborate tattoos scrolled on his phone. Various shipping supplies lined the opposite wall, and a few plastic chairs provided a waiting area. Two other customers were present: an elderly woman collecting a package, and a teenager dropping off what appeared to be a return shipment.
 
 Emma approached the counter hesitantly, her knuckles white around the receipt. The normalcy of the scene was somehow more terrifying than if she'd walked into an obvious criminal front. The mundane veneer made everything more surreal, more disorienting.
 
@@ -156,15 +156,15 @@ Every instinct screamed at Emma to run, but she found herself numbly following a
 
 "In here," the clerk said, opening the door and gesturing for her to enter.
 
-Emma stepped into what appeared to be a small office space, sparsely furnished with a metal desk and a few chairs. The room wasn't empty. Two men occupied the space—large, intimidatingly muscular individuals who couldn't have looked more like stereotypical enforcers if they'd been cast by central casting. One sat behind the desk, while the other leaned against the wall, arms crossed over his chest. Both were clearly armed, the outlines of shoulder holsters visible beneath their jackets.
+Emma stepped into what appeared to be a small office space, sparsely furnished with a metal desk and a few chairs. The room wasn't empty. Two men occupied the space, large, intimidatingly muscular individuals who couldn't have looked more like stereotypical enforcers if they'd been cast by central casting. One sat behind the desk, while the other leaned against the wall, arms crossed over his chest. Both were clearly armed, the outlines of shoulder holsters visible beneath their jackets.
 
 The door closed behind her with a soft click that sounded to Emma's ears like the sealing of a tomb.
 
-"Ms. Layton," the seated man stated rather than asked. He was older than she'd initially thought, perhaps in his fifties, with close-cropped silver hair and the kind of weathered face that suggested a life lived largely outside the law. "You're either incredibly brave or completely fucking insane, walking in here alone."
+"Ms. Layton," the seated man stated rather than asked. He was older than she'd initially thought, perhaps in his fifties, with close cropped silver hair and the kind of weathered face that suggested a life lived largely outside the law. "You're either incredibly brave or completely fucking insane, walking in here alone."
 
 Emma stood frozen, unable to formulate a response, her brain cycling through scenarios ranging from imminent death to arrest to some form of extortion.
 
-The standing man snorted. "My money's on insane. Nobody from her neighborhood walks into a place like this alone for this kind of pickup. Nobody with a brain, anyway."
+The standing man snorted. "My money's on insane. Nobody from her neighborhood walks into a place like this alone for _this_ kind of pickup. Nobody with a brain, anyway."
 
 "Please," Emma finally managed, her voice thin with fear. "I don't... I'm not sure why I'm here. The receipt reference matched a... a transaction I made, but I don't remember exactly what I ordered."
 
@@ -178,27 +178,23 @@ Emma's confusion must have shown on her face because the man's expression shifte
 
 "Wait, you really don't know what you're picking up, do you?" he asked, studying her more carefully.
 
-"I... I made a transaction while I was... not in a good state," Emma admitted, the partial truth spilling out under stress. "I wasn't thinking clearly. I don't remember exactly what..."
+"I... I made a transaction while I was... not in a good state," Emma admitted, the partial truth spilling out under stress. "I wasn't thinking clearly. I don't remember exactly what..." The words trailed off. How could she explain trying to buy oblivion, a chemical escape hatch back to a reckless past?
 
-The standing man barked out a laugh. "Holy shit, Vince. She's for real. Rich lady from uptown got wasted and ordered product, then showed up not even knowing what she bought. That's a fucking first."
+The standing man barked out a laugh. "Holy shit, Vince. She's for real. Rich lady from uptown got wasted, ordered a party pack straight out of 2010, then showed up not even knowing what she bought. That's a fucking first."
 
-Vince, apparently the seated man, continued to study Emma with calculating eyes. "Most people send someone else for pickup. Or use one of the drop services. Walking in yourself is... unusual. Especially for someone like you."
+Vince, apparently the seated man, continued to study Emma with calculating eyes. "Most people send someone else for pickup. Or use one of the drop services. Walking in yourself is... unusual. Especially for someone like you, ordering _this_ particular assortment."
 
-"Someone like me?" Emma echoed weakly.
-
-"Yeah, you know. Corporate type. Suit. Not our usual clientele for this quantity."
-
-A horrible suspicion began forming in Emma's mind. "Quantity?"
+"Assortment?" Emma echoed weakly. A horrible suspicion began forming in her mind, different from her initial fear but still deeply unsettling.
 
 Vince sighed, clearly growing impatient. "Look, we're not here to play games. You transferred the Bitcoin, we sourced the product. Standard business. But next time, maybe don't show up looking like you just walked out of a board meeting, alone, in a neighborhood you clearly don't belong in. It attracts attention, which is bad for everyone."
 
-He nodded to the standing man, who moved to a cabinet behind the desk, unlocked it with a key from his pocket, and removed a package—a small box, perhaps the size of a shoe box, wrapped in brown paper and sealed with packing tape.
+He nodded to the standing man, who moved to a cabinet behind the desk, unlocked it with a key from his pocket, and removed a package. It was a small box, perhaps the size of a shoe box, wrapped in brown paper and sealed with packing tape.
 
 "Your order," Vince said, sliding it across the desk toward her. "As specified. Quality verified."
 
-Emma stared at the package, comprehension slowly dawning. This wasn't about a hit on Victor. This was about drugs. She had, in her drunken spiral, ordered drugs—likely a substantial quantity given the Bitcoin amount and the seriousness of this interaction.
+Emma stared at the package, comprehension slowly dawning. This wasn't about a hit on Victor. This was about drugs. She had, in her drunken spiral, ordered a significant quantity of party drugs, likely the kind she hadn't touched in years: MDMA, maybe some cocaine, perhaps even meth given the Bitcoin amount and the dealers' surprise. A desperate attempt to chemically escape her reality by revisiting the hedonism of her past.
 
-The relief was so overwhelming she nearly collapsed, her knees threatening to buckle beneath her. Not murder. Not a contract killing. Just a drug purchase—illegal, yes, dangerous, certainly, but not the moral catastrophe she'd feared.
+The relief was so overwhelming she nearly collapsed, her knees threatening to buckle beneath her. Not murder. Not a contract killing. Just a massive, reckless, illegal drug purchase. A horrifying relapse into a past self, yes, dangerous, certainly, but not the moral catastrophe she'd feared.
 
 "I... thank you," she said automatically, years of professional courtesy kicking in absurdly.
 
@@ -218,39 +214,39 @@ Emma took the card automatically, slipping it into her pocket.
 
 Mikey, the standing man, gestured toward the door. "After you, Ms. Corporate."
 
-As they walked through the storage area and back toward the front of the shop, Mikey leaned closer to Emma. "Seriously though, you're a fucking baller, walking in there alone. Most people in your position send some strung-out middleman or hire protection. Vince respects that kind of nerve, even if he thinks you're crazy."
+As they walked through the storage area and back toward the front of the shop, Mikey leaned closer to Emma. "Seriously though," he said, his tone shifting to grudging respect. "Walking in here solo for _that_ kind of shopping list? Vince respects nerve like that, even if he thinks you're nuts. Most suits send some twitchy intern."
 
-Emma couldn't formulate a response, the package feeling like it was burning through her arms, the reality of what she'd done—ordering drugs online in a blackout rage—still processing through her system.
+Emma couldn't formulate a response, the package feeling like it was burning through her arms, the reality of what she'd done, ordering a cocktail of hard party drugs online in a blackout rage, still processing through her system.
 
 They reached the front of the shop, now empty except for the tattooed clerk who had returned to his phone scrolling. Mikey held the door open for her.
 
-"Hey, sis," he said as she passed, "next time just call us directly and don't bother with that internet bullshit. Nice doing business with you."
+"Later," he said simply as she passed.
 
-The door closed behind her, leaving Emma standing on the sidewalk, clutching a package of illegal drugs, the evening air shockingly cool against her flushed face. She moved quickly away from the storefront, adrenaline finally giving way to the shaking aftermath of terror.
+The door closed behind her, leaving Emma standing on the sidewalk, clutching a box likely filled with MDMA, cocaine, and possibly meth, the evening air shockingly cool against her flushed face. She moved quickly away from the storefront, adrenaline finally giving way to the shaking aftermath of terror.
 
-She had ordered drugs, not a hit. The realization kept washing over her in waves of desperate relief. Victor's death, while still a shocking coincidence, wasn't her doing. She hadn't crossed that moral Rubicon, hadn't transformed into a monster capable of arranging murder. The weight that lifted from her shoulders was so enormous she felt physically lighter, almost dizzy with the release of weeks of torturous uncertainty.
+She had ordered drugs, not a hit. The realization kept washing over her in waves of desperate relief. Victor's death, while still a shocking coincidence, wasn't her doing. She hadn't crossed that moral Rubicon, hadn't transformed into a monster capable of arranging murder. The weight that lifted from her shoulders was so enormous she felt physically lighter, almost dizzy with the release of weeks of torturous uncertainty. She was guilty of many things: professional collapse, personal deterioration, a terrifying relapse into dangerous substance abuse rooted in a past she thought buried, but not murder. Not that.
 
-The package remained a problem—a significant legal liability she now needed to dispose of safely. But compared to the specter of having ordered someone's death, it felt like a manageable crisis.
+The package remained a problem, a significant legal liability she now needed to dispose of safely. But compared to the specter of having ordered someone's death, it felt like a manageable crisis.
 
-Emma made it home in a daze of conflicting emotions—relief warring with horror at how far she'd fallen, at how close she'd come to something truly disastrous. The apartment that had felt like a prison for weeks now seemed like a sanctuary as she locked the door behind her, placing the package on her kitchen counter and staring at it in disbelief.
+Emma made it home in a daze of conflicting emotions, relief warring with horror at how far she'd fallen, at how close she'd come to something truly disastrous. The apartment that had felt like a prison for weeks now seemed like a sanctuary as she locked the door behind her, placing the package on her kitchen counter and staring at it in disbelief.
 
-She didn't open it. Didn't need to confirm exactly what she'd ordered or in what quantity. Instead, she methodically cut the package open over her toilet, emptying the contents—several sealed bags of white powder, a few containers of pills, items she refused to catalog or acknowledge—directly into the bowl. She flushed repeatedly, watching the evidence of her lowest moment disappear into the New York City sewer system, the physical manifestation of her spiral literally washing away.
+She didn't need to catalog the contents, didn't need confirmation of the specific cocktail of stimulants and empathogens she'd drunkenly ordered in a desperate bid for chemical escape. Instead, she methodically cut the package open over her toilet. Inside, several heat sealed bags confirmed her fears: crystalline shards that looked unsettlingly like methamphetamine, a significant quantity of pressed pills likely MDMA or ecstasy, and ziploc bags containing fine white powder, undoubtedly cocaine. It was a reckless assortment, a throwback to the most self destructive phases of a party life she'd fought hard to leave behind. She emptied the contents directly into the bowl, flushing repeatedly, watching the evidence of her lowest moment, the physical manifestation of her relapse and spiral, disappear into the New York City sewer system.
 
 When the package was empty, she cut up the cardboard and wrapping into small pieces, distributing them across several trash bags that she would dispose of in different locations over the next few days. The business card from Vince went into a pot on the stove, where she burned it to ash, then washed the remains down the sink.
 
-Only when all physical evidence was gone did Emma allow herself to fully feel the emotions she'd been suppressing. She sank to the floor of her bathroom, back against the cool tile wall, and began to sob—deep, wrenching cries that came from the very core of her being. They weren't entirely tears of sorrow, though there was plenty to mourn in how far she'd fallen. They were also tears of profound relief, of a terrible burden lifted, of the possibility that perhaps she wasn't irredeemable after all.
+Only when all physical evidence was gone did Emma allow herself to fully feel the emotions she'd been suppressing. She sank to the floor of her bathroom, back against the cool tile wall, and began to sob, deep, wrenching cries that came from the very core of her being. They weren't entirely tears of sorrow, though there was plenty to mourn in how far she'd fallen, how close she'd come to oblivion again. They were also tears of profound relief, of a terrible burden lifted, of the possibility that perhaps she wasn't irredeemable after all.
 
-She hadn't ordered Victor's death. His passing, while still a shock, was simply a cruel coincidence, the universe's twisted timing making it appear connected to her darkest moment when it wasn't. She was guilty of many things—professional collapse, personal deterioration, illegal drug purchases—but not murder. Not that.
+She hadn't ordered Victor's death. His passing, while still a shock, was simply a cruel coincidence, the universe's twisted timing making it appear connected to her darkest moment when it wasn't.
 
 When the tears finally subsided, Emma felt hollowed out but somehow cleaner, as though the crying had washed away some of the accumulated toxicity of the past months. She pushed herself up from the floor, moving on unsteady legs to the kitchen. There, she found the bottle of vodka that had become her constant companion, her chemical crutch through the worst period of her life.
 
-Without allowing herself to reconsider, she unscrewed the cap and poured the remaining liquor down the sink drain, watching the clear liquid disappear just as the drugs had moments before. It wasn't a magic solution—she knew recovery would be more complicated than a single dramatic gesture—but it was a start, a declaration of intent, a first step back toward the woman she used to be.
+Without allowing herself to reconsider, she unscrewed the cap and poured the remaining liquor down the sink drain, watching the clear liquid disappear just as the drugs had moments before. It wasn't a magic solution; she knew recovery would be more complicated than a single dramatic gesture, especially now acknowledging the relapse. But it was a start, a declaration of intent, a first step back toward the woman she used to be, the one who wasn't ruled by substances or despair.
 
-She picked up her phone, scrolling to James's last message asking about seeing the kids. For weeks, she'd deflected, made excuses, pushed away the family she desperately missed because she couldn't bear for them to see what she'd become. Now, with the crushing weight of possible murder lifted from her shoulders, she felt a tiny flicker of hope that perhaps reconciliation wasn't impossible.
+She picked up her phone, scrolling to James's last message asking about seeing the kids. For weeks, she'd deflected, made excuses, pushed away the family she desperately missed because she couldn't bear for them to see what she'd become. Now, with the crushing weight of possible murder lifted from her shoulders, even amidst the shame of her relapse, she felt a tiny flicker of hope that perhaps reconciliation wasn't impossible.
 
-*"Pizza this weekend sounds good,"* she typed, her fingers trembling slightly. *"I'd love to see Sophie's science project and hear Ben's guitar progress. Saturday at 1?"*
+_"Pizza this weekend sounds good,"_ she typed, her fingers trembling slightly. _"I'd love to see Sophie's science project and hear Ben's guitar progress. Saturday at 1?"_
 
-She hit send before she could lose her nerve, then set the phone down and took a deep, shaky breath. The road ahead would be difficult. She had a lot to rebuild—her family relationships, her sobriety, her professional standing. But for the first time in months, that road seemed to exist at all. Not every mistake was irreversible. Not every fall was fatal. Sometimes, the universe offered second chances in the strangest of packages.
+She hit send before she could lose her nerve, then set the phone down and took a deep, shaky breath. The road ahead would be difficult. She had a lot to rebuild: her family relationships, her sobriety (again, acknowledging the setback), her professional standing. But for the first time in months, that road seemed to exist at all. Not every mistake was irreversible. Not every fall was fatal. Sometimes, the universe offered second chances in the strangest, most terrifying of packages.
 
 ## 3. SYSTEMS WITHIN SYSTEMS
 
