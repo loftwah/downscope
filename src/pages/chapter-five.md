@@ -14,79 +14,81 @@ layout: ../layouts/main.astro
 
 ## 1. THE ASCENSION OF DEREK MILLER
 
-"Look, Connor, it's not just about whether it *works*," Derek Miller's voice carried across the open floor plan of the remaining Catalyst workspace, pitched perfectly to ensure maximum audience reach while maintaining plausible deniability about public criticism. "It's about coding to the *standards* of a truly enterprise-grade solution. This implementation is, frankly, substantially below what I'd expect from a Senior Engineer on Team Catalyst."
+"Look, Connor, it's not just about whether it *works*," Derek Miller's voice boomed through the shared audio channel of the mandatory Team Catalyst 'Synergy Standup' video call, pitched perfectly to ensure maximum impact despite the digital distance. "It's about coding to the *standards* of a truly enterprise-grade solution. This implementation is, frankly, substantially below what I'd expect from a Senior Engineer on Team Catalyst."
 
-Connor Wright sat hunched at his desk, the overhead lights reflecting off his rapidly reddening forehead as Derek loomed behind him, gesturing at the pull request displayed on his monitor. The PR in question—a modest refactoring of the billing integration service—had been open for less than four hours. Connor had completed it overnight, a response to Derek's "urgent strategic priority" email sent at 6:47 PM the previous evening.
+On the grid of pixelated faces, Connor Wright sat hunched in his home office chair, the glow of his monitor reflecting off his rapidly reddening forehead as Derek dominated the call, gesturing emphatically at the pull request Connor had shared on screen. The PR in question, a modest refactoring of the billing integration service, had been open for less than four hours. Connor had completed it overnight, a response to Derek's "urgent strategic priority" email sent at 6:47 PM the previous evening.
 
-"I mean, just look at these class structures," Derek continued, voice dripping with exaggerated disappointment. "Where's the proper abstraction layering? The separation of concerns? The extensibility patterns we discussed in the architecture sync last week?"
+"I mean, just look at these class structures," Derek continued, his virtual background (a stock photo of soaring eagles over mountain peaks) providing a jarringly majestic backdrop to his critique. His voice dripped with exaggerated disappointment. "Where's the proper abstraction layering? The separation of concerns? The extensibility patterns we discussed in the architecture sync last week?"
 
-Connor's fingers hovered uncertainly over his keyboard. "I was focusing on making the service more maintainable without changing the API contract, like you asked. I thought keeping the changes minimal would reduce regression risks since the billing system is pretty central."
+Connor's fingers hovered uncertainly over his keyboard, muted indicator flashing. "I was focusing on making the service more maintainable without changing the API contract, like you asked. I thought keeping the changes minimal would reduce regression risks since the billing system is pretty central."
 
-"Minimal?" Derek scoffed, the sound theatrical enough to draw glances from nearby desks. "Connor, minimal effort is precisely the problem I'm seeing here. When I was actively coding complex infrastructure systems back in the day," he paused, seeming to savor the fabricated memory, "I always made sure to implement robust patterns from the start. Technical debt is created in exactly these moments of, forgive me, laziness."
+"Minimal?" Derek scoffed, the sound sharp enough to make several other muted team members visibly wince on camera. "Connor, minimal effort is precisely the problem I'm seeing here. When I was actively coding complex infrastructure systems back in the day," he paused, seeming to savor the fabricated memory for the virtual audience, "I always made sure to implement robust patterns from the start. Technical debt is created in exactly these moments of, forgive me, laziness."
 
-Three desks away, Jules Tucker kept his face carefully neutral, eyes fixed on his own screen despite the impossible-to-ignore confrontation. He'd been transitioning most of his work to the Aether team, but still maintained enough presence with Team Catalyst to witness Derek's increasingly erratic management style since the official confirmation of his promotion to Head of Product.
+From his own remote workspace, Jules Tucker kept his face carefully neutral, eyes fixed on his own screen despite the impossible-to-ignore confrontation dominating the team call. He'd been transitioning most of his work to the Aether team, but still maintained enough presence with Team Catalyst (primarily attending mandatory meetings while multitasking) to witness Derek's increasingly erratic management style since the official confirmation of his promotion to Head of Product.
 
-Derek's "back in the day" infrastructure expertise was a particularly ironic fabrication given Jules's inside knowledge of Project Carry Derek—the elaborate containment system designed specifically because Derek had never successfully implemented anything in infrastructure without causing catastrophic damage. The system had been decommissioned weeks ago, deemed unnecessary now that Derek's role kept him safely away from any direct technical implementation.
+Derek's "back in the day" infrastructure expertise was a particularly ironic fabrication given Jules's inside knowledge of Project Carry Derek, the elaborate containment system designed specifically because Derek had never successfully implemented anything in infrastructure without causing catastrophic damage. The system had been decommissioned weeks ago, deemed unnecessary now that Derek's role kept him safely away from any direct technical implementation access. *Or so we thought*, Jules mused grimly.
 
-"Here, let me show you," Derek said, reaching for Connor's keyboard. "Mind if I demonstrate?"
+"Here, let me show you," Derek said, voice shifting to exaggerated helpfulness. "Stop sharing, Connor. I'll share my screen and demonstrate."
 
-Connor reluctantly yielded his seat, sliding his chair back as Derek settled in with the confident air of someone about to reveal divine wisdom. "Watch closely now, because this is how we architect scalable systems."
+Connor reluctantly relinquished screen control, his square on the video grid shrinking as Derek’s shared IDE filled the view. Derek settled back with the confident air of someone about to reveal divine wisdom via screen share. "Watch closely now, because this is how we architect scalable systems."
 
-Derek's fingers moved across the keyboard with practiced showmanship, typing rapidly if not particularly accurately. Jules found himself tensing instinctively, years of PCD-awareness making him half-expect alarms to start blaring. But of course, Derek wasn't actually accessing any critical systems—just modifying Connor's local code, safely contained within a non-production environment.
+Derek's fingers moved across the keyboard with practiced showmanship, typing rapidly if not particularly accurately into a local copy of Connor's code. Jules found himself tensing instinctively, years of PCD-awareness making him half-expect monitoring alerts to start blaring. But of course, Derek wasn't actually accessing any critical systems, just modifying local code, safely contained within his own machine, yet performing the changes live for the entire team.
 
 "See, you want to abstract the billing provider behind an interface," Derek explained, typing furiously. "Then implement the strategy pattern so we can swap providers. Then a factory to instantiate the right strategy. Then a decorator for logging. And a façade to simplify the client API. And of course a singleton to manage the connection pool."
 
-Jules watched in horrified fascination as Derek proceeded to implement what appeared to be every design pattern he'd ever heard of, simultaneously, creating a byzantine maze of unnecessary abstractions that would make the simple billing integration nearly incomprehensible. Connor's expression shifted from embarrassment to confusion to barely concealed alarm as his straightforward code transformed into a tangled nightmare.
+Jules watched in horrified fascination as Derek proceeded to implement what appeared to be every design pattern he'd ever heard of, simultaneously, creating a byzantine maze of unnecessary abstractions that would make the simple billing integration nearly incomprehensible. Connor's expression, visible in his small video tile, shifted from embarrassment to confusion to barely concealed alarm as his straightforward code transformed into a tangled nightmare on Derek's shared screen.
 
 "There!" Derek declared triumphantly after fifteen minutes of rapid typing. "That's how you architect for the enterprise. Multiple layers of abstraction, everything behind interfaces, factory patterns throughout. Now it's properly extensible and follows best practices."
 
-The code on the screen was a disaster—class hierarchies seven levels deep, circular dependencies, methods that did nothing but delegate to other methods, factories creating factories. Jules knew it would never pass a code review, would be nearly impossible to debug, and added no actual business value. But Derek beamed with pride, standing back to admire his work like an artist before a masterpiece.
+The code displayed was a disaster: class hierarchies seven levels deep, potential circular dependencies, methods that did nothing but delegate, factories creating factories. Jules knew it would likely introduce more bugs than it solved, would be nearly impossible to debug, and added no actual business value. But Derek beamed with pride, leaning back from his camera to admire his work like an artist before a masterpiece.
 
-"I'll commit this update to your branch," Derek announced. "It's a teaching moment for the whole team, really. Sometimes you have to see proper architecture to understand it."
+"I'll commit these improvements to your branch, Connor," Derek announced cheerfully. "It's a teaching moment for the whole team, really. Sometimes you have to see proper architecture to understand it."
 
-Connor managed a weak nod, clearly too junior to challenge his newly promoted manager but visibly distressed at what had happened to his code. "Thanks for the, uh, guidance."
+Connor managed a weak nod, clearly too junior to challenge his newly promoted manager but visibly distressed at what had happened to his code branch. "Thanks for the, uh, guidance, Derek."
 
-"Anytime!" Derek clapped him on the shoulder. "That's what leadership is about—sharing expertise, elevating the team. I've been around the block a few times, seen how these systems should be built. During the Aether project, for instance, I was instrumental in establishing the core authentication patterns that enabled the whole thing." He raised his voice slightly at the end, ensuring the claim carried to nearby listeners.
+"Anytime!" Derek declared. "That's what leadership is about: sharing expertise, elevating the team. I've been around the block a few times, seen how these systems should be built. During the Aether project, for instance," he raised his voice slightly, ensuring the claim carried over the audio connection, "I was instrumental in establishing the core authentication patterns that enabled the whole thing."
 
-Jules felt a familiar twist in his gut—the same one he'd experienced during the hackathon when his authentication system had been attributed to Max Murphy. But time and perspective had tempered his reaction. He knew that his contribution was now properly acknowledged within the Aether team, that his name was clearly on the design documents, and that the people who mattered recognized his work. Derek's revisionist history was merely a harmless, if annoying, attempt to associate himself with success.
+Jules felt a familiar twist in his gut, the same one he'd experienced during the hackathon when his authentication system had been attributed to Max Murphy. But time and perspective had tempered his reaction. He knew that his contribution was now properly acknowledged within the Aether team, that his name was clearly on the design documents, and that the people who mattered recognized his work. Derek's revisionist history, delivered performatively on a team call, was merely a harmless, if annoying, attempt to associate himself with success.
 
 Derek wasn't done with his performance. "Connor, I need you to pick up the pace on these refactoring tickets. When I was handling these systems, I could knock out three or four major components a day. The velocity was just different back then."
 
-"You were refactoring core billing systems yourself?" Connor asked, momentary confusion overcoming his deference.
+"You were refactoring core billing systems yourself?" Connor asked, momentary confusion overcoming his deference, his voice small over the audio feed.
 
 "Absolutely. Infrastructure, billing, authentication, you name it. Jack of all trades, master of most," Derek laughed at his own joke. "But now my focus needs to be strategic. Visionary. That's why I'm counting on you to step up, Connor. Right now, frankly, you're not where you need to be performance-wise."
 
-Jules couldn't help but glance toward Connor, recognizing the familiar signs of a junior engineer being crushed under impossible expectations and public criticism. The young man's shoulders had hunched further, his earlier embarrassment hardening into something more concerning—resignation, perhaps, or dawning despair.
+Jules couldn't help but glance toward Connor's video feed, recognizing the familiar signs of a junior engineer being crushed under impossible expectations and public criticism. The young man's shoulders had hunched further, his earlier embarrassment hardening into something more concerning, resignation perhaps, or dawning despair, visible even in the low-resolution video.
 
-"I'll try to improve," Connor mumbled.
+"I'll try to improve," Connor mumbled, his microphone barely picking up the sound.
 
-"Don't try, do!" Derek declared, slapping the desk for emphasis. "That's what Team Catalyst is about—EXECUTION, INNOVATION, DISRUPTION!" Each word was delivered with increasing volume. "I expect that refactoring complete, with proper enterprise patterns like I've shown, by EOD. Then we can discuss the user profile service. That one needs a complete architectural overhaul."
+"Don't try, do!" Derek declared, slapping his own desk for emphasis, the sound loud enough to make several people jump on the call. "That's what Team Catalyst is about: EXECUTION, INNOVATION, DISRUPTION!" Each word was delivered with increasing volume. "I expect that refactoring complete, with proper enterprise patterns like I've shown, by EOD. Then we can discuss the user profile service. That one needs a complete architectural overhaul."
 
-Derek finally moved away, satisfied with his performance, returning to his newly upgraded corner office—a space hastily repurposed after Victor's death, still bearing faint rectangles on the walls where Victor's diplomas had hung. The glass-fronted room gave Derek the visibility he craved, allowing him to survey his domain while remaining symbolically separate from the team he ostensibly led.
+Derek finally ended the call, leaving the team blinking in the sudden silence, satisfied with his virtual performance. He was likely already composing a triumphant Slack message about his "successful coaching session."
 
-Once Derek had gone, Jules found himself pushing back from his desk and walking over to Connor, who sat staring blankly at the mangled code on his screen.
+Once the call disconnected, Jules immediately opened a direct message to Connor.
 
-"Hey," Jules said quietly. "Need a hand with that?"
+`Jules Tucker: Hey Connor, got a minute? Saw the call. That was… intense.`
 
-Connor looked up, relief and embarrassment warring on his face. "Is it that obvious I have no idea how to fix this?"
+Connor's reply came back instantly.
 
-"What Derek just did to your codebase wasn't architecture, it was abstract art," Jules said, keeping his voice low. "And not the good kind. Want me to help you undo it?"
+`Connor Wright: Intense is one word for it. Still trying to figure out how to undo Derek’s "improvements" without causing a merge conflict tornado. That commit he pushed is a nightmare.`
 
-"Would you?" Connor asked, hope flickering. "I don't know how to tell him his 'improvements' won't even compile once you try to instantiate that factory chain."
+`Jules Tucker: Happy to jump on a quick screen share and help you git reset back to sanity? What Derek just did wasn't architecture, it was abstract art via copy-paste.`
 
-Jules pulled over a nearby chair. "Git reset is about to become your best friend. And for what it's worth, your original approach was correct. Minimal changes to reduce regression risk is exactly the right strategy for a critical billing system."
+`Connor Wright: Would you? Seriously? I don’t even know where to start. I don’t think his version would even compile.`
 
-As Jules helped Connor restore the codebase to its previous, functional state, he found himself reflecting on the strange new reality of Innovate Solutions. Project Carry Derek had been decommissioned, deemed unnecessary now that Derek's promotion kept him away from critically dangerous systems. Yet the unintended consequence was that Derek was now inflicting a different kind of damage—undermining the confidence and development of junior engineers like Connor, spreading architectural misinformation, and creating a toxic environment within what remained of Team Catalyst.
+`Jules Tucker: Sending a Zoom link now. And FWIW, your original approach was correct. Minimal changes, reduce regression risk – exactly right for a critical system.`
 
-The quiet irony wasn't lost on Jules. In protecting the company's technical systems, Infra had inadvertently shifted the damage to the human elements—a trade-off no one had fully anticipated when making the decision to decommission PCD. Rhys's systems thinking had correctly anticipated the elimination of immediate technical risk through structural changes, but perhaps overlooked the second-order effects on team dynamics and individual engineers caught in Derek's orbit.
+As Jules initiated the private call with Connor, guiding him through restoring the codebase to its previous, functional state, he found himself reflecting on the strange new reality of Innovate Solutions. Project Carry Derek had been decommissioned, deemed unnecessary now that Derek's promotion kept him away from critically dangerous systems access. Yet the unintended consequence was that Derek was now inflicting a different kind of damage: undermining the confidence and development of junior engineers like Connor, spreading architectural misinformation, and creating a toxic virtual environment within what remained of Team Catalyst.
 
-"Thanks for this," Connor said as they completed the restoration. "I was seriously considering updating my LinkedIn after that interaction."
+The quiet irony wasn't lost on Jules. In protecting the company's technical systems, Infra had inadvertently shifted the damage to the human elements, a trade-off no one had fully anticipated when making the decision to decommission PCD. Rhys's systems thinking had correctly anticipated the elimination of immediate technical risk through structural changes, but perhaps overlooked the second-order effects on team dynamics and individual engineers caught in Derek's virtual orbit.
+
+"Thanks for this, Jules," Connor said as they completed the restoration, relief washing over his face on the video feed. "I was seriously considering updating my LinkedIn after that team call."
 
 "Hang in there," Jules replied, genuinely concerned. "Derek's... well, he has his own unique perspective on technical matters."
 
 "That's a diplomatic way to put it," Connor said with a wry smile. "Between us, I'm not sure he's ever actually written production code. Some of the things he suggests are just..."
 
-"Physically impossible?" Jules offered.
+"Violate the laws of physics, let alone software engineering?" Jules offered.
 
 "Exactly! Last week he wanted me to implement 'quantum-resistant encryption' for our internal user preferences API. When I asked why, he said 'future-proofing' and something about Chinese hackers."
 
@@ -94,11 +96,11 @@ Jules suppressed a smile. "User preferences like theme settings and notification
 
 "The very same. Apparently they're a prime target for quantum computing attacks."
 
-Their shared moment of quiet commiseration was interrupted by a notification on Jules's laptop—a calendar alert for the Aether weekly architecture sync. He made his excuses to Connor and returned to his desk, gathering his notes for the meeting. As he prepared to join the Zoom call, he glanced toward Derek's office, where the newly minted Head of Product was gesturing animatedly during what appeared to be an executive call, wholly oblivious to the chaos he'd just created for his team.
+Their shared moment of quiet commiseration was interrupted by a notification on Jules's laptop: a calendar alert for the Aether weekly architecture sync. He made his excuses to Connor and prepared to join the next Zoom call, gathering his notes. As he waited for the Aether sync to start, he saw Derek's Slack status switch to "In a meeting 📞 - Executing Vision!" complete with a rocket emoji, wholly oblivious to the chaos he'd just created for his team.
 
-The Aether sync offered a stark contrast to the dysfunction Jules had just witnessed. Efficient, focused, technically precise contributions from each team member. Max sharing vector database metrics, Sarah outlining endpoint response time improvements, Eli presenting a new approach to data ingestion. No grandstanding, no unnecessary abstractions, no politics disguised as technical guidance. Just engineers solving real problems with clear-eyed pragmatism.
+The Aether sync offered a stark contrast to the dysfunction Jules had just witnessed. Efficient, focused, technically precise contributions from each team member joining from their respective remote locations. Max sharing vector database metrics, Sarah outlining endpoint response time improvements, Eli presenting a new approach to data ingestion. No grandstanding, no unnecessary abstractions, no politics disguised as technical guidance. Just engineers solving real problems with clear-eyed pragmatism.
 
-As Jules presented his authentication system updates, he felt the comforting certainty that he was finally in the right place, contributing to a project that mattered in an environment that valued substance over performance. The human damage Derek was causing to Team Catalyst remained concerning, but Jules's primary responsibility now lay with Aether—one of the few projects at Innovate Solutions that seemed to be navigating the chaotic corporate waters with a clear direction and purpose.
+As Jules presented his authentication system updates, he felt the comforting certainty that he was finally in the right place, contributing to a project that mattered in an environment that valued substance over performance. The human damage Derek was causing to Team Catalyst remained concerning, but Jules's primary responsibility now lay with Aether, one of the few projects at Innovate Solutions that seemed to be navigating the chaotic corporate waters with a clear direction and purpose, even in their dispersed, remote reality.
 
 ## 2. MYSTERIOUS SUMMONS
 
