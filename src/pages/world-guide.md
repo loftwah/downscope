@@ -8,9 +8,9 @@ layout: ../layouts/main.astro
 ### Core Infrastructure
 
 - AWS Bedrock as the foundation for AI capabilities
-- Primary LLM: Anthropic's Claude (with occasional Nova model experiments)
-- Secondary/fallback: AWS's proprietary models for specific workloads
-- Containerized microservices architecture running on **ECS (Elastic Container Service)** with Docker
+- Primary LLM: Anthropic's Claude (Sonnet confirmed in use)
+- Secondary/fallback: AWS's proprietary models (Haiku mentioned for simpler tasks)
+- Containerized microservices architecture running on **ECS (Elastic Container Service)** using **Fargate** with Docker
 - Lambda functions for event-driven capabilities and serverless processing
 - Private VPC configurations with stringent security groups (**Security Groups**, **Network ACLs**)
 - Terraform-based infrastructure as code for rapid deployment and state management
@@ -20,7 +20,8 @@ layout: ../layouts/main.astro
 - FastAPI for high-performance, async-focused API endpoints
 - Managed Kafka clusters for message queuing and event processing
 - PostgreSQL (RDS) with custom schema design for complex data relationships
-- Redis (ElastiCache) for caching and session management
+- **PostgreSQL with pgvector extension** confirmed for vector embeddings and semantic search (**HNSW indexing mentioned**)
+- Redis (ElastiCache) for caching (**user sessions, intermediate computation results, LRFU auth token cache**)
 - Custom authentication middleware using Jules's wrapper (**STS Ephemeral Session Broker**) for cross-system IAM credential vending
 - Elasticsearch for advanced search capabilities across disparate data sources
 
@@ -40,7 +41,9 @@ layout: ../layouts/main.astro
 - RAG (Retrieval Augmented Generation) for grounding the model in company-specific data
 - LangChain for orchestrating complex AI workflows and agent behaviors
 - MCP (Model Context Protocol) implementation for connecting Aether to internal tools
-- Vector embeddings stored in **PostgreSQL (using pgvector extension)** for semantic search *(Correction: Ch1 indicated pgvector, not MongoDB)*
+- Vector embeddings stored in **PostgreSQL (using pgvector extension)** for semantic search (Confirmed)
+- Embedding model mentioned: **Sentence Transformers `all-mpnet-base-v2`**
+- Data sources mentioned for ingestion: **Confluence, Slack history, Salesforce Knowledge, Zendesk FAQs, GitHub READMEs, core platform APIs, billing system data, product analytics.**
 - Fine-tuning pipeline for specialized tasks using company data
 - Carefully engineered prompts with system instructions and few-shot examples
 
@@ -58,248 +61,254 @@ layout: ../layouts/main.astro
 ### Official Company Channels
 
 - Slack: Primary company-wide communication
-  - Public channels: #general, #announcements, #hackathon-general
-  - Team channels: #team-catalyst, #team-nexus, #infra-ops
-  - Project channels: #aether-dev, #aether-planning *(Note: Core Aether team likely uses a private channel now, e.g., #aether-core-team)*
+  - Public channels: #general, #announcements
+  - **Former** Team channels: **#team-catalyst (now defunct/archived), #team-nexus (likely minimal activity)**, #infra-ops
+  - Project channels: **#aether-feedback (public facing), Project PEAK channels (created by Derek)**
   - Ad-hoc channels created and abandoned frequently
 - Jira: Official project management and ticketing
-  - Strictly enforced by Product teams (Victor's domain)
-  - Largely bypassed by Infra for their core work (except for performative visibility)
-  - Used performatively for visibility and credit assignment
+  - Strictly enforced by Product teams (Victor's domain, **now less central post-restructuring**)
+  - Largely bypassed by Infra for core work (except performative visibility)
+  - **Used heavily and dysfunctionally for PEAK initiative under Derek.**
 - Zoom: All synchronous meetings and presentations
   - Weekly standups, planning sessions, demos
   - Quarterly all-hands meetings
-  - Performance reviews and 1:1s
+  - Performance reviews and 1:1s (**including PIP meetings**)
 - Email: Formal communications and documentation
   - Increasingly replaced by Slack for daily interaction
-  - Still used for HR communications, legal, and external contacts
+  - Still used for HR communications, legal, external contacts, **and major company announcements (restructuring).**
 
 ### Shadow IT & Backchannels
 
 - Signal: Used exclusively for sensitive communications
-  - Rhys and Max's coordination, especially around high-intensity work periods.
-  - Strategic discussions away from corporate logging and discovery.
+  - Rhys and Max's coordination, strategic discussions.
+  - **Used by Sarah for sensitive updates to core Infra team (e.g., post-Victor death).**
   - Conversations requiring plausible deniability or operating outside official oversight.
-  - Arranged meetings outside normal working hours.
 - **Private Slack Channels:**
-  - `#project-carry-derek`: Used by Infra (and now Jules) for monitoring and coordinating containment of Derek Miller. Highly restricted.
-  - `#aether-core-team`: Used by the ring-fenced Aether development team, restricted access enforced by Infra.
+  - `#project-carry-derek`: Used by Infra (and now Jules, Jesse) for monitoring and coordinating containment of Derek Miller. Highly restricted. **Archived end of Ch 5.** _(Note: Ch 5 describes its decommissioning, so its status is 'Archived')._
+  - `#aether-core-team`: Used by the ring-fenced Aether development team, restricted access enforced by Infra. **Primary channel for Aether dev.**
 - Notion: Unofficial documentation and planning
-  - Emma's product brainstorming (previously).
-  - Derek's personal project documentation (e.g., mesh security diagrams).
-  - Team-specific knowledge bases that bypass official wikis (Confluence).
-- Personal GitHub repos: Early prototyping before official projects
-  - Max's code experiments before moving to company repos.
-  - Architecture explorations without scrutiny.
-  - Proof-of-concepts that might violate official guidelines.
-- WhatsApp/Telegram: Informal team communications
-  - Cross-team alliances and gossip.
-  - Weekend and after-hours discussions.
-  - Venting channels for frustration and rumors.
+  - Derek's personal project documentation (PEAK, mesh security diagrams).
+  - Team-specific knowledge bases bypassing official wikis.
+- Personal GitHub repos: Early prototyping before official projects.
+- WhatsApp/Telegram: Informal team communications, gossip, venting.
+- **Dark Web Forums / Tor Browser:** Used briefly by Emma during crisis (Ch 4), accessing illicit marketplaces/services. **Significant source of internal conflict/ambiguity for her until resolution in Ch 5.**
+- **Encrypted Bitcoin Wallet (Electrum mentioned):** Used by Emma for dark web transaction (Ch 4).
 
 ## Corporate Structures & Power Dynamics
 
 ### Official Hierarchy
 
-- Mark (CEO) → Greg (CTO) → Rhys (Head of Engineering) → Max (Principal Infra), Sarah (Senior SRE), Eli (Senior Systems Engineer)
-- Mark (CEO) → Victor (Head of Product) → Emma (PM) / Derek (Team Lead) → Jules (Senior Engineer), Connor (Engineer)
-- Department siloes with limited cross-functional integration (increasingly bypassed by Infra's direct mandate for Aether).
-- Quarterly OKRs that shift frequently based on market panic and executive whims.
+- Mark (CEO) → Greg (CTO) → Rhys (Head of Engineering) → Max (Principal Infra), Sarah (Senior SRE), Eli (Senior Systems Engineer), **Jules (Senior Engineer)**, Jesse (Junior Engineer)
+- Mark (CEO) → **Derek (Head of Product - title only)** → **Emma (Product Strategy Lead, Aether - dotted line)**
+- **Team Catalyst and Team Nexus effectively dissolved/absorbed by restructuring (Ch 6).**
+- Department siloes **significantly weakened by restructuring**, with Infra absorbing key technical functions related to Aether.
+- Quarterly OKRs likely still exist but heavily influenced by Aether's perceived success and strategic importance.
 
 ### Shadow Hierarchy & Team Dynamics
 
-- Rhys operates with near-autonomy on Aether, leveraging Greg's technical deference and Mark's direct mandate. Uses information control and strategic alliances.
-- Max functions as Rhys's primary technical execution lead, capable of extreme output but operating within Rhys's strategic framework. His influence extends through technical mastery.
-- Derek navigates political currents, seeking visibility and attaching himself to perceived power centers (like Aether, despite being contained by PCD). His official authority is often undermined or managed by shadow systems.
-- Jules is **transitioning** from functionally invisible critical contributor to a recognized technical asset within Infrastructure, gaining visibility through his essential auth system and handling of PCD knowledge. His influence is growing based on competence and discretion.
-- Amir (Team Nexus) maintains influence through historical knowledge and quiet competence, acting as a potential voice of reason or dissent if engaged.
-- **Infrastructure Team Culture:** Operates distinctly from other teams. Values deep work, sustained concentration ("quiet room" mentality). Employs a cyclical operating model: periods of intense, high-pressure delivery sprints followed by protected periods of consolidation, technical debt reduction, and recovery. Prioritizes technical excellence and operational stability above visible feature churn. Utilizes internal tools and shadow systems (like PCD) extensively.
+- Rhys operates with **near-total autonomy** on Aether, leveraging Greg's deference and Mark's direct mandate. Uses information control and strategic alliances masterfully. **Power consolidated.**
+- Max remains Rhys's primary technical execution lead, operating within Rhys's strategic framework. Influence through technical mastery.
+- Derek retains HoP title but has **lost direct technical oversight** and functional authority post-restructuring. His influence is largely performative, managed via Rhys/Greg. Still contained by PCD (until its decommissioning end Ch 5).
+- Jules has **successfully transitioned** into Infrastructure/Aether core team, recognized for competence and discretion. Influence growing within technical sphere.
+- **Emma** has been **functionally integrated** into the Aether team, providing critical product insight under Infra's direction, reporting dotted-line to Derek. Her influence tied to Aether's success.
+- **Infrastructure Team Culture:** Operates distinctly. Values deep work, sustained concentration. Employs cyclical operating model (sprint/recovery). Prioritizes technical excellence and operational stability. **Utilizes WeWork for weekly synchronous collaboration.** Extensive use of internal tools/shadow systems (PCD decommissioned end Ch 5). **Strong internal cohesion and rituals (Pixel Pioneers).**
 
 ### Information Flow
 
-- Official updates flow through formal channels but often lack substantive technical or strategic truth.
-- Real decisions and coordination, especially for critical projects like Aether and PCD, happen in private channels (Signal, restricted Slack), DMs, and off-record meetings.
-- Technical truth resides in code, configuration (Terraform state), monitoring dashboards (Grafana, CloudWatch), and internal design docs, while narrative fiction often dominates meetings and executive updates.
-- Credit flows upward or is strategically assigned (e.g., Rhys crediting Max); blame flows downward or is deflected.
-- Visibility (performative or genuine) remains crucial for advancement outside of purely technical meritocracies like Infra (where competence is table stakes).
+- Official updates often lack substantive truth (**especially regarding restructuring, Aether control**).
+- Real decisions/coordination for Aether/Infra happen in private channels (Signal, `#aether-core-team`).
+- Technical truth in code, config, dashboards; **narrative fiction dominates executive updates and broader comms (PEAK, Aether marketing).**
+- Credit assigned strategically by Rhys; blame deflected or absorbed lower down (Connor).
+- Visibility remains crucial outside Infra; within Infra, competence and delivery are paramount.
 
 ## Tech Industry Context (2025)
 
 ### Market Conditions
 
 - Post-AI bubble correction period: Increased scrutiny on AI project ROI.
-- VC funding drought after earlier overinvestment: Pressure on companies to achieve profitability or secure stable revenue.
-- Immense pressure to demonstrate AI-driven value to investors and the market.
-- Competitors rapidly mimicking successful features (e.g., Dataprime vs. Innovate).
-- Industry-wide layoffs disguised as "strategic realignments" or "efficiency gains." **Looming threat of further restructuring hangs over companies like Innovate, driving internal competition and project justification.**
+- VC funding drought: Pressure for profitability/stable revenue.
+- Immense pressure to demonstrate AI value.
+- Competitors rapidly mimicking features (Dataprime confirmed threat).
+- Industry-wide layoffs disguised as "strategic realignments." **Looming threat confirmed driver for Rhys's strategy and Mark's decisions.**
 
 ### Technology Trends
 
-- AI has moved from novelty to expected infrastructure: RAG, fine-tuning, and agentic workflows are becoming standard.
-- RAG (Retrieval Augmented Generation) and protocols like MCP (Model Context Protocol) are becoming common patterns for enterprise AI grounding and tool integration.
-- Cloud cost optimization is a critical engineering concern, rivaling feature development velocity.
-- Privacy regulations (like GDPR, CCPA derivatives) create significant compliance burdens and influence system design.
-- Open-source LLMs and tools offer powerful alternatives, increasing pressure on commercial model providers and platform vendors.
+- AI is expected infrastructure: RAG, fine-tuning, agentic workflows standard.
+- RAG and protocols like MCP common for enterprise AI.
+- Cloud cost optimization is critical.
+- Privacy regulations create significant compliance burdens.
+- Open-source LLMs offer alternatives.
 
 ### Work Culture
 
-- Remote-first or hybrid models are standard, with reliance on digital collaboration tools. Occasional mandated "collaboration days" may occur.
-- Performance metrics increasingly automated and analyzed, sometimes using AI tooling, leading to anxiety.
-- "Doing more with less" is the universal management mantra amidst economic pressures.
-- Career advancement tied heavily to visibility, strategic alignment, and navigating internal politics, often more than pure technical capability (outside specific technical tracks).
-- Digital presence (Slack activity, meeting participation, documentation) significantly shapes perception of contribution.
+- **Remote-first policy formally implemented at Innovate Solutions (Ch 3).** Reliance on digital tools. **Infra uses weekly WeWork sessions for synchronous collaboration.**
+- Performance metrics potentially automated/analyzed.
+- "Doing more with less" mantra prevails.
+- Career advancement tied heavily to visibility, strategic alignment, politics (outside Infra). **Restructuring demonstrates ruthless focus on perceived value.**
+- Digital presence shapes perception. **Isolation is a significant risk of remote model (Emma's experience).**
 
 ## Key Technical Concepts in Story
 
 ### Aether's Core Functionality
 
-Aether integrates with company systems (Salesforce, Zendesk, Jira, Billing, Analytics, Slack, etc.) via its Model Context Protocol (MCP) to provide contextual intelligence across data silos. It can:
+Aether integrates with company systems via MCP to provide contextual intelligence. It can:
 
-- Analyze diverse interaction patterns (support tickets, sales activity, product usage, billing status) to predict customer retention risk.
-- Generate personalized communication strategies and recommended actions grounded in historical interactions and current status.
-- Identify cross-selling or upselling opportunities based on usage patterns and stated needs invisible to siloed human analysts.
-- Automate routine support responses or internal escalations with customer-specific context pulled via RAG.
-- Continuously learn from new data ingestion to refine its models and recommendations.
+- Predict customer retention risk (**demonstrated tangible $1.7M ARR save - Ch 5**).
+- Generate personalized communication strategies/actions.
+- Identify cross-sell/upsell opportunities.
+- Automate/enhance support responses (**ticket routing efficiency up 28% - Ch 5**).
+- Provide actionable competitive intelligence (**Ch 5**).
+- Continuously learn from new data.
 
 ### Jules's Critical Contribution (STS Ephemeral Session Broker)
 
-The Python authentication wrapper Jules created solves a fundamental security challenge for cross-system data access (especially for Aether):
+The Python authentication wrapper Jules created:
 
-- Provides secure, temporary (**e.g., 15-minute TTL**), audited access across AWS service boundaries and accounts.
-- Implements just-in-time privilege assumption using AWS STS (`GetSessionToken`, `AssumeRole`) combined with dynamically generated, narrowly scoped inline IAM policies.
-- Creates fine-grained permission scopes, adhering to least privilege principles for each specific data access request.
-- Maintains comprehensive, attributable audit logs in CloudTrail using `SourceIdentity` for tracing actions back to the originating service/request.
-- Allows services like Aether's RAG pipeline to query sensitive production data sources (RDS, S3, internal APIs via API Gateway) without needing insecure, long-lived, broadly scoped credentials.
-- **Enhancement (Phase 2):** Incorporating token caching to improve latency for high-frequency requests while maintaining auditability.
+- Provides secure, temporary (~15-min TTL), audited access across AWS services/accounts.
+- Uses STS `GetSessionToken` + `AssumeRole` with dynamic inline IAM policies.
+- Enforces least privilege for each request.
+- Maintains comprehensive CloudTrail logs via `SourceIdentity`.
+- Allows Aether to query production data sources securely.
+- **Enhancement (Phase 2 - Ch 5):** Implemented token caching (**LRFU cache mentioned**) reducing latency by **~68%**, with proactive invalidation mechanism (**two-phase commit planned**).
 
 ### Project Carry Derek (PCD)
 
-A highly sophisticated, undocumented internal system developed and maintained by the Infrastructure team to manage the risks associated with Derek Miller's technical activities.
+A highly sophisticated, undocumented internal system developed and maintained by Infra to manage Derek Miller's technical risks.
 
-- **Function:** Monitors, intercepts, and simulates interactions between Derek and critical company systems (AWS console/CLI/API, GitHub, internal tools).
-- **Mechanism:** Employs a custom proxy layer, dynamic sandbox environments mimicking production, and simulated API/command responses. Logs all intercepted actions and averted incidents.
-- **Purpose:** Allows Derek to pursue technical interests and maintain his perceived contribution/confidence without causing actual damage to production infrastructure. Also used to subtly capture potentially good ideas initiated by Derek. Balances political necessity with operational stability.
-- **Access:** Knowledge and operational control strictly limited to core Infrastructure team members (Rhys, Max, Sarah, Eli) and recently, Jules Tucker and Jesse Chen. Maintained via private Slack channel (`#project-carry-derek`) and custom dashboards.
-- **Ethical Complexity:** Operates based on a "benevolent containment" philosophy, ethically complex but deemed necessary by Infra leadership.
+- **Function:** Monitored, intercepted, simulated Derek's interactions with critical systems.
+- **Mechanism:** Used custom proxy layer, dynamic sandboxes, simulated responses. Logged averted incidents.
+- **Purpose:** Allowed Derek perceived contribution without causing damage. Balanced politics/stability.
+- **Access:** Knowledge limited to core Infra (Rhys, Max, Sarah, Eli) and later Jules, Jesse.
+- **Ethical Complexity:** Operated on "benevolent containment" philosophy.
+- **Status:** **Successfully DECOMMISSIONED end of Chapter 5** after Derek's promotion structurally removed the primary risk vector. Archived logs retained.
 
 ### Max's Technical Domain
 
-Max's expertise spans multiple critical areas enabling projects like Aether and PCD:
+Max's expertise spans critical areas for Aether and PCD:
 
-- Cloud infrastructure orchestration (AWS services like ECS, Lambda, RDS, Kafka; Terraform IaC; Kubernetes fundamentals).
-- AI model deployment (Bedrock, LLM integrations) and optimization (RAG pipelines, prompt engineering).
-- High-performance distributed systems design (microservices, event-driven architectures using Kafka, caching with Redis).
-- Security architecture and implementation (IAM, network security, credential management, secure coding practices).
-- Real-time monitoring, alerting, and observability systems (Grafana, CloudWatch, distributed tracing).
+- Cloud infrastructure orchestration (AWS ECS/Fargate, Lambda, RDS, Kafka; Terraform; Kubernetes).
+- AI model deployment (Bedrock, Claude) and optimization (RAG pipelines, prompt engineering).
+- High-performance distributed systems design (microservices, Kafka, Redis).
+- Security architecture and implementation.
+- Real-time monitoring, alerting, and observability systems.
 
 ### Rhys's Strategic Vision for Aether
 
-Beyond the initial implementation, Rhys sees Aether evolving into:
+Rhys sees Aether evolving into:
 
-- An autonomous operational intelligence platform capable of executing automated actions (triggering workflows, adjusting configurations) based on its insights, not just recommending them.
-- A system potentially replacing or significantly augmenting roles in customer support, account management, and even some areas of product management by providing superior, data-driven insights and automation.
-- A core competitive advantage and efficiency driver, placing the Infrastructure organization at the strategic center of the company's future operations and value proposition.
-- A powerful demonstration of his technical and strategic leadership, positioning him for executive advancement (CTO or beyond) within Innovate or elsewhere.
-- **A "lifeboat"**: A project proving indispensable value, thus securing the future and relevance of the Infrastructure team amidst potential company-wide restructuring and layoffs.
+- An autonomous operational intelligence platform executing automated actions.
+- A system potentially replacing/augmenting roles (support, AM, PM).
+- A core competitive advantage, placing Infra at the strategic center.
+- A powerful demonstration of his leadership, positioning him for advancement.
+- **A "lifeboat"**: Proven indispensable value securing Infra's future amidst restructuring.
 
 ## Character-Technology Relationships
 
 ### Max & Stimulants
 
-- Uses dexamphetamine (Adderall/dexedrine) methodically to achieve and sustain peak cognitive focus and coding velocity during high-intensity delivery periods defined by Rhys (e.g., hackathon, Aether Phase Two sprint).
-- Dosing is precise and calculated (e.g., 15-30mg sessions), using pharmacy-grade pills, tracked carefully against project needs and managed alongside cannabis use (indica strains) to mitigate side effects (anxiety, comedown).
-- **Cyclical Use:** Consumption is strategically timed for critical sprints, not constant. Followed by periods of non-use ("recovery mode") aligned with Infra's operational rhythm.
-- Stimulant use enables the extraordinary productivity Rhys leverages during crunch times but is acknowledged (at least implicitly by Rhys) as carrying personal risk. Max views it as a necessary tool to meet demands and protect his situation (e.g., caring for Maya).
+- Uses dexamphetamine methodically for peak cognitive focus during **defined high-intensity sprints** (hackathon, Aether Phase Two).
+- Dosing is precise, calculated, managed alongside cannabis use to mitigate side effects.
+- **Cyclical Use:** Aligned with Infra's sprint/recovery operational rhythm. Not constant.
+- Enables extraordinary productivity Rhys leverages; viewed by Max as necessary tool.
 
 ### Jules & Visibility
 
-- **Transitioning Role:** Initially created elegant, critical technical solutions (STS wrapper) with minimal acknowledgment, often overshadowed by performative colleagues (Derek) or strategic maneuvering (Rhys/Max). His work was essential "plumbing."
-- **Emerging Recognition:** Following his crucial contribution to Aether and discovery of PCD, his technical skill and discretion are being recognized, primarily *within* the Infrastructure team (Max's apology, co-authorship; Rhys's reassessment and invitation).
-- **Ongoing Challenge:** While gaining traction within Infra, he still lacks broader organizational visibility and the political savvy to translate his technical contributions into widespread recognition or influence outside that sphere. He is being invited into a more significant role, but his ability to navigate the dual demands (Infra intensity vs. Catalyst/family boundaries) is being tested.
+- **Transition Complete:** Fully moved from invisible contributor to recognized technical asset within Infrastructure. Invitation to core team, auth system ownership, PCD knowledge confirm this shift.
+- **Recognition Achieved (within Infra):** Acknowledged by Max, Rhys, Sarah for STS wrapper and discretion. Co-authorship, direct reporting line solidify standing.
+- **Navigating Demands:** Successfully asserting ability to meet Infra's intensity within his boundaries. Mentoring Connor shows growing confidence/influence.
 
 ### Rhys & Control Systems
 
-- Uses technology as instruments of both creation (Aether) and control (PCD, communication segmentation, monitoring).
-- Manipulates logging systems, metrics, and narratives (e.g., crediting Max for Jules's work initially) to support strategic objectives and manage perception.
-- Segments communication across platforms (Signal vs. Slack vs. Email) based on sensitivity, traceability, and plausible deniability needs.
-- Applies security controls and access permissions strategically to maintain information advantages and operational control (e.g., shielding Aether from Product).
-- Creates technical dependencies (like Aether) designed to ensure his team's continued relevance and power.
-- Builds or utilizes "backdoors" and shadow systems (PCD, private monitoring) for strategic awareness and intervention capabilities. Knows about and implicitly leverages Max's stimulant use for project velocity.
+- Uses technology as instruments of creation (Aether) and control (PCD - now decommissioned, communication segmentation, monitoring).
+- Manipulates narratives (crediting Max) and leverages information (monitoring) for strategic advantage.
+- Segments communication across platforms strategically.
+- Applies security/access controls to maintain information advantages (shielding Aether).
+- Creates technical dependencies (Aether) to ensure team relevance/power.
+- Builds/utilizes shadow systems (PCD - historical, private monitoring - ongoing). Implicitly leveraged Max's stimulant use.
 
 ### Derek & Perception Management
 
-- Masters the tools of visibility (Jira, Slack, Zoom, Notion diagrams) rather than demonstrating deep technical proficiency. His technical "contributions" are often simulated or contained by PCD.
-- Curates metrics and narratives to portray team output and his own activities positively, often misunderstanding or misrepresenting the underlying technical reality.
-- Positions himself at key moments (demos, meetings) to associate himself with successful initiatives, seeking reflected glory.
-- Uses technical jargon confidently but often incorrectly or out of context.
-- Captures perceived credit through enthusiastic communication, meeting participation, and prolific (if shallow) documentation.
-- Relies on his official role (Team Lead) and performative engagement rather than technical knowledge to maintain influence. Unaware he is being actively managed by PCD.
+- Masters tools of visibility (Jira under PEAK, Slack, Zoom, Notion, PowerPoint). Technical "contributions" were simulated/contained by PCD (until Ch 5 end).
+- Curates narratives positively, misrepresenting technical reality (PEAK success).
+- Positions himself to associate with success (Aether).
+- Uses technical jargon confidently but incorrectly.
+- Captures perceived credit through communication/documentation.
+- Relies on title/performative engagement. Unaware of PCD history. **Functionally sidelined post-restructuring.**
 
-### Emma & Fallout
+### Emma & Recovery/Technology
 
-- **Trajectory:** Post-hackathon, Emma's initial optimism and enthusiasm (a defining trait) have been extinguished by the political fallout from her LinkedIn post and Victor Chen's harsh reprimand.
-- **Current State:** Masks internal decline (anxiety, potential burnout, loss of confidence) with professional competence (meeting deadlines, thorough work). Her interactions can be brittle, forced, or withdrawn.
-- **Visibility:** Observed by Rhys as a resource risk due to unsustainable trajectory. Observed by Jules with concern, highlighting the differential impact of corporate politics. Represents the collateral damage of internal power struggles and communication missteps.
+- **Trajectory:** Post-crisis (Ch 4/5), actively pursuing recovery (therapy, family reconnection). Found professional stability in Aether role (Ch 6). **Recalibrated relationship with alcohol, moving away from strict abstinence towards managed control (Ch 6).**
+- **Current State:** Functioning effectively professionally, highly valued by Infra. Masking internal state less, engaging more tentatively. Still fragile but trajectory positive.
+- **Visibility:** Observed by Rhys/Sarah as valuable but requiring monitoring. Supported subtly by Jules.
+- **Tech Relationship:** Using Aether work as positive focus. Relationship with personal tech (phone, past use of dark web/crypto) remains linked to trauma but less actively haunting post-resolution of Victor ambiguity.
 
 ## AI in the Workplace (2025)
 
 ### Daily AI Integration
 
-- ChatGPT/Claude used routinely for drafting emails, Slack messages, documentation, code comments.
-- GitHub Copilot (or similar AI code assistants) are standard tools for developers, impacting coding styles and speed.
-- AI meeting summaries and action item extraction common for Zoom calls, sometimes reducing need for detailed manual notes.
-- Automated performance analytics potentially based on system interaction patterns (commits, tickets, Slack activity) might be used or piloted by management/HR.
-- AI-suggested learning paths or skill gap analysis may appear in performance review platforms.
+- ChatGPT/Claude used routinely for drafting comms, docs, code comments.
+- GitHub Copilot standard for developers.
+- AI meeting summaries common.
+- Automated performance analytics potentially used by HR/management.
+- AI-suggested learning paths in performance platforms.
 
 ### The Human-AI Boundary
 
-- Increasing anxiety about which roles are genuinely "AI-proof," especially in support, marketing, and potentially project management.
-- Gradual shift from "AI will help humans" to "humans are needed to supervise/correct/prompt AI" in certain workflows.
-- Emergence of specialized roles like "AI Prompt Engineer," "LLM Operations," or "AI Ethics Officer" (though potentially under-resourced).
-- Growing divide between employees skilled at leveraging AI tools effectively and those who struggle or resist.
-- Ethical questions about disclosure of AI-generated work, data privacy in fine-tuning, and algorithmic bias are present but often deprioritized under delivery pressure.
+- Anxiety about AI replacing roles persists.
+- Shift towards humans supervising/prompting AI.
+- Specialized AI roles emerging.
+- Divide between skilled AI users and others.
+- Ethical questions present but often deprioritized. **Aether represents a powerful internal AI potentially augmenting/replacing human analysis.**
 
 ### Anthropic's Claude in the Company
 
-- Enterprise license enables widespread, tracked usage across departments. Key component of Aether.
-- Specialized Claude instances likely fine-tuned on internal documentation (Confluence, Jira, code repos) for company-specific tasks (support, analysis within Aether).
-- Over-reliance on Claude for communication drafting can lead to homogenized corporate-speak and potential loss of individual voice/nuance.
-- Internal jokes ("Sounds like Claude wrote it," "Claude-ification") likely exist around detecting AI-generated text.
-- Growing dependency creates risks if documentation used for fine-tuning is outdated or inaccurate, or if Claude access is disrupted.
+- Enterprise license enables widespread use. **Core LLM for Aether (Sonnet mentioned).**
+- Specialized Claude instances likely fine-tuned on internal data for Aether.
+- Over-reliance can lead to homogenized corporate-speak.
+- Internal jokes likely exist.
+- Dependency creates risks (data accuracy, access disruption).
 
 ## Environmental Details
 
 ### Remote Work Environments
 
-- Jules: Cluttered home office functioning also as living space overflow, kid's drawings visible, family photos, standard-issue equipment perhaps slightly dated. Represents work/life integration challenge.
-- Max: Minimalist, hyper-organized, ergonomic setup optimized for intense focus. Multiple high-end curved monitors, specialized peripherals, visible high-performance hardware (cooling fans). Order imposed on chaos. Framed photo of Maya prominent.
-- Rhys: Likely maintains two distinct physical workspaces reflecting compartmentalization: a sterile, professional, secure setup for Innovate work (either remote or office corner); and potentially a separate, more comfortable space within his home for personal/family matters.
-- Emma: Previously plant-filled, creatively chaotic space (post-its, inspiration boards). Post-hackathon, might appear overly tidy or neglected, reflecting internal state.
-- Derek: Carefully curated background for video calls signaling success and ambition (diplomas, potentially fake awards, company swag). Physical desk likely chaotic (Post-its, old coffee cups, tech stickers), reflecting his mental state.
+- **Innovate is formally remote-first (Ch 3).** Physical office closed/vacated.
+- Jules: Cluttered home office, visible signs of family life. Represents work/life integration.
+- Max: Minimalist, hyper-organized, high-spec ergonomic setup. Framed photo of Maya. Represents imposed order/focus.
+- Rhys: Maintains distinct, controlled workspaces (professional - WeWork/London club library; personal - home office). Represents compartmentalization.
+- Emma: Apartment evolving from prison/neglected space towards reclaimed sanctuary (Ch 5/6). Reflects recovery state.
+- Derek: Curated video background vs. likely chaotic physical desk. Represents perception management.
+- **Infrastructure Team:** Utilizes **WeWork conference room ("Eagle") weekly** for synchronous collaboration (Ch 3, 5, 6).
 
 ### Digital Tells
 
-- Distinct notification sounds differentiating platforms (Slack vs. Signal vs. Email).
-- Appearance/disappearance of calendar invites revealing behind-the-scenes maneuvering.
-- Late night/early morning commit timestamps or Slack activity indicators revealing work patterns (Max's intensity, Rhys's early starts, potential burnout).
-- Status indicators (Active/Away) used strategically or revealing true availability.
-- Meeting recordings starting late or ending abruptly, potentially omitting sensitive discussions.
-- The specific visual inconsistencies in Derek's simulated AWS console (incorrect IDs/ARNs, user attribution format, font rendering).
-- Typing indicators in Slack that start, pause, then disappear, signaling self-censorship or careful message crafting.
+- Distinct notification sounds (Slack vs. Signal vs. Email).
+- Calendar invites revealing maneuvering.
+- Commit timestamps/Slack activity revealing work patterns (Max intensity, Emma's erratic patterns).
+- Status indicators used strategically.
+- Meeting recordings manipulated.
+- **PCD simulated console inconsistencies (historical - Ch 2).**
+- Typing indicators signaling self-censorship.
+- **Use of specific channels (#aether-core-team vs. #infra-ops vs. public channels) indicates information flow/secrecy.**
+- **Emoji usage patterns (Derek excessive vs. Max beer vs. Infra checkmarks).**
 
 ### Technical Accuracy Markers
 
-- Terminal sessions showing plausible commands (e.g., `git checkout`, `terraform plan/apply`, `aws s3 ls`, `kubectl get pods`).
-- VS Code snippets displaying realistic code structures in relevant languages (Python for FastAPI, TypeScript for React/Astro).
-- Error messages (Python tracebacks, Terraform errors, HTTP status codes) that are technically accurate for the context.
-- Realistic Slack interactions (threading, emoji reactions, @ mentions, channel conventions).
-- Authentic Jira ticket structures (Epics, Stories, Tasks, status transitions like To Do/In Progress/Blocked/Done).
-- Plausible API designs (RESTful principles, sensible endpoints) and architecture diagrams (showing components like load balancers, databases, message queues, ECS services).
+- Plausible commands (git, terraform, aws cli, kubectl).
+- Realistic code structures (Python/FastAPI, TypeScript/React/Astro).
+- Accurate error messages (Python tracebacks).
+- Realistic Slack interactions (threading, emojis, @ mentions, channel conventions, **private channel usage**).
+- Authentic Jira ticket structures (**and dysfunction under PEAK**).
+- Plausible API designs and architecture diagrams (**including RAG, vector DBs, caching**).
+- **Accurate portrayal of security concepts (STS, IAM, CloudTrail, zero-trust misuse).**
 
 ## Tech Culture Easter Eggs
 
-- References to real tech controversies (layoffs, AI ethics debates) and memes ("Move fast and break things," contrasted with PCD).
-- Subtle nods to famous tech company cultures or failures (e.g., siloed orgs, focus on metrics, performative innovation).
-- Inside jokes about framework choices (React vs. Astro performance debates) or language quirks (Python GIL issues, TypeScript complexity).
-- Mention of realistic financial pressures (VC drought, burn rate concerns implied by restructuring talk).
-- Accurate portrayal of the often vast gap between marketing/sales promises about AI and the complex engineering reality required to deliver functional systems.
+- References to real tech controversies (layoffs, AI ethics) and memes.
+- Nods to famous tech cultures (siloed orgs, metrics focus, performative innovation).
+- Jokes about framework choices, language quirks.
+- Mention of realistic financial pressures driving decisions.
+- Gap between marketing promises and engineering reality.
+- **Specific tools mentioned (pgvector vs FAISS debate).**
+- **Barcade (Pixel Pioneers) as common tech social outlet.**
+- **Cannabis/Stimulant use for performance/stress (Max).**
