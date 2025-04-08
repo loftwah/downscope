@@ -162,7 +162,7 @@ The empty wrapping followed, cut into pieces, distributed across trash bags for 
 
 Only then, evidence gone, did the dam break. Emma sank to the cool bathroom floor and sobbed. Tears of relief, certainly, that the weight of potential murder was lifted. But also tears of profound shame for the relapse, for the weakness, for how close she had come to utter self destruction again. Tears for the buried party girl who had clawed her way back out in a moment of drunken despair.
 
-When the tears subsided, a fragile resolve remained. She went to the kitchen, found the nearly full vodka bottle that had fueled the spiral. Unscrewed the cap. Poured it deliberately down the drain, the clear liquid vanishing like the drugs. It wasn't absolution, but it was a choice. A conscious step away from the abyss.
+When the tears subsided, a fragile resolve remained. She went to the kitchen, found a nearly full vodka bottle, the same brand of vodka that had fueled the spiral. Unscrewed the cap. Poured it deliberately down the drain, the clear liquid vanishing like the drugs. It wasn't absolution, but it was a choice. A conscious step away from the abyss.
 
 She picked up her phone, finding James’s message about the kids. The shame of the relapse warred with the relief of her innocence regarding Victor. Maybe… maybe rebuilding wasn’t impossible.
 
