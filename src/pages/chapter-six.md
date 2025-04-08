@@ -184,9 +184,9 @@ One day at a time. Sixteen days and counting.
 
 ## 3. PEAK TURBULENCE
 
-"Connor, this simply isn't meeting the PEAK excellence standards we've established." Derek Miller's voice carried across the Team Catalyst workspace, pitched perfectly to ensure maximum audience awareness while maintaining plausible deniability about public criticism. "The authentication module refactoring lacks the architectural elegance and enterprise-grade patterns I outlined in our strategy session."
+"Connor, this simply isn't meeting the PEAK excellence standards we've established." Derek Miller's voice carried through the team-wide video call, pitched perfectly to ensure maximum audience awareness while maintaining plausible deniability about public criticism. "The authentication module refactoring lacks the architectural elegance and enterprise-grade patterns I outlined in our strategy session."
 
-Connor Wright sat rigidly at his workstation, eyes fixed on his monitor where the code review in question displayed a sea of red comments and suggested changes. The codebase, a straightforward security enhancement Derek had declared "MISSION CRITICAL!" three days earlier, had rapidly evolved from specific task to existential judgment.
+Connor Wright sat rigidly at his home office desk, eyes fixed on his monitor where the shared screen displayed a code review with a sea of red comments and suggested changes. The codebase, a straightforward security enhancement Derek had declared "MISSION CRITICAL!" three days earlier, had rapidly evolved from specific task to existential judgment.
 
 "I followed the implementation approach we discussed yesterday," Connor replied, strain evident beneath his professional tone. "Minimal changes to the auth flow to avoid regression risks, with the new multi-factor option added as an extension of the existing framework."
 
@@ -487,7 +487,7 @@ The chess pieces continued to move, precisely according to plan.
 
 "Connor, this meeting is about supporting your growth and professional development," Derek began, his tone carrying the forced enthusiasm that had become his signature management style. "We've identified some areas where your performance doesn't fully align with PEAK excellence standards, and we want to provide a structured framework to help you succeed."
 
-Connor sat stiffly in the small conference room, flanked by Derek and Brenda from HR, feeling the surreal disconnect between the positive framing and the obvious reality of a formal Performance Improvement Plan. The document on the table between them, with its corporate logo and careful language, represented the culmination of weeks of shifting expectations, moving targets, and public criticism.
+Connor sat stiffly at his home desk, the video call showing Derek and Brenda from HR in separate windows, feeling the surreal disconnect between the positive framing and the obvious reality of a formal Performance Improvement Plan. The document shared on their screens, with its corporate logo and careful language, represented the culmination of weeks of shifting expectations, moving targets, and public criticism.
 
 "This is an opportunity," Brenda added with practiced neutrality, "to clarify expectations and establish measurable goals for improvement over the next forty-five days."
 
@@ -515,7 +515,7 @@ The classic double bind: no specific guidance provided, yet failure to meet unst
 
 The meeting continued with additional details about documentation requirements, review schedules, and Derek's expectations for "visible transformation" in Connor's approach. By the time they concluded, the message was clear beneath the supportive language: meet an increasingly complex and ambiguous set of requirements within arbitrary timelines, or face termination.
 
-As Connor returned to his desk, the PIP document feeling impossibly heavy in his hands, the rational part of his brain recognized the futility of the situation. The goals were deliberately vague, the timelines deliberately compressed, the evaluation criteria deliberately subjective. Success within this framework wasn't merely difficult; it was structurally impossible.
+As Connor closed the video call and turned back to his work, the PIP document feeling impossibly heavy in his hands, the rational part of his brain recognized the futility of the situation. The goals were deliberately vague, the timelines deliberately compressed, the evaluation criteria deliberately subjective. Success within this framework wasn't merely difficult; it was structurally impossible.
 
 Yet professional pride and financial necessity demanded he make the attempt. Opening his laptop, Connor began outlining the architectural vision document due in three days, mentally calculating how many consecutive hours he would need to work to produce something approximating Derek's nebulous expectations. The math was discouraging—even with minimal sleep and maximum effort, creating a comprehensive architectural redesign with the required PEAK methodology documentation would likely take at least twice the allocated time.
 
@@ -542,7 +542,7 @@ Have time for coffee at 1pm? Easier to discuss approach in person than messaging
 
 The offer represented more than technical guidance, it was a small but meaningful gesture of professional solidarity in an increasingly isolating situation. Connor accepted gratefully, then returned to the impossible task before him, the PIP document a constant reminder of his precarious position.
 
-The coffee meeting with Jules provided both practical advice and desperately needed perspective. They sat at a quiet corner table in the café near Innovate's office, Connor outlining the PIP requirements while Jules listened with the focused attention of someone who understood both the technical and political dimensions of the situation.
+The coffee meeting with Jules provided both practical advice and desperately needed perspective. They connected on a private video call, Jules having suggested they speak directly rather than through company channels, Connor outlining the PIP requirements while Jules listened with the focused attention of someone who understood both the technical and political dimensions of the situation.
 
 "The timeline and scope are deliberately misaligned," Jules observed after Connor finished explaining. "That's not accidental. But there are tactical approaches that can help navigate this kind of situation, even if the strategic reality remains challenging."
 
@@ -602,7 +602,7 @@ The perspective helped Connor maintain professional focus despite the growing ce
 
 By the final week of the PIP period, the inevitable conclusion was clear to everyone involved—despite working nights and weekends, despite meeting the original requirements only to have them retrospectively expanded, despite professional discipline in the face of arbitrary criticism, Connor had "failed to demonstrate sufficient improvement" according to Derek's subjective assessment.
 
-The final PIP review meeting had the staged quality of corporate theater, with Derek and Brenda from HR delivering the predetermined conclusion with practiced solemnity.
+The final PIP review video call had the staged quality of corporate theater, with Derek and Brenda from HR delivering the predetermined conclusion with practiced solemnity, their professionally neutral expressions framed perfectly in their respective video windows.
 
 "Despite the supports provided," Derek summarized, reviewing a document that bore little resemblance to the actual experience of the past forty-five days, "performance improvements have not reached the required thresholds for continued alignment with Team Catalyst's excellence standards."
 
